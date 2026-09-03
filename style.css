@@ -1558,3 +1558,120 @@ p {
     box-shadow: none;
   }
 }
+/* =========================================================
+   404 PAGE — FINAL
+   ========================================================= */
+
+.error-card {
+  width: min(100%, 720px);
+  margin: 0 auto;
+  padding: 42px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow-lg);
+}
+
+.error-card h1 {
+  margin-bottom: 14px;
+  font-size: clamp(1.8rem, 5vw, 2.7rem);
+  letter-spacing: -0.035em;
+}
+
+.error-card > p:not(.error-code):not(.eyebrow) {
+  max-width: 580px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--text-soft);
+}
+
+.error-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 11px;
+  margin-top: 25px;
+}
+
+.button-primary,
+.button-secondary {
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  border-radius: 10px;
+  font-weight: 750;
+  text-decoration: none;
+  transition:
+    background var(--transition),
+    color var(--transition),
+    border-color var(--transition),
+    transform var(--transition);
+}
+
+.button-primary {
+  border: 1px solid var(--primary);
+  background: var(--primary);
+  color: #fff;
+}
+
+.button-primary:hover {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.button-secondary {
+  border: 1px solid var(--border-dark);
+  background: #fff;
+  color: var(--primary);
+}
+
+.button-secondary:hover {
+  border-color: var(--primary);
+  background: var(--primary-light);
+  color: var(--primary-dark);
+}
+
+.error-help {
+  max-width: 560px;
+  margin: 34px auto 0;
+  padding-top: 27px;
+  border-top: 1px solid var(--border);
+  text-align: left;
+}
+
+.error-help h2 {
+  margin-bottom: 12px;
+  font-size: 1.08rem;
+}
+
+.error-help ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.error-help li + li {
+  margin-top: 8px;
+}
+
+.error-help a {
+  font-weight: 650;
+}
+
+@media (max-width: 720px) {
+  .error-card {
+    padding: 28px 20px;
+  }
+
+  .error-actions {
+    flex-direction: column;
+  }
+
+  .button-primary,
+  .button-secondary {
+    width: 100%;
+  }
+}
