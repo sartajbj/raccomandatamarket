@@ -1675,3 +1675,40 @@ p {
     width: 100%;
   }
 }
+/* =========================================================
+   STATIC PAGE FOOTER — FINAL COMPATIBILITY
+   ========================================================= */
+
+.footer-grid > .footer-links {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-grid > .footer-links h2 {
+  margin-bottom: 12px;
+  color: #fff;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.footer-grid > .footer-links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-grid > .footer-links li + li {
+  margin-top: 7px;
+}
+
+.footer-grid > .footer-links a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.87rem;
+  text-decoration: none;
+}
+
+.footer-grid > .footer-links a:hover {
+  color: #fff;
+}
