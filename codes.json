@@ -1,0 +1,15 @@
+{
+  "lastUpdated": "2026-09-03",
+  "language": "it",
+  "disclaimer": "L'identificazione basata sul codice è indicativa e non consente di determinare con certezza il mittente o il contenuto della raccomandata.",
+  "codes": {
+    "698": {
+      "type": "Raccomandata Market",
+      "possibleSenders": [],
+      "possibleContents": [],
+      "confidence": "indicativa",
+      "nextStep": "",
+      "sources": []
+    }
+  }
+}
