@@ -1,15 +1,592 @@
 {
   "lastUpdated": "2026-09-03",
+  "version": "1.0",
   "language": "it",
-  "disclaimer": "L'identificazione basata sul codice è indicativa e non consente di determinare con certezza il mittente o il contenuto della raccomandata.",
+  "country": "IT",
+  "site": "https://raccomandatamarket.com/",
+  "disclaimer": "L'identificazione basata sul codice è esclusivamente indicativa. Non esiste un elenco pubblico ufficiale che permetta di determinare con certezza il mittente o il contenuto di una raccomandata dal solo codice. Per conoscere il contenuto effettivo è necessario ritirare la comunicazione.",
   "codes": {
-    "698": {
-      "type": "Raccomandata Market",
-      "possibleSenders": [],
-      "possibleContents": [],
+    "12": {
+      "label": "Codice 12",
+      "type": "Raccomandata semplice",
+      "category": "Corrispondenza ordinaria",
+      "possibleSenders": [
+        "Soggetti privati",
+        "Aziende",
+        "Professionisti"
+      ],
+      "possibleContents": [
+        "Comunicazioni private",
+        "Comunicazioni commerciali o contrattuali",
+        "Solleciti o altre comunicazioni formali"
+      ],
       "confidence": "indicativa",
-      "nextStep": "",
-      "sources": []
+      "riskLevel": "non determinabile",
+      "nextStep": "Il codice da solo non identifica il mittente. Controlla i dati presenti sull'avviso di giacenza e ritira la raccomandata per conoscerne il contenuto."
+    },
+    "13": {
+      "label": "Codice 13",
+      "type": "Raccomandata semplice",
+      "category": "Corrispondenza ordinaria",
+      "possibleSenders": [
+        "Soggetti privati",
+        "Aziende",
+        "Professionisti"
+      ],
+      "possibleContents": [
+        "Comunicazioni private",
+        "Diffide o comunicazioni professionali",
+        "Solleciti di pagamento",
+        "Comunicazioni relative a contratti o utenze"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Verifica l'avviso di giacenza e ritira la raccomandata. Il prefisso 13 non consente di stabilire con certezza chi l'abbia inviata."
+    },
+    "14": {
+      "label": "Codice 14",
+      "type": "Raccomandata semplice",
+      "category": "Corrispondenza ordinaria",
+      "possibleSenders": [
+        "Soggetti privati",
+        "Aziende",
+        "Professionisti"
+      ],
+      "possibleContents": [
+        "Comunicazioni private",
+        "Comunicazioni contrattuali",
+        "Solleciti o avvisi"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Controlla l'avviso e ritira la comunicazione per conoscere mittente e contenuto effettivi."
+    },
+    "15": {
+      "label": "Codice 15",
+      "type": "Raccomandata semplice",
+      "category": "Corrispondenza ordinaria",
+      "possibleSenders": [
+        "Soggetti privati",
+        "Aziende",
+        "Professionisti"
+      ],
+      "possibleContents": [
+        "Comunicazioni private",
+        "Comunicazioni commerciali",
+        "Solleciti o comunicazioni formali"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il codice fornisce soltanto un'indicazione generale. Ritira la raccomandata per verificarne il contenuto."
+    },
+    "75": {
+      "label": "Codice 75",
+      "type": "Possibile comunicazione giudiziaria o amministrativa",
+      "category": "Atti e notifiche",
+      "possibleSenders": [
+        "Autorità pubbliche",
+        "Uffici giudiziari",
+        "Enti della Pubblica Amministrazione"
+      ],
+      "possibleContents": [
+        "Possibile multa",
+        "Possibile atto giudiziario",
+        "Possibile comunicazione amministrativa"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Non ignorare l'avviso. Il codice non permette di conoscere l'atto esatto: verifica le indicazioni sull'avviso e ritira la comunicazione."
+    },
+    "76": {
+      "label": "Codice 76",
+      "type": "Possibile comunicazione giudiziaria o amministrativa",
+      "category": "Atti e notifiche",
+      "possibleSenders": [
+        "Autorità pubbliche",
+        "Uffici giudiziari",
+        "Enti della Pubblica Amministrazione"
+      ],
+      "possibleContents": [
+        "Possibile multa",
+        "Possibile atto giudiziario",
+        "Possibile comunicazione amministrativa"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Ritira la raccomandata tempestivamente per conoscere la natura effettiva della comunicazione."
+    },
+    "77": {
+      "label": "Codice 77",
+      "type": "Possibile comunicazione giudiziaria o amministrativa",
+      "category": "Atti e notifiche",
+      "possibleSenders": [
+        "Autorità pubbliche",
+        "Uffici giudiziari",
+        "Enti della Pubblica Amministrazione"
+      ],
+      "possibleContents": [
+        "Possibile multa",
+        "Possibile provvedimento giudiziario",
+        "Possibile comunicazione amministrativa"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso non identifica con certezza il documento. Controlla l'avviso e procedi al ritiro."
+    },
+    "78": {
+      "label": "Codice 78",
+      "type": "Possibile atto giudiziario o amministrativo",
+      "category": "Atti e notifiche",
+      "possibleSenders": [
+        "Autorità pubbliche",
+        "Uffici giudiziari",
+        "Enti della Pubblica Amministrazione"
+      ],
+      "possibleContents": [
+        "Possibile multa",
+        "Possibile atto giudiziario",
+        "Possibile comunicazione dell'amministrazione pubblica"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Considerata la possibile natura formale della comunicazione, controlla l'avviso e ritirala senza basarti esclusivamente sul codice."
+    },
+    "79": {
+      "label": "Codice 79",
+      "type": "Possibile comunicazione giudiziaria o amministrativa",
+      "category": "Atti e notifiche",
+      "possibleSenders": [
+        "Autorità pubbliche",
+        "Uffici giudiziari",
+        "Enti pubblici"
+      ],
+      "possibleContents": [
+        "Possibile multa",
+        "Possibile atto giudiziario",
+        "Possibile comunicazione amministrativa"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Ritira la comunicazione per conoscere con certezza mittente e contenuto."
+    },
+    "608": {
+      "label": "Codice 608",
+      "type": "Possibile comunicazione di un ente pubblico",
+      "category": "Pubblica Amministrazione",
+      "possibleSenders": [
+        "Enti pubblici",
+        "Pubblica Amministrazione"
+      ],
+      "possibleContents": [
+        "Comunicazioni amministrative",
+        "Avvisi o richieste provenienti da enti pubblici"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Controlla l'avviso di giacenza e ritira la raccomandata per identificare l'ente e la comunicazione."
+    },
+    "609": {
+      "label": "Codice 609",
+      "type": "Possibile comunicazione di un ente pubblico",
+      "category": "Pubblica Amministrazione",
+      "possibleSenders": [
+        "Enti pubblici",
+        "Pubblica Amministrazione"
+      ],
+      "possibleContents": [
+        "Comunicazioni amministrative",
+        "Avvisi o richieste provenienti da enti pubblici"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Verifica le informazioni presenti sull'avviso e ritira la raccomandata."
+    },
+    "612": {
+      "label": "Codice 612",
+      "type": "Possibile comunicazione bancaria o finanziaria",
+      "category": "Banche e servizi",
+      "possibleSenders": [
+        "Banche",
+        "Istituti finanziari",
+        "Operatori di servizi"
+      ],
+      "possibleContents": [
+        "Comunicazioni bancarie",
+        "Documentazione relativa a servizi o rapporti contrattuali"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il codice non consente di identificare con certezza il mittente. Ritira la raccomandata per verificarne il contenuto."
+    },
+    "613": {
+      "label": "Codice 613",
+      "type": "Possibile comunicazione fiscale o amministrativa",
+      "category": "Fisco e amministrazione",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Enti pubblici",
+        "Altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione fiscale",
+        "Possibile richiesta relativa a imposte o pagamenti",
+        "Altre comunicazioni amministrative"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Controlla l'avviso e ritira la comunicazione per verificare mittente, contenuto ed eventuali termini."
+    },
+    "614": {
+      "label": "Codice 614",
+      "type": "Possibile comunicazione bancaria o di servizio",
+      "category": "Banche e servizi",
+      "possibleSenders": [
+        "Banche",
+        "Istituti finanziari",
+        "Operatori di servizi"
+      ],
+      "possibleContents": [
+        "Comunicazioni bancarie",
+        "Documentazione relativa a servizi"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Ritira la raccomandata per conoscere il mittente effettivo."
+    },
+    "615": {
+      "label": "Codice 615",
+      "type": "Possibile comunicazione fiscale o amministrativa",
+      "category": "Fisco e amministrazione",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Enti pubblici",
+        "Altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione fiscale",
+        "Possibile notifica relativa a imposte o pagamenti",
+        "Altre comunicazioni amministrative"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Verifica l'avviso e ritira la raccomandata per conoscere il contenuto effettivo."
+    },
+    "616": {
+      "label": "Codice 616",
+      "type": "Comunicazione di natura variabile",
+      "category": "Pagamenti, veicoli o assicurazioni",
+      "possibleSenders": [
+        "Enti pubblici",
+        "Compagnie assicurative",
+        "Gestori di servizi",
+        "Altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione relativa al bollo auto",
+        "Possibile richiamo automobilistico",
+        "Possibile comunicazione assicurativa",
+        "Possibile sollecito di pagamento"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Poiché questo codice è associato a comunicazioni differenti, è necessario ritirare la raccomandata per identificarne il contenuto."
+    },
+    "648": {
+      "label": "Raccomandata Market 648",
+      "type": "Possibile comunicazione fiscale, finanziaria o assicurativa",
+      "category": "Fisco e comunicazioni formali",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Istituti finanziari",
+        "Compagnie assicurative",
+        "Altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile sollecito di pagamento",
+        "Possibile avviso bonario",
+        "Possibile esito di un controllo fiscale",
+        "Possibile comunicazione assicurativa",
+        "Possibile comunicazione bancaria"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il codice 648 è spesso associato a comunicazioni fiscali, ma non identifica con certezza il mittente. Controlla l'avviso e ritira la raccomandata."
+    },
+    "649": {
+      "label": "Raccomandata Market 649",
+      "type": "Possibile comunicazione fiscale, previdenziale, bancaria o di pagamento",
+      "category": "Fisco, INPS e servizi",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "INPS",
+        "Banche",
+        "Gestori di utenze",
+        "Altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile avviso o richiesta di pagamento",
+        "Possibile comunicazione INPS",
+        "Possibile comunicazione bancaria",
+        "Possibile sollecito relativo a utenze",
+        "Possibile altra comunicazione formale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 649 può essere utilizzato per comunicazioni differenti. Ritira la raccomandata per identificare mittente e contenuto."
+    },
+    "665": {
+      "label": "Raccomandata Market 665",
+      "type": "Comunicazione di natura variabile",
+      "category": "Banche, pagamenti, assicurazioni e servizi",
+      "possibleSenders": [
+        "Banche",
+        "Gestori di utenze",
+        "INPS",
+        "Compagnie assicurative",
+        "Aziende",
+        "Enti sanitari",
+        "Altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile invio o rinnovo di carta bancaria",
+        "Possibile sollecito di pagamento",
+        "Possibile rimborso fiscale",
+        "Possibile comunicazione assicurativa",
+        "Possibile richiamo automobilistico",
+        "Possibile comunicazione sanitaria o lavorativa"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il codice 665 è associato a numerose tipologie di comunicazione. Non è possibile determinarne il contenuto senza ritirare la raccomandata."
+    },
+    "684": {
+      "label": "Raccomandata Market 684",
+      "type": "Possibile comunicazione amministrativa o previdenziale",
+      "category": "Enti e amministrazione",
+      "possibleSenders": [
+        "INPS",
+        "Agenzia delle Entrate",
+        "Enti pubblici",
+        "Altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione amministrativa",
+        "Possibile richiesta o recupero di somme",
+        "Possibile comunicazione previdenziale o fiscale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Controlla l'avviso e ritira la raccomandata. Il codice da solo non permette di stabilire il mittente effettivo."
+    },
+    "685": {
+      "label": "Raccomandata Market 685",
+      "type": "Possibile comunicazione relativa a pagamenti o tributi",
+      "category": "Tributi e pagamenti",
+      "possibleSenders": [
+        "Enti pubblici",
+        "Enti di riscossione",
+        "Altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile multa",
+        "Possibile comunicazione relativa a tasse o tributi",
+        "Possibile richiesta relativa al bollo auto",
+        "Possibile altra comunicazione di pagamento"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Verifica l'avviso e ritira la raccomandata per conoscere l'eventuale richiesta e i relativi termini."
+    },
+    "688": {
+      "label": "Raccomandata Market 688",
+      "type": "Possibile comunicazione fiscale",
+      "category": "Fisco",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Altri enti o soggetti"
+      ],
+      "possibleContents": [
+        "Possibile avviso o accertamento",
+        "Possibile rimborso",
+        "Possibile richiesta o comunicazione fiscale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il codice è frequentemente associato a comunicazioni fiscali, ma non costituisce una prova del mittente. Ritira la raccomandata per verificarla."
+    },
+    "689": {
+      "label": "Raccomandata Market 689",
+      "type": "Possibile comunicazione di riscossione o relativa a tributi",
+      "category": "Riscossione e tributi",
+      "possibleSenders": [
+        "Agenzia delle Entrate-Riscossione",
+        "Enti locali",
+        "Altri enti pubblici"
+      ],
+      "possibleContents": [
+        "Possibile cartella di pagamento",
+        "Possibile comunicazione relativa a tributi locali",
+        "Possibile richiesta relativa a tasse o contributi"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Controlla l'avviso e ritira la raccomandata tempestivamente per conoscere l'eventuale richiesta e i termini applicabili."
+    },
+    "695": {
+      "label": "Raccomandata Market 695",
+      "type": "Possibile comunicazione di riscossione o pagamento",
+      "category": "Tributi e riscossione",
+      "possibleSenders": [
+        "Agenzia delle Entrate-Riscossione",
+        "Enti pubblici",
+        "Altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile cartella di pagamento",
+        "Possibile richiesta relativa al bollo auto",
+        "Possibile richiesta relativa al canone Rai",
+        "Possibile altra comunicazione tributaria"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il codice può essere associato a comunicazioni di riscossione. Ritira la raccomandata per verificarne contenuto e termini."
+    },
+    "696": {
+      "label": "Raccomandata Market 696",
+      "type": "Possibile comunicazione di riscossione o pagamento",
+      "category": "Tributi e riscossione",
+      "possibleSenders": [
+        "Agenzia delle Entrate-Riscossione",
+        "Enti pubblici",
+        "Altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile cartella di pagamento",
+        "Possibile richiesta relativa al bollo auto",
+        "Possibile richiesta relativa al canone Rai",
+        "Possibile altra comunicazione tributaria"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Non utilizzare il codice come identificazione certa. Controlla l'avviso e ritira la raccomandata per conoscere la comunicazione effettiva."
+    },
+    "697": {
+      "label": "Raccomandata Market 697",
+      "type": "Possibile comunicazione fiscale o di pagamento",
+      "category": "Fisco e riscossione",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Enti di riscossione",
+        "Altri enti o soggetti"
+      ],
+      "possibleContents": [
+        "Possibile cartella o richiesta di pagamento",
+        "Possibile sollecito di pagamento",
+        "Possibile messa in mora",
+        "Possibile altra comunicazione fiscale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il codice 697 viene spesso associato a comunicazioni fiscali, ma non esiste una corrispondenza ufficiale certa. Ritira la raccomandata per verificarne mittente e contenuto."
+    },
+    "698": {
+      "label": "Raccomandata Market 698",
+      "type": "Possibile comunicazione ufficiale o amministrativa",
+      "category": "Comunicazioni ufficiali",
+      "possibleSenders": [
+        "Enti pubblici",
+        "Prefetture o amministrazioni",
+        "Enti previdenziali",
+        "Istituti finanziari",
+        "Altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione amministrativa",
+        "Possibile notifica relativa a violazioni o procedimenti",
+        "Possibile comunicazione previdenziale",
+        "Possibile comunicazione bancaria o finanziaria",
+        "Altra comunicazione formale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il codice 698 non permette di determinare con certezza mittente o contenuto. Verifica l'avviso e ritira la raccomandata per conoscere la comunicazione effettiva."
+    },
+    "785": {
+      "label": "Codice 785",
+      "type": "Possibile atto giudiziario o amministrativo",
+      "category": "Atti e notifiche",
+      "possibleSenders": [
+        "Autorità pubbliche",
+        "Enti locali",
+        "Enti di riscossione",
+        "Uffici giudiziari"
+      ],
+      "possibleContents": [
+        "Possibile multa",
+        "Possibile comunicazione relativa a tributi",
+        "Possibile cartella di pagamento",
+        "Possibile altro atto amministrativo o giudiziario"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Ritira la comunicazione per identificare l'atto effettivo e verificare eventuali termini."
+    },
+    "786": {
+      "label": "Codice 786",
+      "type": "Possibile atto giudiziario",
+      "category": "Atti giudiziari",
+      "possibleSenders": [
+        "Uffici giudiziari",
+        "Autorità competenti"
+      ],
+      "possibleContents": [
+        "Possibile sentenza o ordinanza",
+        "Possibile decreto",
+        "Possibile citazione",
+        "Possibile precetto",
+        "Possibile intimazione o altra comunicazione giudiziaria"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il codice può essere associato ad atti giudiziari. Ritira la raccomandata per conoscere esattamente il documento e gli eventuali termini."
+    },
+    "787": {
+      "label": "Codice 787",
+      "type": "Possibile atto giudiziario o amministrativo",
+      "category": "Atti e notifiche",
+      "possibleSenders": [
+        "Uffici giudiziari",
+        "Autorità pubbliche",
+        "Enti pubblici"
+      ],
+      "possibleContents": [
+        "Possibile multa",
+        "Possibile atto di citazione",
+        "Possibile provvedimento giudiziario",
+        "Possibile accertamento o richiesta amministrativa"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Ritira la raccomandata per conoscere il documento effettivo e verificare eventuali scadenze."
+    },
+    "788": {
+      "label": "Codice 788",
+      "type": "Possibile atto giudiziario o amministrativo",
+      "category": "Atti e notifiche",
+      "possibleSenders": [
+        "Uffici giudiziari",
+        "Autorità pubbliche",
+        "Enti pubblici"
+      ],
+      "possibleContents": [
+        "Possibile multa",
+        "Possibile provvedimento notificato da un tribunale",
+        "Possibile verbale",
+        "Possibile convocazione o altra comunicazione giudiziaria"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Non ignorare l'avviso. Ritira la raccomandata per conoscere il contenuto effettivo e gli eventuali termini applicabili."
     }
   }
 }
