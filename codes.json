@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-04",
-  "version": "2.0",
+  "lastUpdated": "2026-09-05",
+  "version": "3.0",
   "language": "it",
   "country": "IT",
   "site": "https://raccomandatamarket.com/",
@@ -1208,6 +1208,339 @@
       "confidence": "indicativa",
       "riskLevel": "da verificare",
       "nextStep": "Il codice fornisce solo un'indicazione orientativa. Controlla l'avviso e ritira la raccomandata per verificare mittente, contenuto ed eventuali termini."
+    },
+    "202": {
+      "label": "Codice 202",
+      "type": "Possibile comunicazione privata, bancaria o di recupero crediti",
+      "category": "Privati, banche e recupero crediti",
+      "possibleSenders": [
+        "Privati",
+        "Banche o finanziarie",
+        "Compagnie assicurative",
+        "Studi legali",
+        "Società di recupero crediti"
+      ],
+      "possibleContents": [
+        "Possibile sollecito di pagamento",
+        "Possibile comunicazione bancaria o assicurativa",
+        "Possibile diffida o messa in mora",
+        "Possibile comunicazione contrattuale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il codice 202 è associato a comunicazioni di natura variabile. Controlla l'avviso e ritira la raccomandata per verificare mittente, contenuto ed eventuali termini."
+    },
+    "393": {
+      "label": "Codice 393",
+      "type": "Possibile atto giudiziario o sanzione amministrativa",
+      "category": "Atti e Codice della Strada",
+      "possibleSenders": [
+        "Polizia Municipale",
+        "Enti locali",
+        "Autorità pubbliche o competenti"
+      ],
+      "possibleContents": [
+        "Possibile multa o verbale",
+        "Possibile infrazione al Codice della Strada",
+        "Possibile altro atto amministrativo o giudiziario"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 393 è spesso associato a verbali o atti formali. Ritira la raccomandata e verifica subito eventuali termini."
+    },
+    "398": {
+      "label": "Codice 398",
+      "type": "Possibile comunicazione previdenziale o amministrativa",
+      "category": "INPS e previdenza",
+      "possibleSenders": [
+        "INPS",
+        "Enti previdenziali",
+        "Pubblica Amministrazione"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione su pensione o prestazioni",
+        "Possibile comunicazione contributiva",
+        "Possibile pratica amministrativa o assistenziale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "L'associazione è orientativa. Controlla l'avviso e ritira la raccomandata per conoscere mittente e contenuto effettivi."
+    },
+    "549": {
+      "label": "Codice 549",
+      "type": "Possibile comunicazione fiscale, amministrativa o di riscossione",
+      "category": "Fisco e amministrazione",
+      "possibleSenders": [
+        "Agenzia delle Entrate o Agenzia delle Entrate-Riscossione",
+        "Enti locali o di riscossione",
+        "Altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile sollecito o richiesta di pagamento",
+        "Possibile comunicazione fiscale",
+        "Possibile pratica amministrativa"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il codice non identifica con certezza il mittente. Controlla l'avviso e ritira la comunicazione per verificare eventuali richieste e scadenze."
+    },
+    "570": {
+      "label": "Codice 570",
+      "type": "Possibile comunicazione fiscale",
+      "category": "Fisco",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Altri enti fiscali o pubblici"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione fiscale",
+        "Possibile richiesta di documentazione",
+        "Possibile avviso o controllo"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 570 viene associato a comunicazioni fiscali. Verifica l'avviso e ritira la raccomandata per conoscere il contenuto effettivo."
+    },
+    "572": {
+      "label": "Raccomandata Market 572",
+      "type": "Possibile comunicazione fiscale o amministrativa",
+      "category": "Fisco, riscossione e notifiche",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Agenzia delle Entrate-Riscossione",
+        "INPS o altri enti pubblici"
+      ],
+      "possibleContents": [
+        "Possibile notifica relativa a un atto",
+        "Possibile comunicazione sulla riscossione",
+        "Possibile controllo fiscale o richiesta di pagamento",
+        "Possibile documentazione relativa a pratiche pubbliche"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il codice 572 può essere associato a comunicazioni differenti. Controlla l'avviso e ritira la raccomandata senza basarti esclusivamente sul prefisso."
+    },
+    "5727": {
+      "label": "Raccomandata Market 5727",
+      "type": "Possibile comunicazione RKE fiscale o amministrativa",
+      "category": "Fisco e notifiche",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Agenzia delle Entrate-Riscossione",
+        "Altri enti pubblici"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione RKE o avviso di cortesia",
+        "Possibile notifica o deposito di un atto",
+        "Possibile comunicazione fiscale o di riscossione"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il sotto-codice 5727 è stato associato a comunicazioni fiscali e RKE. Verifica sempre l'avviso e ritira la raccomandata."
+    },
+    "620": {
+      "label": "Raccomandata Market 620",
+      "type": "Comunicazione di natura variabile",
+      "category": "Previdenza, banche e servizi",
+      "possibleSenders": [
+        "INPS o altri enti",
+        "Banche o finanziarie",
+        "Compagnie assicurative",
+        "Gestori di utenze",
+        "Studi legali o società private"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione previdenziale",
+        "Possibile comunicazione bancaria o contrattuale",
+        "Possibile sollecito di pagamento",
+        "Possibile pratica amministrativa"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Le fonti associano il 620 a contesti diversi. Per evitare conclusioni errate, controlla l'avviso e ritira la raccomandata."
+    },
+    "629": {
+      "label": "Raccomandata Market 629",
+      "type": "Possibile comunicazione amministrativa, bancaria o privata",
+      "category": "Servizi, banche e notifiche",
+      "possibleSenders": [
+        "Banche o finanziarie",
+        "INPS o altri enti",
+        "Privati o studi legali",
+        "Altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile conferma o comunicazione relativa a una precedente consegna",
+        "Possibile comunicazione sul bollo auto",
+        "Possibile invio di carta bancaria",
+        "Possibile sollecito o comunicazione privata"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il codice 629 non identifica un unico mittente. Controlla la provenienza e ritira la comunicazione per verificarne il contenuto."
+    },
+    "647": {
+      "label": "Raccomandata Market 647",
+      "type": "Possibile comunicazione fiscale",
+      "category": "Fisco e controlli",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Altri enti fiscali o pubblici"
+      ],
+      "possibleContents": [
+        "Possibile avviso bonario",
+        "Possibile richiesta di documentazione",
+        "Possibile comunicazione relativa a controlli fiscali",
+        "Possibile sollecito o richiesta di pagamento"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il codice 647 è frequentemente associato a comunicazioni fiscali. Ritira la raccomandata e verifica eventuali richieste o termini."
+    },
+    "690": {
+      "label": "Codice 690",
+      "type": "Possibile comunicazione della Pubblica Amministrazione",
+      "category": "Pubblica Amministrazione",
+      "possibleSenders": [
+        "Enti pubblici",
+        "Amministrazioni locali",
+        "Altri uffici della Pubblica Amministrazione"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione amministrativa",
+        "Possibile avviso o richiesta proveniente da un ente pubblico"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "L'associazione del codice 690 è orientativa. Controlla l'avviso e ritira la raccomandata per identificare l'ente e il contenuto."
+    },
+    "6970": {
+      "label": "Raccomandata Market 6970",
+      "type": "Possibile comunicazione previdenziale",
+      "category": "INPS e previdenza",
+      "possibleSenders": [
+        "INPS"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione su pensione",
+        "Possibile comunicazione su contributi",
+        "Possibile prestazione a sostegno del reddito",
+        "Possibile contenzioso o pratica previdenziale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il sotto-codice 6970 viene associato all'INPS, ma il mittente effettivo va sempre verificato ritirando la comunicazione."
+    },
+    "6980": {
+      "label": "Raccomandata Market 6980",
+      "type": "Possibile comunicazione amministrativa, fiscale o finanziaria",
+      "category": "Enti, banche e pagamenti",
+      "possibleSenders": [
+        "Agenzia delle Entrate-Riscossione o Regione",
+        "INPS o altri enti",
+        "Banche o finanziarie",
+        "Società di recupero crediti"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione relativa a pagamenti o bollo auto",
+        "Possibile comunicazione previdenziale",
+        "Possibile sollecito di pagamento",
+        "Possibile comunicazione bancaria o finanziaria"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Le segnalazioni sul 6980 sono eterogenee. Usa il risultato come orientamento e verifica sempre l'avviso e il contenuto effettivo."
+    },
+    "6856": {
+      "label": "Raccomandata Market 6856",
+      "type": "Possibile comunicazione su pagamenti, banche o servizi",
+      "category": "Pagamenti, banche e servizi",
+      "possibleSenders": [
+        "Banche o finanziarie",
+        "Compagnie assicurative",
+        "Gestori di utenze",
+        "INPS o enti locali",
+        "Privati o studi legali"
+      ],
+      "possibleContents": [
+        "Possibile sollecito per bolletta o pagamento",
+        "Possibile comunicazione bancaria o carta",
+        "Possibile comunicazione su veicolo o assicurazione",
+        "Possibile comunicazione previdenziale o privata"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il 6856 è associato a comunicazioni molto diverse. Controlla l'avviso e ritira la raccomandata per verificare il mittente effettivo."
+    },
+    "6857": {
+      "label": "Raccomandata Market 6857",
+      "type": "Possibile comunicazione su pagamenti, banche o servizi",
+      "category": "Pagamenti, banche e servizi",
+      "possibleSenders": [
+        "Banche o finanziarie",
+        "Compagnie assicurative",
+        "Gestori di utenze",
+        "Enti o privati"
+      ],
+      "possibleContents": [
+        "Possibile sollecito di pagamento",
+        "Possibile comunicazione bancaria o carta",
+        "Possibile comunicazione su veicolo o assicurazione",
+        "Possibile bolletta non pagata"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il sotto-codice 6857 non identifica un mittente certo. Controlla l'avviso e ritira la comunicazione."
+    },
+    "6969": {
+      "label": "Raccomandata Market 6969",
+      "type": "Possibile comunicazione fiscale o di riscossione",
+      "category": "Riscossione e pagamenti",
+      "possibleSenders": [
+        "Agenzia delle Entrate-Riscossione",
+        "Agenzia delle Entrate",
+        "Altri enti o soggetti"
+      ],
+      "possibleContents": [
+        "Possibile cartella o richiesta di pagamento",
+        "Possibile comunicazione relativa al bollo auto",
+        "Possibile sollecito per fatture o tributi"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il 6969 è stato associato a comunicazioni di riscossione e pagamenti. Ritira la raccomandata e verifica subito eventuali termini."
+    },
+    "6196": {
+      "label": "Raccomandata Market 6196",
+      "type": "Possibile sollecito da gestore di utenze",
+      "category": "Utenze e pagamenti",
+      "possibleSenders": [
+        "Gestori luce o gas",
+        "Società di servizi"
+      ],
+      "possibleContents": [
+        "Possibile messa in mora",
+        "Possibile sollecito per bolletta non pagata"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il sotto-codice 6196 è stato segnalato per comunicazioni su utenze. Verifica il mittente e il contenuto ritirando la raccomandata."
+    },
+    "6199": {
+      "label": "Raccomandata Market 6199",
+      "type": "Possibile sollecito relativo a servizio idrico",
+      "category": "Utenze e pagamenti",
+      "possibleSenders": [
+        "Gestori del servizio idrico",
+        "Società di servizi"
+      ],
+      "possibleContents": [
+        "Possibile fattura acqua non pagata",
+        "Possibile sollecito o messa in mora"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il sotto-codice 6199 è stato segnalato per comunicazioni relative al servizio idrico. Verifica sempre il contenuto effettivo."
     }
   }
 }
