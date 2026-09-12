@@ -190,9 +190,16 @@
   }
   </script>
 
-  .hub-section .legal-content {
-  padding-top: 0;
-}
+  <style>
+    .hub-section {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    .hub-section > .container.legal-content {
+      padding-top: 0;
+      padding-bottom: 60px;
+    }
 
     .hub-featured-image {
       margin: 0 0 28px;
@@ -431,6 +438,26 @@
       border-left: 4px solid #123d68;
       background: #f4f7fa;
       border-radius: 8px;
+    }
+
+    .hub-footer-cta {
+      margin: 44px 0 0;
+      padding: 26px;
+      border: 1px solid #d6e1ec;
+      border-radius: var(--radius-lg);
+      background: linear-gradient(180deg, #f8fbfe 0%, #eef5fb 100%);
+      text-align: center;
+    }
+
+    .hub-footer-cta h2 {
+      margin: 0 0 10px;
+      font-size: clamp(1.45rem, 3vw, 2rem);
+    }
+
+    .hub-footer-cta p {
+      max-width: 700px;
+      margin: 0 auto 16px;
+      color: var(--text-soft);
     }
 
     @media (max-width: 760px) {
@@ -1043,6 +1070,18 @@
 
         </section>
 
+
+          <div class="hub-footer-cta">
+            <h2>Hai ancora il codice davanti a te?</h2>
+            <p>
+              Usa il decoder per confrontare il numero completo con il database
+              e ottenere subito la corrispondenza più specifica disponibile.
+            </p>
+            <a class="hub-primary-link" href="/#verifica-codice">
+              Verifica ora il tuo codice →
+            </a>
+          </div>
+
       </div>
     </section>
 
@@ -1071,7 +1110,7 @@
 
           <ul class="footer-links">
             <li><a href="/#verifica-codice">Verifica codice</a></li>
-            <li><a href="/#codici">Elenco codici</a></li>
+            <li><a href="/codici-raccomandata-market" aria-current="page">Elenco codici</a></li>
             <li><a href="/#guida">Guida</a></li>
             <li><a href="#faq">FAQ</a></li>
           </ul>
