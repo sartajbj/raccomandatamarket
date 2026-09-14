@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-14",
-  "version": "4.1",
+  "version": "4.2",
   "language": "it",
   "country": "IT",
   "site": "https://raccomandatamarket.com/",
@@ -1947,6 +1947,90 @@
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
       "nextStep": "Il 050 è associato alla Raccomandata Veloce. Controlla subito chi è il mittente e se la comunicazione contiene una data o una scadenza, poi ritirala nei tempi indicati sull’avviso."
+    },
+    "381": {
+      "label": "Raccomandata Market 381",
+      "type": "Possibile comunicazione relativa al bollo auto o a un tributo sul veicolo",
+      "category": "Bollo auto e tributi regionali",
+      "possibleSenders": [
+        "Regione o ente competente per la tassa automobilistica",
+        "Agenzia delle Entrate o soggetto incaricato della riscossione",
+        "Comune o altro ente pubblico"
+      ],
+      "possibleContents": [
+        "Possibile sollecito o accertamento relativo al bollo auto",
+        "Possibile richiesta di pagamento della tassa automobilistica",
+        "Possibile comunicazione su un tributo locale o regionale collegato al veicolo"
+      ],
+      "confidence": "media",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 381 viene associato soprattutto a comunicazioni relative al bollo auto o ad altri tributi sul veicolo. Dopo il ritiro verifica ente mittente, targa o veicolo indicato, anno di riferimento, importo ed eventuali scadenze. Se hai già pagato, confronta i dati con la ricevuta prima di effettuare un nuovo pagamento."
+    },
+    "392": {
+      "label": "Raccomandata 392",
+      "type": "Possibile accertamento relativo al bollo auto o altra comunicazione formale",
+      "category": "Bollo auto e comunicazioni formali",
+      "possibleSenders": [
+        "Regione o ente competente per la tassa automobilistica",
+        "Ente pubblico o soggetto incaricato della riscossione",
+        "Autorità o altro mittente istituzionale"
+      ],
+      "possibleContents": [
+        "Possibile avviso di accertamento o pagamento del bollo auto",
+        "Possibile sollecito relativo alla tassa automobilistica",
+        "In alcune segnalazioni, possibile altra comunicazione formale o giudiziaria"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 392 viene associato soprattutto ad accertamenti o richieste relative al bollo auto, ma le segnalazioni non sono uniformi. Controlla quindi il mittente effettivo e verifica targa, anno, importo, causale ed eventuali termini riportati nella comunicazione."
+    },
+    "3922": {
+      "label": "Raccomandata 3922",
+      "type": "Possibile comunicazione della famiglia 392, spesso collegata al bollo auto",
+      "category": "Bollo auto e comunicazioni formali",
+      "possibleSenders": [
+        "Regione o ente competente per la tassa automobilistica",
+        "Ente pubblico o soggetto incaricato della riscossione",
+        "Altro mittente istituzionale"
+      ],
+      "possibleContents": [
+        "Possibile accertamento o richiesta di pagamento del bollo auto",
+        "Possibile sollecito relativo alla tassa automobilistica",
+        "Possibile altra comunicazione formale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il sotto-prefisso 3922 rientra nella famiglia 392. Le associazioni disponibili online lo collegano soprattutto al bollo auto, ma non esiste una tabella ufficiale pubblica che consenta di identificare con certezza il contenuto. Verifica mittente, targa o pratica, importo ed eventuali scadenze nel documento effettivo."
+    },
+    "2616": {
+      "label": "Codice segnalato 2616",
+      "type": "Prefisso reale segnalato dagli utenti, non classificabile con affidabilità dal solo codice",
+      "category": "Codice segnalato - classificazione da verificare",
+      "possibleSenders": [
+        "Mittente non determinabile con affidabilità dal solo prefisso"
+      ],
+      "possibleContents": [
+        "Contenuto non determinabile con affidabilità dal solo prefisso",
+        "Il codice completo può comunque essere utilizzato per verificare lo stato della spedizione"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 2616 è stato segnalato da utenti reali, ma al momento non risultano fonti italiane sufficientemente affidabili per attribuirlo a un mittente o contenuto specifico. Per evitare informazioni errate non facciamo supposizioni: controlla il codice completo tramite il tracciamento ufficiale e ritira la comunicazione per identificarla."
+    },
+    "5888": {
+      "label": "Codice segnalato 5888",
+      "type": "Prefisso reale segnalato dagli utenti, non classificabile con affidabilità dal solo codice",
+      "category": "Codice segnalato - classificazione da verificare",
+      "possibleSenders": [
+        "Mittente non determinabile con affidabilità dal solo prefisso"
+      ],
+      "possibleContents": [
+        "Contenuto non determinabile con affidabilità dal solo prefisso",
+        "Il codice completo può comunque essere utilizzato per verificare lo stato della spedizione"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 5888 è stato segnalato da utenti reali, ma al momento non risultano fonti italiane sufficientemente affidabili per attribuirlo a un mittente o contenuto specifico. Per evitare informazioni errate non facciamo supposizioni: controlla il codice completo tramite il tracciamento ufficiale e ritira la comunicazione per identificarla."
     }
   }
 }
