@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-05",
-  "version": "3.0",
+  "lastUpdated": "2026-09-14",
+  "version": "4.0",
   "language": "it",
   "country": "IT",
   "site": "https://raccomandatamarket.com/",
@@ -1541,6 +1541,366 @@
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
       "nextStep": "Il sotto-codice 6199 è stato segnalato per comunicazioni relative al servizio idrico. Verifica sempre il contenuto effettivo."
+    },
+    "06": {
+      "label": "Codice 06",
+      "type": "Possibile raccomandata da soggetto privato",
+      "category": "Privati e servizi",
+      "possibleSenders": [
+        "Privati",
+        "Banche o società finanziarie",
+        "Aziende, assicurazioni o società di servizi"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione privata o commerciale",
+        "Possibile comunicazione bancaria o assicurativa",
+        "Possibile sollecito o altra comunicazione formale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il codice 06 viene associato in modo orientativo a invii da soggetti privati. Controlla l'avviso e ritira la raccomandata per verificare mittente, contenuto ed eventuali termini."
+    },
+    "72": {
+      "label": "Codice 72",
+      "type": "Possibile comunicazione relativa a un rimborso",
+      "category": "Rimborsi e Pubblica Amministrazione",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Enti pubblici o amministrazioni"
+      ],
+      "possibleContents": [
+        "Possibile rimborso o accredito",
+        "Possibile comunicazione amministrativa collegata a somme a credito"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il codice 72 viene associato in modo orientativo a comunicazioni su rimborsi. Verifica sempre l'avviso e la comunicazione effettiva."
+    },
+    "527": {
+      "label": "Raccomandata RKE 527",
+      "type": "Possibile comunicazione fiscale o avviso bonario",
+      "category": "Fisco e riscossione",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Agenzia delle Entrate-Riscossione",
+        "Enti pubblici o competenti per tributi"
+      ],
+      "possibleContents": [
+        "Possibile avviso bonario o esito di controllo automatizzato",
+        "Possibile richiesta di regolarizzazione o modello F24",
+        "Possibile comunicazione su tributi, bollo auto o altre somme"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il codice 527 è stato associato a comunicazioni fiscali e richieste di regolarizzazione. Ritira la raccomandata e verifica mittente, importi ed eventuali scadenze."
+    },
+    "5276": {
+      "label": "Raccomandata RKE 5276",
+      "type": "Possibile avviso fiscale o controllo automatizzato",
+      "category": "Fisco e riscossione",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Agenzia delle Entrate-Riscossione"
+      ],
+      "possibleContents": [
+        "Possibile avviso bonario",
+        "Possibile esito di controllo della dichiarazione dei redditi",
+        "Possibile modello F24 o richiesta di pagamento"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il sotto-codice 5276 è stato segnalato in relazione a controlli fiscali e avvisi di pagamento. Usa il risultato come orientamento e verifica sempre la comunicazione effettiva."
+    },
+    "569": {
+      "label": "Raccomandata RKE 569",
+      "type": "Possibile comunicazione fiscale o di riscossione",
+      "category": "Fisco e riscossione",
+      "possibleSenders": [
+        "Agenzia delle Entrate-Riscossione",
+        "Agenzia delle Entrate",
+        "Enti pubblici o soggetti incaricati della riscossione"
+      ],
+      "possibleContents": [
+        "Possibile cartella o comunicazione di riscossione",
+        "Possibile richiesta o sollecito di pagamento",
+        "Possibile comunicazione relativa a tributi, sanzioni o somme iscritte a ruolo",
+        "Possibile comunicazione relativa a definizioni o procedure di regolarizzazione"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il codice 569 è stato associato a comunicazioni fiscali o di riscossione, ma il prefisso da solo non identifica con certezza mittente e contenuto. Controlla l'avviso e ritira la comunicazione per verificare eventuali termini."
+    },
+    "5725": {
+      "label": "Raccomandata RKE 5725",
+      "type": "Possibile comunicazione fiscale o relativa a tributi",
+      "category": "Fisco e tributi",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Enti pubblici o competenti per tributi"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione fiscale",
+        "Possibile richiesta relativa a TARI o altri tributi",
+        "Possibile avviso o richiesta di pagamento"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il sotto-codice 5725 viene associato a comunicazioni fiscali o tributarie. Verifica sempre il mittente e il contenuto effettivo della raccomandata."
+    },
+    "5726": {
+      "label": "Raccomandata RKE 5726",
+      "type": "Possibile comunicazione fiscale o di definizione agevolata",
+      "category": "Fisco e riscossione",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Agenzia delle Entrate-Riscossione"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione fiscale",
+        "Possibile comunicazione su rottamazione o definizione agevolata",
+        "Possibile richiesta o aggiornamento relativo a somme dovute"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il sotto-codice 5726 viene associato a comunicazioni fiscali e, in alcune segnalazioni, a procedure di definizione agevolata. Controlla la comunicazione effettiva prima di trarre conclusioni."
+    },
+    "5728": {
+      "label": "Raccomandata RKE 5728",
+      "type": "Possibile atto amministrativo o comunicazione da ente pubblico",
+      "category": "Atti e comunicazioni amministrative",
+      "possibleSenders": [
+        "Pubblica Amministrazione",
+        "Ministeri o enti pubblici",
+        "Agenzia delle Entrate"
+      ],
+      "possibleContents": [
+        "Possibile atto amministrativo",
+        "Possibile comunicazione legale o fiscale",
+        "Possibile notifica proveniente da un ente pubblico"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il sotto-codice 5728 è stato associato a comunicazioni amministrative o legali da enti pubblici. Ritira la raccomandata e verifica mittente, oggetto ed eventuali termini."
+    },
+    "5730": {
+      "label": "Raccomandata RKE 5730",
+      "type": "Possibile notifica fiscale, amministrativa o giudiziaria",
+      "category": "Fisco e notifiche",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Autorità o uffici pubblici",
+        "Altri enti"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione fiscale",
+        "Possibile atto o notifica amministrativa",
+        "Possibile atto giudiziario secondo alcune segnalazioni"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Le fonti sul 5730 non sono uniformi: viene associato sia a comunicazioni fiscali sia a notifiche o atti. Usa il risultato solo come orientamento e verifica il documento effettivo."
+    },
+    "5731": {
+      "label": "Raccomandata RKE 5731",
+      "type": "Possibile contravvenzione o comunicazione sul Codice della Strada",
+      "category": "Multe e accertamenti",
+      "possibleSenders": [
+        "Polizia locale",
+        "Enti competenti per sanzioni stradali",
+        "Pubblica Amministrazione"
+      ],
+      "possibleContents": [
+        "Possibile contravvenzione",
+        "Possibile multa stradale",
+        "Possibile comunicazione amministrativa collegata al Codice della Strada"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il sotto-codice 5731 viene associato a contravvenzioni e comunicazioni sul Codice della Strada. Verifica subito il contenuto e le eventuali scadenze."
+    },
+    "5732": {
+      "label": "Raccomandata RKE 5732",
+      "type": "Possibile comunicazione previdenziale",
+      "category": "INPS e previdenza",
+      "possibleSenders": [
+        "INPS",
+        "Enti previdenziali o assistenziali"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione su pensione o contributi",
+        "Possibile comunicazione su prestazioni o pratiche previdenziali"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il sotto-codice 5732 viene associato a comunicazioni previdenziali, spesso INPS. Controlla sempre il mittente e la comunicazione effettiva."
+    },
+    "5733": {
+      "label": "Raccomandata RKE 5733",
+      "type": "Possibile comunicazione dell'Agenzia delle Entrate",
+      "category": "Fisco e tributi",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Altri enti fiscali o pubblici"
+      ],
+      "possibleContents": [
+        "Possibile notifica o comunicazione fiscale",
+        "Possibile richiesta di documentazione o chiarimenti",
+        "Possibile avviso relativo a imposte o dichiarazioni"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il sotto-codice 5733 viene associato a notifiche dell'Agenzia delle Entrate. Verifica la comunicazione effettiva e presta attenzione a eventuali termini."
+    },
+    "5734": {
+      "label": "Raccomandata RKE 5734",
+      "type": "Possibile atto amministrativo da ente pubblico",
+      "category": "Pubblica Amministrazione",
+      "possibleSenders": [
+        "Comuni o enti locali",
+        "Pubblica Amministrazione",
+        "Altri enti pubblici"
+      ],
+      "possibleContents": [
+        "Possibile atto amministrativo",
+        "Possibile comunicazione da ente locale",
+        "Possibile richiesta o notifica amministrativa"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il sotto-codice 5734 viene associato ad atti amministrativi di enti pubblici. Controlla sempre l'avviso e il documento ricevuto."
+    },
+    "6198": {
+      "label": "Raccomandata Market 6198",
+      "type": "Possibile comunicazione relativa a TARI o tributi locali",
+      "category": "Tributi locali e pagamenti",
+      "possibleSenders": [
+        "Comune o ente locale",
+        "Ufficio tributi",
+        "Agenzia delle Entrate o soggetto incaricato"
+      ],
+      "possibleContents": [
+        "Possibile accertamento TARI",
+        "Possibile sollecito per tassa rifiuti non pagata",
+        "Possibile comunicazione relativa a tributi locali"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il sotto-codice 6198 è stato segnalato per comunicazioni relative alla TARI e a tributi locali. Verifica il mittente, l'anno di riferimento e le eventuali scadenze."
+    },
+    "6200": {
+      "label": "Raccomandata Market 6200",
+      "type": "Possibile comunicazione previdenziale o amministrativa",
+      "category": "INPS e Pubblica Amministrazione",
+      "possibleSenders": [
+        "INPS",
+        "Pubblica Amministrazione",
+        "Enti locali o assistenziali"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione su invalidità civile",
+        "Possibile ricalcolo o pratica pensionistica",
+        "Possibile comunicazione su prestazioni assistenziali",
+        "Possibile altra comunicazione amministrativa"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il sotto-codice 6200 è stato associato a comunicazioni INPS o della Pubblica Amministrazione. Verifica sempre mittente e contenuto effettivo."
+    },
+    "672": {
+      "label": "Raccomandata Market 672",
+      "type": "Possibile comunicazione di riscossione",
+      "category": "Riscossione e tributi",
+      "possibleSenders": [
+        "Agenzia delle Entrate-Riscossione",
+        "Enti di riscossione",
+        "Altri enti pubblici"
+      ],
+      "possibleContents": [
+        "Possibile cartella di pagamento",
+        "Possibile intimazione o richiesta relativa a somme iscritte a ruolo",
+        "Possibile comunicazione relativa a tributi o sanzioni"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il codice 672 viene associato a comunicazioni di riscossione. Ritira la raccomandata e verifica subito mittente, importi ed eventuali termini."
+    },
+    "675": {
+      "label": "Raccomandata Market 675",
+      "type": "Possibile comunicazione fiscale, amministrativa o di riscossione",
+      "category": "Riscossione e tributi locali",
+      "possibleSenders": [
+        "Agenzia delle Entrate-Riscossione",
+        "Comuni, Regioni o altri enti pubblici",
+        "Soggetti incaricati della riscossione"
+      ],
+      "possibleContents": [
+        "Possibile avviso o sollecito di pagamento",
+        "Possibile comunicazione su TARI, bollo auto o altri tributi",
+        "Possibile comunicazione amministrativa o di riscossione"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il codice 675 è stato segnalato in contesti fiscali, amministrativi e di riscossione. Non identifica un contenuto certo: verifica la comunicazione e le eventuali scadenze."
+    },
+    "6971": {
+      "label": "Raccomandata Market 6971",
+      "type": "Possibile comunicazione fiscale, previdenziale o di pagamento",
+      "category": "Fisco, previdenza e pagamenti",
+      "possibleSenders": [
+        "Agenzia delle Entrate-Riscossione",
+        "INPS",
+        "Regione o altro ente",
+        "Banche o altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile cartella o avviso fiscale",
+        "Possibile sollecito per bollo auto, IMU o TARI",
+        "Possibile comunicazione previdenziale",
+        "Possibile recupero crediti o comunicazione bancaria"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il sotto-codice 6971 rientra nella famiglia 697 ed è associato a comunicazioni di natura variabile. Verifica sempre mittente, contenuto ed eventuali termini."
+    },
+    "6972": {
+      "label": "Raccomandata Market 6972",
+      "type": "Possibile comunicazione fiscale, previdenziale o di pagamento",
+      "category": "Fisco, previdenza e pagamenti",
+      "possibleSenders": [
+        "Agenzia delle Entrate-Riscossione",
+        "INPS",
+        "Regione o altro ente",
+        "Banche o altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile cartella o avviso fiscale",
+        "Possibile sollecito per tributi o bollo auto",
+        "Possibile comunicazione previdenziale",
+        "Possibile recupero crediti o comunicazione bancaria"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il sotto-codice 6972 rientra nella famiglia 697 ed è associato a comunicazioni di natura variabile. Verifica sempre la comunicazione effettiva."
+    },
+    "6975": {
+      "label": "Raccomandata Market 6975",
+      "type": "Possibile comunicazione fiscale, previdenziale o di pagamento",
+      "category": "Fisco, previdenza e pagamenti",
+      "possibleSenders": [
+        "Agenzia delle Entrate-Riscossione",
+        "INPS",
+        "Regione o altro ente",
+        "Banche o altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile cartella o avviso fiscale",
+        "Possibile sollecito per tributi o bollo auto",
+        "Possibile comunicazione previdenziale",
+        "Possibile recupero crediti o comunicazione bancaria"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il sotto-codice 6975 rientra nella famiglia 697 ed è associato a comunicazioni di natura variabile. Controlla sempre mittente, contenuto ed eventuali scadenze."
     }
   }
 }
