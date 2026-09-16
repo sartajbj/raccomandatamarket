@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-16",
-  "version": "4.3",
+  "version": "4.4",
   "language": "it",
   "country": "IT",
   "site": "https://raccomandatamarket.com/",
@@ -2051,6 +2051,36 @@
       "confidence": "indicativa",
       "riskLevel": "da verificare",
       "nextStep": "Il prefisso 686 viene associato soprattutto a solleciti di pagamento e comunicazioni su crediti, utenze o tributi. Dopo il ritiro verifica il mittente, il contratto o tributo interessato, l'anno o periodo di riferimento, l'importo e la scadenza. Se viene richiesto un pagamento, confronta i dati con i tuoi documenti e usa esclusivamente i canali ufficiali del mittente."
+    },
+    "113": {
+      "label": "Codice segnalato 113",
+      "type": "Prefisso parziale segnalato: serve il codice completo per una verifica affidabile",
+      "category": "Codice parziale - operatore da verificare",
+      "possibleSenders": [
+        "Mittente non determinabile dal solo prefisso 113"
+      ],
+      "possibleContents": [
+        "Il prefisso 113 da solo non permette di identificare il contenuto",
+        "Se sull’avviso compare un codice completo nel formato R + 11 cifre, il sistema può verificare l’eventuale operatore postale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Hai inserito solo il prefisso 113. Non esistono fonti pubbliche sufficienti per attribuire con certezza questo prefisso a un mittente o contenuto specifico. Inserisci il codice completo esattamente come appare sull’avviso, comprese eventuali lettere iniziali. Se il codice è nel formato R seguito da 11 cifre e l’avviso è Fulmine Group, il decoder può riconoscere l’operatore."
+    },
+    "1130": {
+      "label": "Codice segnalato 1130",
+      "type": "Prefisso parziale segnalato: serve il codice completo per una verifica affidabile",
+      "category": "Codice parziale - operatore da verificare",
+      "possibleSenders": [
+        "Mittente non determinabile dal solo prefisso 1130"
+      ],
+      "possibleContents": [
+        "Il prefisso 1130 da solo non identifica il contenuto della raccomandata",
+        "Un codice completo alfanumerico può permettere di riconoscere l’operatore postale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 1130 è stato segnalato in un avviso Fulmine Group, ma 1130 da solo non prova che ogni spedizione con queste cifre appartenga allo stesso operatore. Inserisci il codice completo esattamente come stampato sull’avviso, inclusa l’eventuale lettera R. Un codice completo R seguito da 11 cifre viene controllato separatamente dal decoder."
     }
   }
 }
