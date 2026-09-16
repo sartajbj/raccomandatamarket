@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-14",
-  "version": "4.2",
+  "lastUpdated": "2026-09-16",
+  "version": "4.3",
   "language": "it",
   "country": "IT",
   "site": "https://raccomandatamarket.com/",
@@ -2031,6 +2031,26 @@
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
       "nextStep": "Il prefisso 5888 è stato segnalato da utenti reali, ma al momento non risultano fonti italiane sufficientemente affidabili per attribuirlo a un mittente o contenuto specifico. Per evitare informazioni errate non facciamo supposizioni: controlla il codice completo tramite il tracciamento ufficiale e ritira la comunicazione per identificarla."
+    },
+    "686": {
+      "label": "Raccomandata Market 686",
+      "type": "Possibile sollecito di pagamento o comunicazione relativa a crediti, utenze o tributi",
+      "category": "Pagamenti, recupero crediti e tributi",
+      "possibleSenders": [
+        "Gestori di luce, gas, acqua o telecomunicazioni",
+        "Banche, finanziarie o società di recupero crediti",
+        "Comuni o soggetti incaricati della riscossione di tributi locali",
+        "INPS o altri enti, secondo alcune segnalazioni"
+      ],
+      "possibleContents": [
+        "Possibile sollecito di pagamento o messa in mora",
+        "Possibile rata, bolletta o fattura non pagata",
+        "Possibile comunicazione relativa a TARI, bollo o altri tributi locali",
+        "Possibile comunicazione di recupero crediti"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 686 viene associato soprattutto a solleciti di pagamento e comunicazioni su crediti, utenze o tributi. Dopo il ritiro verifica il mittente, il contratto o tributo interessato, l'anno o periodo di riferimento, l'importo e la scadenza. Se viene richiesto un pagamento, confronta i dati con i tuoi documenti e usa esclusivamente i canali ufficiali del mittente."
     }
   }
 }
