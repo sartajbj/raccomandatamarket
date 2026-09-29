@@ -2081,6 +2081,24 @@
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
       "nextStep": "Il prefisso 1130 è stato segnalato in un avviso Fulmine Group, ma 1130 da solo non prova che ogni spedizione con queste cifre appartenga allo stesso operatore. Inserisci il codice completo esattamente come stampato sull’avviso, inclusa l’eventuale lettera R. Un codice completo R seguito da 11 cifre viene controllato separatamente dal decoder."
-    }
+    },
+        "529": {
+      "label": "Codice 529",
+      "type": "Possibile comunicazione relativa a recupero crediti o notifiche",
+      "category": "Comunicazioni amministrative e private",
+      "possibleSenders": [
+        "Società di recupero crediti",
+        "Aziende o soggetti privati",
+        "Uffici o soggetti incaricati di notifiche"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione relativa a recupero crediti",
+        "Possibile sollecito o richiesta di pagamento",
+        "Possibile comunicazione amministrativa o notifica"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 529 è stato segnalato in relazione a comunicazioni di natura variabile, incluse possibili attività di recupero crediti o notifiche. Il solo codice non permette di identificare con certezza il mittente o il contenuto. Verifica il mittente indicato sull'avviso e ritira la comunicazione per conoscere il contenuto effettivo."
+        }
   }
 }
