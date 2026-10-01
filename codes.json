@@ -2099,6 +2099,23 @@
       "confidence": "indicativa",
       "riskLevel": "da verificare",
       "nextStep": "Il prefisso 529 è stato segnalato in relazione a comunicazioni di natura variabile, incluse possibili attività di recupero crediti o notifiche. Il solo codice non permette di identificare con certezza il mittente o il contenuto. Verifica il mittente indicato sull'avviso e ritira la comunicazione per conoscere il contenuto effettivo."
-        }
+    },
+            "5479": {
+      "label": "Codice 5479",
+      "type": "Possibile comunicazione fiscale o di riscossione",
+      "category": "Fisco e riscossione",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Agenzia delle Entrate-Riscossione"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione relativa a cartelle o riscossione",
+        "Possibile comunicazione relativa a rottamazione o definizione di debiti",
+        "Possibile avviso o comunicazione tributaria"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il codice 5479 è stato associato da utenti a comunicazioni dell'Agenzia delle Entrate o dell'Agenzia delle Entrate-Riscossione, incluse comunicazioni relative a riscossione, cartelle o rottamazione. Il solo codice non permette di identificare con certezza il mittente o il contenuto. Verifica sempre il mittente indicato sull'avviso e ritira la comunicazione per conoscere il contenuto effettivo."
+            }
   }
 }
