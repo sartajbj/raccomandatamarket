@@ -2116,6 +2116,40 @@
       "confidence": "indicativa",
       "riskLevel": "da verificare",
       "nextStep": "Il codice 5479 è stato associato da utenti a comunicazioni dell'Agenzia delle Entrate o dell'Agenzia delle Entrate-Riscossione, incluse comunicazioni relative a riscossione, cartelle o rottamazione. Il solo codice non permette di identificare con certezza il mittente o il contenuto. Verifica sempre il mittente indicato sull'avviso e ritira la comunicazione per conoscere il contenuto effettivo."
-            }
+     },
+        "260": {
+      "label": "Codice 260",
+      "type": "Possibile Raccomandata gestita da Eurisko Post",
+      "category": "Raccomandate e comunicazioni postali",
+      "possibleSenders": [
+        "Eurisko Post",
+        "Soggetti o enti che utilizzano i servizi postali Eurisko"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione tramite Raccomandata",
+        "Possibile comunicazione amministrativa o privata",
+        "Possibile documento o notifica affidata al servizio postale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il codice 260 è compatibile con una spedizione Raccomandata gestita tramite Eurisko Post. Il solo codice non permette di identificare con certezza il mittente o il contenuto. Verifica sempre i dati riportati sull'avviso e ritira la comunicazione per conoscere il contenuto effettivo."
+    },
+    "677": {
+      "label": "Codice 677",
+      "type": "Possibile Raccomandata Messo",
+      "category": "Notifiche e comunicazioni amministrative",
+      "possibleSenders": [
+        "Messo notificatore",
+        "Enti o soggetti che utilizzano servizi di notifica"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione notificata tramite messo",
+        "Possibile atto o comunicazione amministrativa",
+        "Possibile notifica relativa a una pratica o procedimento"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 677 è stato osservato su un avviso con tipologia Raccomandata Messo. Il solo codice non permette di identificare con certezza il mittente o il contenuto. Verifica sempre il mittente e gli altri dati presenti sull'avviso e ritira la comunicazione per conoscere il contenuto effettivo."
+    }
   }
 }
