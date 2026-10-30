@@ -22,7 +22,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Privati; Aziende. La comunicazione potrebbe riguardare comunicazioni private o contrattuali oppure solleciti di pagamento. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "13": {
       "label": "Codice 13",
@@ -40,7 +40,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Privati; Aziende. La comunicazione potrebbe riguardare comunicazioni private o contrattuali oppure solleciti di pagamento. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "14": {
       "label": "Codice 14",
@@ -58,7 +58,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Privati; Aziende. La comunicazione potrebbe riguardare comunicazioni private o contrattuali oppure solleciti di pagamento. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "15": {
       "label": "Codice 15",
@@ -76,7 +76,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Privati; Aziende. La comunicazione potrebbe riguardare comunicazioni private o contrattuali oppure solleciti di pagamento. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "63": {
       "label": "Codice 63",
@@ -93,7 +93,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: INPS; Enti previdenziali o assistenziali. La comunicazione potrebbe riguardare comunicazioni su pensioni o contributi oppure comunicazioni su invalidità o prestazioni. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
     },
     "65": {
       "label": "Codice 65",
@@ -110,7 +110,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: INPS; Enti previdenziali o assistenziali. La comunicazione potrebbe riguardare comunicazioni su pensioni o contributi oppure comunicazioni su invalidità o prestazioni. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
     },
     "72": {
       "label": "Codice 72",
@@ -126,7 +126,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Enti pubblici o amministrazioni. La comunicazione potrebbe riguardare possibile rimborso o accredito oppure possibile comunicazione amministrativa collegata a somme a credito. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "75": {
       "label": "Codice 75",
@@ -144,7 +144,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Autorità pubbliche; Uffici giudiziari. La comunicazione potrebbe riguardare possibile multa oppure possibile atto giudiziario. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "76": {
       "label": "Codice 76",
@@ -162,7 +162,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Autorità pubbliche; Uffici giudiziari. La comunicazione potrebbe riguardare possibile multa oppure possibile atto giudiziario. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "77": {
       "label": "Codice 77",
@@ -180,7 +180,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Autorità pubbliche; Uffici giudiziari. La comunicazione potrebbe riguardare possibile multa oppure possibile atto giudiziario. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "78": {
       "label": "Codice 78",
@@ -198,7 +198,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Autorità pubbliche; Uffici giudiziari. La comunicazione potrebbe riguardare possibile multa oppure possibile atto giudiziario. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "79": {
       "label": "Codice 79",
@@ -216,7 +216,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Autorità pubbliche; Uffici giudiziari. La comunicazione potrebbe riguardare possibile multa oppure possibile atto giudiziario. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "113": {
       "label": "Codice segnalato 113",
@@ -231,7 +231,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 113 da solo non consente una classificazione affidabile. Inserisci il codice completo come appare sull’avviso, comprese eventuali lettere, oppure verifica l’operatore indicato sul documento."
+      "nextStep": "Il prefisso 113 non basta per una verifica attendibile. Inserisci il codice completo riportato sull’avviso, comprese eventuali lettere, per controllare se è riconoscibile."
     },
     "151": {
       "label": "Codice 151",
@@ -249,7 +249,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Privati; Aziende. La comunicazione potrebbe riguardare comunicazioni private o contrattuali oppure solleciti di pagamento. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "152": {
       "label": "Codice 152",
@@ -267,7 +267,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Privati; Aziende. La comunicazione potrebbe riguardare comunicazioni private o contrattuali oppure solleciti di pagamento. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "154": {
       "label": "Codice raccomandata 154",
@@ -289,7 +289,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Privati o aziende; Avvocati o altri professionisti. La comunicazione potrebbe riguardare possibile comunicazione privata o contrattuale oppure possibile diffida o sollecito di pagamento. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "200": {
       "label": "Codice 200",
@@ -308,7 +308,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Gestori di utenze; Compagnie assicurative. La comunicazione potrebbe riguardare possibile sollecito di pagamento oppure possibile bolletta o fattura. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "201": {
       "label": "Codice 201",
@@ -327,7 +327,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Gestori di utenze; Compagnie assicurative. La comunicazione potrebbe riguardare possibile sollecito di pagamento oppure possibile bolletta o fattura. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "202": {
       "label": "Codice 202",
@@ -348,7 +348,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Privati; Banche o finanziarie. La comunicazione potrebbe riguardare possibile sollecito di pagamento oppure possibile comunicazione bancaria o assicurativa. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "260": {
       "label": "Codice 260",
@@ -365,7 +365,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Eurisko Post; Soggetti o enti che utilizzano i servizi postali Eurisko. La comunicazione potrebbe riguardare possibile comunicazione tramite raccomandata oppure possibile comunicazione amministrativa o privata. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "381": {
       "label": "Raccomandata Market 381",
@@ -383,7 +383,7 @@
       ],
       "confidence": "media",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Regione o ente competente per la tassa automobilistica; Agenzia delle Entrate o soggetto incaricato della riscossione. La comunicazione potrebbe riguardare possibile sollecito o accertamento relativo al bollo auto oppure possibile richiesta di pagamento della tassa automobilistica. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "386": {
       "label": "Codice 386",
@@ -401,7 +401,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Polizia locale o altri enti; Pubblica Amministrazione. La comunicazione potrebbe riguardare possibile multa stradale oppure possibile accertamento amministrativo o fiscale. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "388": {
       "label": "Codice 388",
@@ -416,7 +416,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Polizia locale o altri enti competenti. La comunicazione potrebbe riguardare possibile verbale o multa stradale oppure possibile comunicazione relativa a una sanzione. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "390": {
       "label": "Codice 390",
@@ -432,7 +432,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Regioni o enti competenti; Enti di riscossione. La comunicazione potrebbe riguardare possibile accertamento sul bollo auto oppure possibile richiesta di pagamento relativa a tassa automobilistica. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "392": {
       "label": "Raccomandata 392",
@@ -450,7 +450,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Regione o ente competente per la tassa automobilistica; Ente pubblico o soggetto incaricato della riscossione. La comunicazione potrebbe riguardare possibile avviso di accertamento o pagamento del bollo auto oppure possibile sollecito relativo alla tassa automobilistica. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "393": {
       "label": "Codice 393",
@@ -468,7 +468,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Polizia Municipale; Enti locali. La comunicazione potrebbe riguardare possibile multa o verbale oppure possibile infrazione al codice della strada. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "398": {
       "label": "Codice 398",
@@ -486,7 +486,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: INPS; Enti previdenziali. La comunicazione potrebbe riguardare possibile comunicazione su pensione o prestazioni oppure possibile comunicazione contributiva. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
     },
     "527": {
       "label": "Raccomandata RKE 527",
@@ -504,7 +504,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Agenzia delle Entrate-Riscossione. La comunicazione potrebbe riguardare possibile avviso bonario o esito di controllo automatizzato oppure possibile richiesta di regolarizzazione o modello f24. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "529": {
       "label": "Codice 529",
@@ -522,7 +522,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Società di recupero crediti; Aziende o soggetti privati. La comunicazione potrebbe riguardare possibile comunicazione relativa a recupero crediti oppure possibile sollecito o richiesta di pagamento. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "549": {
       "label": "Codice 549",
@@ -540,7 +540,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate o Agenzia delle Entrate-Riscossione; Enti locali o di riscossione. La comunicazione potrebbe riguardare possibile sollecito o richiesta di pagamento oppure possibile comunicazione fiscale. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "569": {
       "label": "Raccomandata RKE 569",
@@ -559,7 +559,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate-Riscossione; Agenzia delle Entrate. La comunicazione potrebbe riguardare possibile cartella o comunicazione di riscossione oppure possibile richiesta o sollecito di pagamento. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "570": {
       "label": "Codice 570",
@@ -576,7 +576,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Altri enti fiscali o pubblici. La comunicazione potrebbe riguardare possibile comunicazione fiscale oppure possibile richiesta di documentazione. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "572": {
       "label": "Raccomandata Market 572",
@@ -595,7 +595,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Agenzia delle Entrate-Riscossione. La comunicazione potrebbe riguardare possibile notifica relativa a un atto oppure possibile comunicazione sulla riscossione. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "573": {
       "label": "Codice 573",
@@ -614,7 +614,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Enti pubblici o amministrazioni. La comunicazione potrebbe riguardare possibile accertamento o liquidazione fiscale oppure possibile richiesta di pagamento o regolarizzazione. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "608": {
       "label": "Codice 608",
@@ -630,7 +630,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Enti pubblici; Pubblica Amministrazione. La comunicazione potrebbe riguardare comunicazioni amministrative oppure avvisi o richieste provenienti da enti pubblici. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "609": {
       "label": "Codice 609",
@@ -646,7 +646,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Enti pubblici; Pubblica Amministrazione. La comunicazione potrebbe riguardare comunicazioni amministrative oppure avvisi o richieste provenienti da enti pubblici. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "612": {
       "label": "Codice 612",
@@ -663,7 +663,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Banche; Istituti finanziari. La comunicazione potrebbe riguardare comunicazioni su conto corrente, mutuo o finanziamento oppure comunicazioni relative a carte o servizi finanziari. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, confronta la comunicazione con il contratto, la fattura o la pratica indicata. Controlla importi e scadenze e usa solo i canali ufficiali del soggetto mittente."
     },
     "613": {
       "label": "Codice 613",
@@ -681,7 +681,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Enti pubblici. La comunicazione potrebbe riguardare possibile comunicazione fiscale oppure possibile richiesta relativa a imposte o pagamenti. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "614": {
       "label": "Codice 614",
@@ -698,7 +698,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Banche; Istituti finanziari. La comunicazione potrebbe riguardare comunicazioni su conto corrente, mutuo o finanziamento oppure comunicazioni relative a carte o servizi finanziari. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, confronta la comunicazione con il contratto, la fattura o la pratica indicata. Controlla importi e scadenze e usa solo i canali ufficiali del soggetto mittente."
     },
     "615": {
       "label": "Codice 615",
@@ -716,7 +716,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Enti pubblici. La comunicazione potrebbe riguardare possibile comunicazione fiscale oppure possibile richiesta relativa a imposte o pagamenti. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "616": {
       "label": "Codice 616",
@@ -736,7 +736,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Enti pubblici; Compagnie assicurative. La comunicazione potrebbe riguardare possibile bollo auto oppure possibile comunicazione assicurativa. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "617": {
       "label": "Codice 617",
@@ -754,7 +754,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Banche o istituti di credito; Enti o aziende. La comunicazione potrebbe riguardare possibile comunicazione bancaria oppure possibile sollecito di pagamento. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, confronta la comunicazione con il contratto, la fattura o la pratica indicata. Controlla importi e scadenze e usa solo i canali ufficiali del soggetto mittente."
     },
     "618": {
       "label": "Codice 618",
@@ -772,7 +772,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Gestori di utenze; Aziende o enti. La comunicazione potrebbe riguardare possibile mancato pagamento di una bolletta oppure possibile comunicazione relativa a veicoli. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "619": {
       "label": "Raccomandata Market 619",
@@ -794,7 +794,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Banche o finanziarie; Compagnie assicurative. La comunicazione potrebbe riguardare possibile modifica o comunicazione contrattuale oppure possibile sollecito di pagamento. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "620": {
       "label": "Raccomandata Market 620",
@@ -815,7 +815,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: INPS o altri enti; Banche o finanziarie. La comunicazione potrebbe riguardare possibile comunicazione previdenziale oppure possibile comunicazione bancaria o contrattuale. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
     },
     "628": {
       "label": "Codice 628",
@@ -833,7 +833,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Enti competenti per il bollo auto; Studi legali. La comunicazione potrebbe riguardare possibile pagamento o mancato pagamento del bollo auto oppure possibile comunicazione da un avvocato. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "629": {
       "label": "Raccomandata Market 629",
@@ -853,7 +853,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Banche o finanziarie; INPS o altri enti. La comunicazione potrebbe riguardare possibile conferma o comunicazione relativa a una precedente consegna oppure possibile comunicazione sul bollo auto. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "630": {
       "label": "Codice 630",
@@ -870,7 +870,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: INPS; Enti previdenziali o assistenziali. La comunicazione potrebbe riguardare comunicazioni su pensioni o contributi oppure comunicazioni su invalidità o prestazioni. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
     },
     "647": {
       "label": "Raccomandata Market 647",
@@ -888,7 +888,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Altri enti fiscali o pubblici. La comunicazione potrebbe riguardare possibile avviso bonario oppure possibile richiesta di documentazione. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "648": {
       "label": "Raccomandata Market 648",
@@ -907,7 +907,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Istituti finanziari. La comunicazione potrebbe riguardare possibile avviso bonario o esito di controllo fiscale oppure possibile sollecito di pagamento. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "649": {
       "label": "Raccomandata Market 649",
@@ -928,7 +928,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; INPS. La comunicazione potrebbe riguardare possibile richiesta o sollecito di pagamento oppure possibile comunicazione inps. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "650": {
       "label": "Codice 650",
@@ -945,7 +945,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: INPS; Enti previdenziali o assistenziali. La comunicazione potrebbe riguardare comunicazioni su pensioni o contributi oppure comunicazioni su invalidità o prestazioni. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
     },
     "664": {
       "label": "Raccomandata Market 664",
@@ -963,7 +963,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Banche o istituti finanziari; Enti o uffici amministrativi. La comunicazione potrebbe riguardare possibile comunicazione bancaria oppure possibile accertamento o richiesta amministrativa. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, confronta la comunicazione con il contratto, la fattura o la pratica indicata. Controlla importi e scadenze e usa solo i canali ufficiali del soggetto mittente."
     },
     "665": {
       "label": "Raccomandata Market 665",
@@ -984,7 +984,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Compagnie assicurative; Banche. La comunicazione potrebbe riguardare possibile comunicazione su sinistri o polizze oppure possibile comunicazione bancaria. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "668": {
       "label": "Codice 668",
@@ -1003,7 +1003,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Autorità giudiziarie; Enti pubblici. La comunicazione potrebbe riguardare possibile avviso di garanzia oppure possibile citazione o mandato di comparizione. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "669": {
       "label": "Raccomandata Market 669",
@@ -1021,7 +1021,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Banche o istituti di credito; Agenzia delle Entrate. La comunicazione potrebbe riguardare possibile invio o comunicazione relativa a carte bancarie oppure possibile richiesta o comunicazione fiscale. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "670": {
       "label": "Raccomandata Market 670",
@@ -1039,7 +1039,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate-Riscossione; Enti di riscossione. La comunicazione potrebbe riguardare possibile cartella di pagamento oppure possibile richiesta o sollecito relativo a tributi. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "671": {
       "label": "Raccomandata Market 671",
@@ -1057,7 +1057,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate-Riscossione; Enti di riscossione. La comunicazione potrebbe riguardare possibile cartella di pagamento oppure possibile richiesta o sollecito relativo a tributi. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "672": {
       "label": "Raccomandata Market 672",
@@ -1075,7 +1075,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate-Riscossione; Enti di riscossione. La comunicazione potrebbe riguardare possibile cartella di pagamento oppure possibile intimazione o richiesta relativa a somme iscritte a ruolo. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "673": {
       "label": "Raccomandata Market 673",
@@ -1093,7 +1093,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate-Riscossione; Enti di riscossione. La comunicazione potrebbe riguardare possibile cartella di pagamento oppure possibile richiesta o sollecito relativo a tributi. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "674": {
       "label": "Raccomandata Market 674",
@@ -1111,7 +1111,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Enti pubblici o competenti per tributi. La comunicazione potrebbe riguardare possibile avviso bonario oppure possibile richiesta di chiarimenti o documentazione. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "675": {
       "label": "Raccomandata Market 675",
@@ -1129,7 +1129,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate-Riscossione; Comuni, Regioni o altri enti pubblici. La comunicazione potrebbe riguardare possibile avviso o sollecito di pagamento oppure possibile comunicazione su tari, bollo auto o altri tributi. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "676": {
       "label": "Raccomandata Market 676",
@@ -1147,7 +1147,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate-Riscossione; INPS. La comunicazione potrebbe riguardare possibile sollecito o avviso relativo a tributi oppure possibile comunicazione su contributi o prestazioni previdenziali. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "677": {
       "label": "Codice 677",
@@ -1164,7 +1164,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Messo notificatore; Enti o soggetti che utilizzano servizi di notifica. La comunicazione potrebbe riguardare possibile comunicazione notificata tramite messo oppure possibile atto o comunicazione amministrativa. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "684": {
       "label": "Raccomandata Market 684",
@@ -1182,7 +1182,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: INPS; Regioni o enti pubblici. La comunicazione potrebbe riguardare possibile comunicazione previdenziale oppure possibile comunicazione amministrativa. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
     },
     "685": {
       "label": "Raccomandata Market 685",
@@ -1201,7 +1201,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Enti pubblici; Enti di riscossione. La comunicazione potrebbe riguardare possibile multa oppure possibile comunicazione relativa a tasse o tributi. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "686": {
       "label": "Raccomandata Market 686",
@@ -1221,7 +1221,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Gestori di luce, gas, acqua o telecomunicazioni; Banche, finanziarie o società di recupero crediti. La comunicazione potrebbe riguardare possibile sollecito di pagamento o messa in mora oppure possibile rata, bolletta o fattura non pagata. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "688": {
       "label": "Raccomandata Market 688",
@@ -1243,7 +1243,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Banche o istituti finanziari; Compagnie assicurative o gestori di utenze. La comunicazione potrebbe riguardare possibile diffida o sollecito di pagamento oppure possibile comunicazione bancaria o relativa a una carta di pagamento. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "689": {
       "label": "Raccomandata Market 689",
@@ -1261,7 +1261,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate-Riscossione; Enti locali. La comunicazione potrebbe riguardare possibile cartella di pagamento oppure possibile comunicazione relativa a tributi locali. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "690": {
       "label": "Codice 690",
@@ -1278,7 +1278,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Enti pubblici; Amministrazioni locali. La comunicazione potrebbe riguardare possibile comunicazione amministrativa oppure possibile avviso o richiesta proveniente da un ente pubblico. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "693": {
       "label": "Codice 693",
@@ -1295,7 +1295,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Banche; Istituti finanziari. La comunicazione potrebbe riguardare comunicazioni su conto corrente, mutuo o finanziamento oppure comunicazioni relative a carte o servizi finanziari. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, confronta la comunicazione con il contratto, la fattura o la pratica indicata. Controlla importi e scadenze e usa solo i canali ufficiali del soggetto mittente."
     },
     "695": {
       "label": "Raccomandata Market 695",
@@ -1313,7 +1313,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate-Riscossione; Enti pubblici. La comunicazione potrebbe riguardare possibile cartella o richiesta di pagamento oppure possibile richiesta relativa al bollo auto. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "696": {
       "label": "Raccomandata Market 696",
@@ -1331,7 +1331,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate-Riscossione; Enti pubblici. La comunicazione potrebbe riguardare possibile cartella o richiesta di pagamento oppure possibile richiesta relativa a tributi. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "697": {
       "label": "Raccomandata Market 697",
@@ -1350,7 +1350,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Enti di riscossione. La comunicazione potrebbe riguardare possibile cartella o richiesta di pagamento oppure possibile sollecito di pagamento. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "698": {
       "label": "Raccomandata Market 698",
@@ -1371,7 +1371,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Enti pubblici; Prefetture o amministrazioni. La comunicazione potrebbe riguardare possibile comunicazione amministrativa oppure possibile notifica relativa a violazioni o procedimenti. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "720": {
       "label": "Codice 720",
@@ -1387,7 +1387,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Altri enti pubblici. La comunicazione potrebbe riguardare possibile comunicazione relativa a un rimborso oppure possibile altra comunicazione amministrativa. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "721": {
       "label": "Codice 721",
@@ -1403,7 +1403,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Altri enti pubblici. La comunicazione potrebbe riguardare possibile comunicazione relativa a un rimborso oppure possibile altra comunicazione amministrativa. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "722": {
       "label": "Codice 722",
@@ -1419,7 +1419,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Altri enti pubblici. La comunicazione potrebbe riguardare possibile comunicazione relativa a un rimborso oppure possibile altra comunicazione amministrativa. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "785": {
       "label": "Codice 785",
@@ -1437,7 +1437,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Uffici giudiziari; Autorità pubbliche. La comunicazione potrebbe riguardare possibile multa oppure possibile citazione o provvedimento giudiziario. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "786": {
       "label": "Codice 786",
@@ -1455,7 +1455,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Uffici giudiziari; Autorità pubbliche. La comunicazione potrebbe riguardare possibile multa oppure possibile citazione o provvedimento giudiziario. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "787": {
       "label": "Codice 787",
@@ -1473,7 +1473,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Uffici giudiziari; Autorità pubbliche. La comunicazione potrebbe riguardare possibile multa oppure possibile citazione o provvedimento giudiziario. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "788": {
       "label": "Codice 788",
@@ -1491,7 +1491,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Uffici giudiziari; Autorità pubbliche. La comunicazione potrebbe riguardare possibile multa oppure possibile citazione o provvedimento giudiziario. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "1130": {
       "label": "Codice segnalato 1130",
@@ -1506,7 +1506,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 1130 da solo non consente una classificazione affidabile. Inserisci il codice completo come appare sull’avviso, comprese eventuali lettere, oppure verifica l’operatore indicato sul documento."
+      "nextStep": "Il prefisso 1130 non basta per una verifica attendibile. Inserisci il codice completo riportato sull’avviso, comprese eventuali lettere, per controllare se è riconoscibile."
     },
     "1513": {
       "label": "Codice 1513",
@@ -1524,7 +1524,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Privati; Aziende. La comunicazione potrebbe riguardare comunicazioni private o contrattuali oppure solleciti di pagamento. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "1514": {
       "label": "Codice 1514",
@@ -1542,7 +1542,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Privati; Aziende. La comunicazione potrebbe riguardare comunicazioni private o contrattuali oppure solleciti di pagamento. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "1515": {
       "label": "Codice 1515",
@@ -1560,7 +1560,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Privati; Aziende. La comunicazione potrebbe riguardare comunicazioni private o contrattuali oppure solleciti di pagamento. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "2000": {
       "label": "Codice 2000",
@@ -1579,7 +1579,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Gestori di utenze; Compagnie assicurative. La comunicazione potrebbe riguardare possibile sollecito di pagamento oppure possibile bolletta o fattura. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "2616": {
       "label": "Codice segnalato 2616",
@@ -1594,7 +1594,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Per il prefisso 2616 non ci sono elementi sufficienti per indicare un mittente o un contenuto attendibile. Controlla il codice completo e l’operatore riportato sull’avviso; il contenuto si conosce ritirando la comunicazione."
+      "nextStep": "Le informazioni disponibili non permettono di identificare con affidabilità questa spedizione. Controlla il codice completo e il nome dell’operatore sull’avviso; il contenuto si conosce solo ritirando la comunicazione."
     },
     "3922": {
       "label": "Raccomandata 3922",
@@ -1612,7 +1612,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Regione o ente competente per la tassa automobilistica; Ente pubblico o soggetto incaricato della riscossione. La comunicazione potrebbe riguardare possibile accertamento o richiesta di pagamento del bollo auto oppure possibile sollecito relativo alla tassa automobilistica. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "5276": {
       "label": "Raccomandata RKE 5276",
@@ -1629,7 +1629,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Agenzia delle Entrate-Riscossione. La comunicazione potrebbe riguardare possibile avviso bonario oppure possibile esito di controllo della dichiarazione dei redditi. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "5479": {
       "label": "Codice 5479",
@@ -1646,7 +1646,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Agenzia delle Entrate-Riscossione. La comunicazione potrebbe riguardare possibile comunicazione relativa a cartelle o riscossione oppure possibile comunicazione relativa a rottamazione o definizione di debiti. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "5725": {
       "label": "Raccomandata RKE 5725",
@@ -1663,7 +1663,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Enti pubblici o competenti per tributi. La comunicazione potrebbe riguardare possibile comunicazione fiscale oppure possibile richiesta relativa a tari o altri tributi. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "5726": {
       "label": "Raccomandata RKE 5726",
@@ -1680,7 +1680,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Agenzia delle Entrate-Riscossione. La comunicazione potrebbe riguardare possibile comunicazione fiscale oppure possibile comunicazione su rottamazione o definizione agevolata. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "5727": {
       "label": "Raccomandata Market 5727",
@@ -1698,7 +1698,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Agenzia delle Entrate-Riscossione. La comunicazione potrebbe riguardare possibile comunicazione rke o avviso di cortesia oppure possibile notifica o deposito di un atto. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "5728": {
       "label": "Raccomandata RKE 5728",
@@ -1716,7 +1716,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Pubblica Amministrazione; Ministeri o enti pubblici. La comunicazione potrebbe riguardare possibile atto amministrativo oppure possibile comunicazione legale o fiscale. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "5730": {
       "label": "Raccomandata RKE 5730",
@@ -1734,7 +1734,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Autorità o uffici pubblici. La comunicazione potrebbe riguardare possibile comunicazione fiscale oppure possibile atto o notifica amministrativa. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
     },
     "5731": {
       "label": "Raccomandata RKE 5731",
@@ -1752,7 +1752,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Polizia locale; Enti competenti per sanzioni stradali. La comunicazione potrebbe riguardare possibile contravvenzione oppure possibile multa stradale. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "5732": {
       "label": "Raccomandata RKE 5732",
@@ -1768,7 +1768,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: INPS; Enti previdenziali o assistenziali. La comunicazione potrebbe riguardare possibile comunicazione su pensione o contributi oppure possibile comunicazione su prestazioni o pratiche previdenziali. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
     },
     "5733": {
       "label": "Raccomandata RKE 5733",
@@ -1785,7 +1785,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate; Altri enti fiscali o pubblici. La comunicazione potrebbe riguardare possibile notifica o comunicazione fiscale oppure possibile richiesta di documentazione o chiarimenti. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "5734": {
       "label": "Raccomandata RKE 5734",
@@ -1803,7 +1803,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Comuni o enti locali; Pubblica Amministrazione. La comunicazione potrebbe riguardare possibile atto amministrativo oppure possibile comunicazione da ente locale. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "5888": {
       "label": "Codice segnalato 5888",
@@ -1818,7 +1818,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Per il prefisso 5888 non ci sono elementi sufficienti per indicare un mittente o un contenuto attendibile. Controlla il codice completo e l’operatore riportato sull’avviso; il contenuto si conosce ritirando la comunicazione."
+      "nextStep": "Le informazioni disponibili non permettono di identificare con affidabilità questa spedizione. Controlla il codice completo e il nome dell’operatore sull’avviso; il contenuto si conosce solo ritirando la comunicazione."
     },
     "6161": {
       "label": "Codice 6161",
@@ -1833,7 +1833,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Fondi pensione o fondi di previdenza integrativa. La comunicazione potrebbe riguardare possibile comunicazione relativa a previdenza complementare oppure possibile documentazione su posizione o contribuzione. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
     },
     "6196": {
       "label": "Raccomandata Market 6196",
@@ -1849,7 +1849,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Gestori luce o gas; Società di servizi. La comunicazione potrebbe riguardare possibile messa in mora oppure possibile sollecito per bolletta non pagata. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "6198": {
       "label": "Raccomandata Market 6198",
@@ -1867,7 +1867,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Comune o ente locale; Ufficio tributi. La comunicazione potrebbe riguardare possibile accertamento tari oppure possibile sollecito per tassa rifiuti non pagata. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "6199": {
       "label": "Raccomandata Market 6199",
@@ -1883,7 +1883,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Gestori del servizio idrico; Società di servizi. La comunicazione potrebbe riguardare possibile fattura acqua non pagata oppure possibile sollecito o messa in mora. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "6200": {
       "label": "Raccomandata Market 6200",
@@ -1902,7 +1902,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: INPS; Pubblica Amministrazione. La comunicazione potrebbe riguardare possibile comunicazione su invalidità civile oppure possibile ricalcolo o pratica pensionistica. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
     },
     "6856": {
       "label": "Raccomandata Market 6856",
@@ -1923,7 +1923,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Banche o finanziarie; Compagnie assicurative. La comunicazione potrebbe riguardare possibile sollecito per bolletta o pagamento oppure possibile comunicazione bancaria o carta. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "6857": {
       "label": "Raccomandata Market 6857",
@@ -1943,7 +1943,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Banche o finanziarie; Compagnie assicurative. La comunicazione potrebbe riguardare possibile sollecito di pagamento oppure possibile comunicazione bancaria o carta. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "6951": {
       "label": "Raccomandata Market 6951",
@@ -1961,7 +1961,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate-Riscossione; Enti o società di recupero crediti. La comunicazione potrebbe riguardare possibile cartella o richiesta di pagamento oppure possibile sollecito per utenze o crediti. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "6969": {
       "label": "Raccomandata Market 6969",
@@ -1979,7 +1979,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate-Riscossione; Agenzia delle Entrate. La comunicazione potrebbe riguardare possibile cartella o richiesta di pagamento oppure possibile comunicazione relativa al bollo auto. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "6970": {
       "label": "Raccomandata Market 6970",
@@ -1996,7 +1996,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: INPS. La comunicazione potrebbe riguardare possibile comunicazione su pensione oppure possibile comunicazione su contributi. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
     },
     "6971": {
       "label": "Raccomandata Market 6971",
@@ -2016,7 +2016,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate-Riscossione; INPS. La comunicazione potrebbe riguardare possibile cartella o avviso fiscale oppure possibile sollecito per bollo auto, imu o tari. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "6972": {
       "label": "Raccomandata Market 6972",
@@ -2036,7 +2036,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate-Riscossione; INPS. La comunicazione potrebbe riguardare possibile cartella o avviso fiscale oppure possibile sollecito per tributi o bollo auto. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "6975": {
       "label": "Raccomandata Market 6975",
@@ -2056,7 +2056,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate-Riscossione; INPS. La comunicazione potrebbe riguardare possibile cartella o avviso fiscale oppure possibile sollecito per tributi o bollo auto. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "6980": {
       "label": "Raccomandata Market 6980",
@@ -2076,7 +2076,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Agenzia delle Entrate-Riscossione o Regione; INPS o altri enti. La comunicazione potrebbe riguardare possibile comunicazione relativa a pagamenti o bollo auto oppure possibile comunicazione previdenziale. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
     "05": {
       "label": "Codice 05",
@@ -2094,7 +2094,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Privati; Aziende. La comunicazione potrebbe riguardare comunicazioni private o contrattuali oppure solleciti di pagamento. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "056": {
       "label": "Codice 056",
@@ -2112,7 +2112,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Banche o finanziarie; Professionisti. La comunicazione potrebbe riguardare comunicazioni bancarie o finanziarie oppure comunicazioni professionali. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "06": {
       "label": "Codice 06",
@@ -2130,7 +2130,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Privati; Banche o società finanziarie. La comunicazione potrebbe riguardare possibile comunicazione privata o commerciale oppure possibile comunicazione bancaria o assicurativa. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     },
     "050": {
       "label": "Codice raccomandata 050",
@@ -2148,7 +2148,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica il mittente e confronta la causale con le possibilità indicate: Privati; Aziende. La comunicazione potrebbe riguardare possibile comunicazione privata o commerciale oppure possibile documento con una scadenza. Controlla riferimenti, importi e date nella lettera; il prefisso da solo non conferma il contenuto."
+      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
     }
   }
 }
