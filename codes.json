@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-30",
-  "version": "4.7",
+  "version": "4.8",
   "language": "it",
   "country": "IT",
   "site": "https://raccomandatamarket.com/",
@@ -383,7 +383,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica targa, Regione competente, annualità del bollo e causale della richiesta. Confronta l’importo con le ricevute di pagamento e controlla la data entro cui puoi chiedere chiarimenti o contestare."
+      "nextStep": "Dopo il ritiro, controlla la targa o il tributo indicato, la Regione o il Comune competente e l’annualità contestata. Confronta la richiesta con le ricevute di pagamento e verifica eventuali termini per presentare chiarimenti o contestazioni."
     },
     "386": {
       "label": "Codice 386",
@@ -432,7 +432,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica targa, Regione competente, annualità del bollo e causale della richiesta. Confronta l’importo con le ricevute di pagamento e controlla la data entro cui puoi chiedere chiarimenti o contestare."
+      "nextStep": "Dopo il ritiro, controlla la targa o il tributo indicato, la Regione o il Comune competente e l’annualità contestata. Confronta la richiesta con le ricevute di pagamento e verifica eventuali termini per presentare chiarimenti o contestazioni."
     },
     "392": {
       "label": "Raccomandata 392",
@@ -450,7 +450,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica targa, Regione competente, annualità del bollo e causale della richiesta. Confronta l’importo con le ricevute di pagamento e controlla la data entro cui puoi chiedere chiarimenti o contestare."
+      "nextStep": "Dopo il ritiro, controlla la targa o il tributo indicato, la Regione o il Comune competente e l’annualità contestata. Confronta la richiesta con le ricevute di pagamento e verifica eventuali termini per presentare chiarimenti o contestazioni."
     },
     "393": {
       "label": "Codice 393",
@@ -504,7 +504,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato."
     },
     "529": {
       "label": "Codice 529",
@@ -576,7 +576,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato."
     },
     "572": {
       "label": "Raccomandata Market 572",
@@ -595,7 +595,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
+      "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato."
     },
     "573": {
       "label": "Codice 573",
@@ -614,7 +614,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
+      "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato."
     },
     "608": {
       "label": "Codice 608",
@@ -681,7 +681,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato."
     },
     "614": {
       "label": "Codice 614",
@@ -716,7 +716,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato."
     },
     "616": {
       "label": "Codice 616",
@@ -888,7 +888,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato."
     },
     "648": {
       "label": "Raccomandata Market 648",
@@ -1039,7 +1039,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, controlla chi è l’ente creditore e se Agenzia delle Entrate-Riscossione agisce come agente della riscossione. Verifica numero e data dell’atto, tributo, annualità, importo e pagamenti già effettuati; leggi con attenzione i termini per chiedere chiarimenti o contestare."
     },
     "671": {
       "label": "Raccomandata Market 671",
@@ -1057,7 +1057,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, controlla chi è l’ente creditore e se Agenzia delle Entrate-Riscossione agisce come agente della riscossione. Verifica numero e data dell’atto, tributo, annualità, importo e pagamenti già effettuati; leggi con attenzione i termini per chiedere chiarimenti o contestare."
     },
     "672": {
       "label": "Raccomandata Market 672",
@@ -1075,7 +1075,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, controlla chi è l’ente creditore e se Agenzia delle Entrate-Riscossione agisce come agente della riscossione. Verifica numero e data dell’atto, tributo, annualità, importo e pagamenti già effettuati; leggi con attenzione i termini per chiedere chiarimenti o contestare."
     },
     "673": {
       "label": "Raccomandata Market 673",
@@ -1093,7 +1093,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, controlla chi è l’ente creditore e se Agenzia delle Entrate-Riscossione agisce come agente della riscossione. Verifica numero e data dell’atto, tributo, annualità, importo e pagamenti già effettuati; leggi con attenzione i termini per chiedere chiarimenti o contestare."
     },
     "674": {
       "label": "Raccomandata Market 674",
@@ -1111,7 +1111,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato."
     },
     "675": {
       "label": "Raccomandata Market 675",
@@ -1129,7 +1129,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato."
     },
     "676": {
       "label": "Raccomandata Market 676",
@@ -1262,7 +1262,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, controlla chi è l’ente creditore e se Agenzia delle Entrate-Riscossione agisce come agente della riscossione. Verifica numero e data dell’atto, tributo, annualità, importo e pagamenti già effettuati; leggi con attenzione i termini per chiedere chiarimenti o contestare."
     },
     "690": {
       "label": "Codice 690",
@@ -1314,7 +1314,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, controlla chi è l’ente creditore e se Agenzia delle Entrate-Riscossione agisce come agente della riscossione. Verifica numero e data dell’atto, tributo, annualità, importo e pagamenti già effettuati; leggi con attenzione i termini per chiedere chiarimenti o contestare."
     },
     "696": {
       "label": "Raccomandata Market 696",
@@ -1332,7 +1332,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, controlla chi è l’ente creditore e se Agenzia delle Entrate-Riscossione agisce come agente della riscossione. Verifica numero e data dell’atto, tributo, annualità, importo e pagamenti già effettuati; leggi con attenzione i termini per chiedere chiarimenti o contestare."
     },
     "697": {
       "label": "Raccomandata Market 697",
@@ -1351,7 +1351,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato."
     },
     "698": {
       "label": "Raccomandata Market 698",
@@ -1613,7 +1613,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica targa, Regione competente, annualità del bollo e causale della richiesta. Confronta l’importo con le ricevute di pagamento e controlla la data entro cui puoi chiedere chiarimenti o contestare."
+      "nextStep": "Dopo il ritiro, controlla la targa o il tributo indicato, la Regione o il Comune competente e l’annualità contestata. Confronta la richiesta con le ricevute di pagamento e verifica eventuali termini per presentare chiarimenti o contestazioni."
     },
     "5276": {
       "label": "Raccomandata RKE 5276",
@@ -1630,7 +1630,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato."
     },
     "5479": {
       "label": "Codice 5479",
@@ -1647,7 +1647,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato."
     },
     "5725": {
       "label": "Raccomandata RKE 5725",
@@ -1664,7 +1664,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato."
     },
     "5726": {
       "label": "Raccomandata RKE 5726",
@@ -1681,7 +1681,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato."
     },
     "5727": {
       "label": "Raccomandata Market 5727",
@@ -1786,7 +1786,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato."
     },
     "5734": {
       "label": "Raccomandata RKE 5734",
@@ -1868,7 +1868,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, controlla la targa o il tributo indicato, la Regione o il Comune competente e l’annualità contestata. Confronta la richiesta con le ricevute di pagamento e verifica eventuali termini per presentare chiarimenti o contestazioni."
     },
     "6199": {
       "label": "Raccomandata Market 6199",
@@ -1962,7 +1962,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, controlla chi è l’ente creditore e se Agenzia delle Entrate-Riscossione agisce come agente della riscossione. Verifica numero e data dell’atto, tributo, annualità, importo e pagamenti già effettuati; leggi con attenzione i termini per chiedere chiarimenti o contestare."
     },
     "6969": {
       "label": "Raccomandata Market 6969",
@@ -1980,7 +1980,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
+      "nextStep": "Dopo il ritiro, controlla chi è l’ente creditore e se Agenzia delle Entrate-Riscossione agisce come agente della riscossione. Verifica numero e data dell’atto, tributo, annualità, importo e pagamenti già effettuati; leggi con attenzione i termini per chiedere chiarimenti o contestare."
     },
     "6970": {
       "label": "Raccomandata Market 6970",
