@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-30",
-  "version": "4.5",
+  "version": "4.6",
   "language": "it",
   "country": "IT",
   "site": "https://raccomandatamarket.com/",
@@ -1151,20 +1151,21 @@
     },
     "677": {
       "label": "Codice 677",
-      "type": "Possibile Raccomandata Messo",
+      "type": "Possibile avviso o comunicazione notificata tramite messo",
       "category": "Notifiche e comunicazioni amministrative",
       "possibleSenders": [
-        "Messo notificatore",
-        "Enti o soggetti che utilizzano servizi di notifica"
+        "Comune o altro ente pubblico",
+        "Agenzia delle Entrate-Riscossione (possibile, non confermata)",
+        "Altro ente o soggetto che ha richiesto la notifica"
       ],
       "possibleContents": [
-        "Possibile comunicazione notificata tramite messo",
-        "Possibile atto o comunicazione amministrativa",
-        "Possibile notifica relativa a una pratica o procedimento"
+        "Possibile avviso di deposito o giacenza di un atto",
+        "Possibile atto amministrativo o tributario",
+        "Possibile cartella, accertamento o comunicazione di riscossione: il prefisso non lo conferma"
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione presso l’ufficio indicato, portando avviso e documento. Il messo è chi esegue la notifica, non necessariamente il mittente. Dopo il ritiro, verifica quale ente ha emesso l’atto, la causale, la data di notifica e gli eventuali termini. Non dedurre un debito né effettuare pagamenti basandoti sul solo prefisso."
     },
     "684": {
       "label": "Raccomandata Market 684",
