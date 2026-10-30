@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-16",
-  "version": "4.4",
+  "lastUpdated": "2026-10-30",
+  "version": "4.5",
   "language": "it",
   "country": "IT",
   "site": "https://raccomandatamarket.com/",
@@ -381,7 +381,7 @@
         "Possibile richiesta di pagamento della tassa automobilistica",
         "Possibile comunicazione su un tributo locale o regionale collegato al veicolo"
       ],
-      "confidence": "media",
+      "confidence": "indicativa",
       "riskLevel": "da verificare",
       "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
     },
