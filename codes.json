@@ -6,24 +6,6 @@
   "site": "https://raccomandatamarket.com/",
   "disclaimer": "L'identificazione basata sul codice è esclusivamente indicativa. Non esiste un elenco pubblico ufficiale che permetta di determinare con certezza il mittente o il contenuto di una raccomandata dal solo codice. Per conoscere il contenuto effettivo è necessario verificare le informazioni ufficiali e ritirare la comunicazione.",
   "codes": {
-    "05": {
-      "label": "Codice 05",
-      "type": "Raccomandata semplice o comunicazione privata",
-      "category": "Corrispondenza ordinaria",
-      "possibleSenders": [
-        "Privati",
-        "Aziende",
-        "Professionisti o studi legali"
-      ],
-      "possibleContents": [
-        "Comunicazioni private o contrattuali",
-        "Solleciti di pagamento",
-        "Diffide o altre comunicazioni formali"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 05 è compatibile con raccomandata semplice o comunicazione privata. Controlla il mittente e verifica se la lettera riguarda un contratto, una fattura, un sollecito, una diffida o un’altra comunicazione formale. Presta attenzione a eventuali date o scadenze."
-    },
     "12": {
       "label": "Codice 12",
       "type": "Raccomandata semplice o comunicazione privata",
@@ -96,114 +78,6 @@
       "riskLevel": "non determinabile",
       "nextStep": "Il prefisso 15 è compatibile con raccomandata semplice o comunicazione privata. Controlla il mittente e verifica se la lettera riguarda un contratto, una fattura, un sollecito, una diffida o un’altra comunicazione formale. Presta attenzione a eventuali date o scadenze."
     },
-    "151": {
-      "label": "Codice 151",
-      "type": "Raccomandata semplice o comunicazione privata",
-      "category": "Corrispondenza ordinaria",
-      "possibleSenders": [
-        "Privati",
-        "Aziende",
-        "Professionisti o studi legali"
-      ],
-      "possibleContents": [
-        "Comunicazioni private o contrattuali",
-        "Solleciti di pagamento",
-        "Diffide o altre comunicazioni formali"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 151 è compatibile con raccomandata semplice o comunicazione privata. Controlla il mittente e verifica se la lettera riguarda un contratto, una fattura, un sollecito, una diffida o un’altra comunicazione formale. Presta attenzione a eventuali date o scadenze."
-    },
-    "152": {
-      "label": "Codice 152",
-      "type": "Raccomandata semplice o comunicazione privata",
-      "category": "Corrispondenza ordinaria",
-      "possibleSenders": [
-        "Privati",
-        "Aziende",
-        "Professionisti o studi legali"
-      ],
-      "possibleContents": [
-        "Comunicazioni private o contrattuali",
-        "Solleciti di pagamento",
-        "Diffide o altre comunicazioni formali"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 152 è compatibile con raccomandata semplice o comunicazione privata. Controlla il mittente e verifica se la lettera riguarda un contratto, una fattura, un sollecito, una diffida o un’altra comunicazione formale. Presta attenzione a eventuali date o scadenze."
-    },
-    "1513": {
-      "label": "Codice 1513",
-      "type": "Raccomandata semplice o comunicazione privata",
-      "category": "Corrispondenza ordinaria",
-      "possibleSenders": [
-        "Privati",
-        "Aziende",
-        "Professionisti o studi legali"
-      ],
-      "possibleContents": [
-        "Comunicazioni private o contrattuali",
-        "Solleciti di pagamento",
-        "Diffide o altre comunicazioni formali"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 1513 è compatibile con raccomandata semplice o comunicazione privata. Controlla il mittente e verifica se la lettera riguarda un contratto, una fattura, un sollecito, una diffida o un’altra comunicazione formale. Presta attenzione a eventuali date o scadenze."
-    },
-    "1514": {
-      "label": "Codice 1514",
-      "type": "Raccomandata semplice o comunicazione privata",
-      "category": "Corrispondenza ordinaria",
-      "possibleSenders": [
-        "Privati",
-        "Aziende",
-        "Professionisti o studi legali"
-      ],
-      "possibleContents": [
-        "Comunicazioni private o contrattuali",
-        "Solleciti di pagamento",
-        "Diffide o altre comunicazioni formali"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 1514 è compatibile con raccomandata semplice o comunicazione privata. Controlla il mittente e verifica se la lettera riguarda un contratto, una fattura, un sollecito, una diffida o un’altra comunicazione formale. Presta attenzione a eventuali date o scadenze."
-    },
-    "1515": {
-      "label": "Codice 1515",
-      "type": "Raccomandata semplice o comunicazione privata",
-      "category": "Corrispondenza ordinaria",
-      "possibleSenders": [
-        "Privati",
-        "Aziende",
-        "Professionisti o studi legali"
-      ],
-      "possibleContents": [
-        "Comunicazioni private o contrattuali",
-        "Solleciti di pagamento",
-        "Diffide o altre comunicazioni formali"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 1515 è compatibile con raccomandata semplice o comunicazione privata. Controlla il mittente e verifica se la lettera riguarda un contratto, una fattura, un sollecito, una diffida o un’altra comunicazione formale. Presta attenzione a eventuali date o scadenze."
-    },
-    "056": {
-      "label": "Codice 056",
-      "type": "Possibile comunicazione da soggetto privato",
-      "category": "Privati e servizi",
-      "possibleSenders": [
-        "Banche o finanziarie",
-        "Professionisti",
-        "Aziende o altri soggetti privati"
-      ],
-      "possibleContents": [
-        "Comunicazioni bancarie o finanziarie",
-        "Comunicazioni professionali",
-        "Altre comunicazioni private o commerciali"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 056 è associato a comunicazioni di natura variabile. Controlla chi ha inviato la lettera e se riguarda comunicazioni bancarie o finanziarie oppure comunicazioni professionali. Verifica contratto o pratica, importi e scadenze prima di effettuare pagamenti o rispondere."
-    },
     "63": {
       "label": "Codice 63",
       "type": "Possibile comunicazione previdenziale",
@@ -238,39 +112,21 @@
       "riskLevel": "da verificare",
       "nextStep": "Il prefisso 65 viene associato a possibile comunicazione previdenziale. Dopo il ritiro verifica l’ente mittente, la pratica o prestazione richiamata, i periodi contributivi interessati e qualsiasi documento o risposta richiesta."
     },
-    "630": {
-      "label": "Codice 630",
-      "type": "Possibile comunicazione previdenziale",
-      "category": "INPS e previdenza",
+    "72": {
+      "label": "Codice 72",
+      "type": "Possibile comunicazione relativa a un rimborso",
+      "category": "Rimborsi e Pubblica Amministrazione",
       "possibleSenders": [
-        "INPS",
-        "Enti previdenziali o assistenziali"
+        "Agenzia delle Entrate",
+        "Enti pubblici o amministrazioni"
       ],
       "possibleContents": [
-        "Comunicazioni su pensioni o contributi",
-        "Comunicazioni su invalidità o prestazioni",
-        "Possibili convocazioni o visite mediche"
+        "Possibile rimborso o accredito",
+        "Possibile comunicazione amministrativa collegata a somme a credito"
       ],
       "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il prefisso 630 viene associato a possibile comunicazione previdenziale. Dopo il ritiro verifica l’ente mittente, la pratica o prestazione richiamata, i periodi contributivi interessati e qualsiasi documento o risposta richiesta."
-    },
-    "650": {
-      "label": "Codice 650",
-      "type": "Possibile comunicazione previdenziale",
-      "category": "INPS e previdenza",
-      "possibleSenders": [
-        "INPS",
-        "Enti previdenziali o assistenziali"
-      ],
-      "possibleContents": [
-        "Comunicazioni su pensioni o contributi",
-        "Comunicazioni su invalidità o prestazioni",
-        "Possibili convocazioni o visite mediche"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il prefisso 650 viene associato a possibile comunicazione previdenziale. Dopo il ritiro verifica l’ente mittente, la pratica o prestazione richiamata, i periodi contributivi interessati e qualsiasi documento o risposta richiesta."
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 72 può riguardare una comunicazione su rimborsi o accrediti. Verifica l’ente mittente, il motivo del rimborso, l’importo e gli eventuali dati richiesti. Non comunicare dati sensibili o bancari tramite canali non ufficiali."
     },
     "75": {
       "label": "Codice 75",
@@ -362,6 +218,173 @@
       "riskLevel": "da verificare",
       "nextStep": "Il prefisso 79 può essere collegato a possibile multa o atto giudiziario. Ritira la comunicazione e controlla subito autorità o ente mittente, oggetto, date ed eventuali termini per pagamento, risposta o contestazione. Non è possibile stabilire il singolo atto dal solo prefisso."
     },
+    "113": {
+      "label": "Codice segnalato 113",
+      "type": "Prefisso parziale segnalato: serve il codice completo per una verifica affidabile",
+      "category": "Codice parziale - operatore da verificare",
+      "possibleSenders": [
+        "Mittente non determinabile dal solo prefisso 113"
+      ],
+      "possibleContents": [
+        "Il prefisso 113 da solo non permette di identificare il contenuto",
+        "Se sull’avviso compare un codice completo nel formato R + 11 cifre, il sistema può verificare l’eventuale operatore postale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Hai inserito solo il prefisso 113. Non esistono fonti pubbliche sufficienti per attribuire con certezza questo prefisso a un mittente o contenuto specifico. Inserisci il codice completo esattamente come appare sull’avviso, comprese eventuali lettere iniziali. Se il codice è nel formato R seguito da 11 cifre e l’avviso è Fulmine Group, il decoder può riconoscere l’operatore."
+    },
+    "151": {
+      "label": "Codice 151",
+      "type": "Raccomandata semplice o comunicazione privata",
+      "category": "Corrispondenza ordinaria",
+      "possibleSenders": [
+        "Privati",
+        "Aziende",
+        "Professionisti o studi legali"
+      ],
+      "possibleContents": [
+        "Comunicazioni private o contrattuali",
+        "Solleciti di pagamento",
+        "Diffide o altre comunicazioni formali"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 151 è compatibile con raccomandata semplice o comunicazione privata. Controlla il mittente e verifica se la lettera riguarda un contratto, una fattura, un sollecito, una diffida o un’altra comunicazione formale. Presta attenzione a eventuali date o scadenze."
+    },
+    "152": {
+      "label": "Codice 152",
+      "type": "Raccomandata semplice o comunicazione privata",
+      "category": "Corrispondenza ordinaria",
+      "possibleSenders": [
+        "Privati",
+        "Aziende",
+        "Professionisti o studi legali"
+      ],
+      "possibleContents": [
+        "Comunicazioni private o contrattuali",
+        "Solleciti di pagamento",
+        "Diffide o altre comunicazioni formali"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 152 è compatibile con raccomandata semplice o comunicazione privata. Controlla il mittente e verifica se la lettera riguarda un contratto, una fattura, un sollecito, una diffida o un’altra comunicazione formale. Presta attenzione a eventuali date o scadenze."
+    },
+    "154": {
+      "label": "Codice raccomandata 154",
+      "type": "Raccomandata semplice o comunicazione privata",
+      "category": "Privati, aziende e professionisti",
+      "possibleSenders": [
+        "Privati o aziende",
+        "Avvocati o altri professionisti",
+        "Datore di lavoro",
+        "Compagnie assicurative",
+        "Amministratori di condominio o gestori di servizi"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione privata o contrattuale",
+        "Possibile diffida o sollecito di pagamento",
+        "Possibile comunicazione di lavoro",
+        "Possibile comunicazione assicurativa o condominiale",
+        "Possibile avviso relativo a una fattura o utenza"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il 154 è normalmente ricondotto a una raccomandata semplice. Controlla chi l’ha inviata e se riguarda un contratto, una diffida, il lavoro, il condominio, un’assicurazione o un pagamento; verifica sempre eventuali scadenze."
+    },
+    "200": {
+      "label": "Codice 200",
+      "type": "Possibile comunicazione commerciale o di recupero crediti",
+      "category": "Pagamenti e servizi",
+      "possibleSenders": [
+        "Gestori di utenze",
+        "Compagnie assicurative",
+        "Società di recupero crediti",
+        "Altri soggetti privati"
+      ],
+      "possibleContents": [
+        "Possibile sollecito di pagamento",
+        "Possibile bolletta o fattura",
+        "Possibile comunicazione assicurativa o relativa a veicoli"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 200 è associato a comunicazioni di natura variabile. Controlla chi ha inviato la lettera e se riguarda possibile sollecito di pagamento oppure possibile bolletta o fattura. Verifica contratto o pratica, importi e scadenze prima di effettuare pagamenti o rispondere."
+    },
+    "201": {
+      "label": "Codice 201",
+      "type": "Possibile comunicazione commerciale o di recupero crediti",
+      "category": "Pagamenti e servizi",
+      "possibleSenders": [
+        "Gestori di utenze",
+        "Compagnie assicurative",
+        "Società di recupero crediti",
+        "Altri soggetti privati"
+      ],
+      "possibleContents": [
+        "Possibile sollecito di pagamento",
+        "Possibile bolletta o fattura",
+        "Possibile comunicazione assicurativa o relativa a veicoli"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 201 è associato a comunicazioni di natura variabile. Controlla chi ha inviato la lettera e se riguarda possibile sollecito di pagamento oppure possibile bolletta o fattura. Verifica contratto o pratica, importi e scadenze prima di effettuare pagamenti o rispondere."
+    },
+    "202": {
+      "label": "Codice 202",
+      "type": "Possibile comunicazione privata, bancaria o di recupero crediti",
+      "category": "Privati, banche e recupero crediti",
+      "possibleSenders": [
+        "Privati",
+        "Banche o finanziarie",
+        "Compagnie assicurative",
+        "Studi legali",
+        "Società di recupero crediti"
+      ],
+      "possibleContents": [
+        "Possibile sollecito di pagamento",
+        "Possibile comunicazione bancaria o assicurativa",
+        "Possibile diffida o messa in mora",
+        "Possibile comunicazione contrattuale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 202 può riguardare possibile comunicazione privata, bancaria o di recupero crediti. Verifica il mittente, il rapporto o prodotto indicato (conto, carta, finanziamento o altro), eventuali importi e la presenza di richieste operative. Per dati o pagamenti usa soltanto i canali ufficiali dell’istituto."
+    },
+    "260": {
+      "label": "Codice 260",
+      "type": "Possibile Raccomandata gestita da Eurisko Post",
+      "category": "Raccomandate e comunicazioni postali",
+      "possibleSenders": [
+        "Eurisko Post",
+        "Soggetti o enti che utilizzano i servizi postali Eurisko"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione tramite Raccomandata",
+        "Possibile comunicazione amministrativa o privata",
+        "Possibile documento o notifica affidata al servizio postale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il codice 260 è compatibile con una spedizione Raccomandata gestita tramite Eurisko Post. Il solo codice non permette di identificare con certezza il mittente o il contenuto. Verifica sempre i dati riportati sull'avviso e ritira la comunicazione per conoscere il contenuto effettivo."
+    },
+    "381": {
+      "label": "Raccomandata Market 381",
+      "type": "Possibile comunicazione relativa al bollo auto o a un tributo sul veicolo",
+      "category": "Bollo auto e tributi regionali",
+      "possibleSenders": [
+        "Regione o ente competente per la tassa automobilistica",
+        "Agenzia delle Entrate o soggetto incaricato della riscossione",
+        "Comune o altro ente pubblico"
+      ],
+      "possibleContents": [
+        "Possibile sollecito o accertamento relativo al bollo auto",
+        "Possibile richiesta di pagamento della tassa automobilistica",
+        "Possibile comunicazione su un tributo locale o regionale collegato al veicolo"
+      ],
+      "confidence": "media",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 381 viene associato soprattutto a comunicazioni relative al bollo auto o ad altri tributi sul veicolo. Dopo il ritiro verifica ente mittente, targa o veicolo indicato, anno di riferimento, importo ed eventuali scadenze. Se hai già pagato, confronta i dati con la ricevuta prima di effettuare un nuovo pagamento."
+    },
     "386": {
       "label": "Codice 386",
       "type": "Possibile multa o comunicazione amministrativa",
@@ -411,62 +434,168 @@
       "riskLevel": "da verificare",
       "nextStep": "Il prefisso 390 orienta verso possibile comunicazione relativa al bollo auto. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile accertamento sul bollo auto e possibile richiesta di pagamento relativa a tassa automobilistica. Il codice da solo non prova il contenuto della singola raccomandata."
     },
-    "200": {
-      "label": "Codice 200",
-      "type": "Possibile comunicazione commerciale o di recupero crediti",
-      "category": "Pagamenti e servizi",
+    "392": {
+      "label": "Raccomandata 392",
+      "type": "Possibile accertamento relativo al bollo auto o altra comunicazione formale",
+      "category": "Bollo auto e comunicazioni formali",
       "possibleSenders": [
-        "Gestori di utenze",
-        "Compagnie assicurative",
-        "Società di recupero crediti",
-        "Altri soggetti privati"
+        "Regione o ente competente per la tassa automobilistica",
+        "Ente pubblico o soggetto incaricato della riscossione",
+        "Autorità o altro mittente istituzionale"
       ],
       "possibleContents": [
-        "Possibile sollecito di pagamento",
-        "Possibile bolletta o fattura",
-        "Possibile comunicazione assicurativa o relativa a veicoli"
+        "Possibile avviso di accertamento o pagamento del bollo auto",
+        "Possibile sollecito relativo alla tassa automobilistica",
+        "In alcune segnalazioni, possibile altra comunicazione formale o giudiziaria"
       ],
       "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 200 è associato a comunicazioni di natura variabile. Controlla chi ha inviato la lettera e se riguarda possibile sollecito di pagamento oppure possibile bolletta o fattura. Verifica contratto o pratica, importi e scadenze prima di effettuare pagamenti o rispondere."
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 392 viene associato soprattutto ad accertamenti o richieste relative al bollo auto, ma le segnalazioni non sono uniformi. Controlla quindi il mittente effettivo e verifica targa, anno, importo, causale ed eventuali termini riportati nella comunicazione."
     },
-    "201": {
-      "label": "Codice 201",
-      "type": "Possibile comunicazione commerciale o di recupero crediti",
-      "category": "Pagamenti e servizi",
+    "393": {
+      "label": "Codice 393",
+      "type": "Possibile atto giudiziario o sanzione amministrativa",
+      "category": "Atti e Codice della Strada",
       "possibleSenders": [
-        "Gestori di utenze",
-        "Compagnie assicurative",
-        "Società di recupero crediti",
-        "Altri soggetti privati"
+        "Polizia Municipale",
+        "Enti locali",
+        "Autorità pubbliche o competenti"
       ],
       "possibleContents": [
-        "Possibile sollecito di pagamento",
-        "Possibile bolletta o fattura",
-        "Possibile comunicazione assicurativa o relativa a veicoli"
+        "Possibile multa o verbale",
+        "Possibile infrazione al Codice della Strada",
+        "Possibile altro atto amministrativo o giudiziario"
       ],
       "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 201 è associato a comunicazioni di natura variabile. Controlla chi ha inviato la lettera e se riguarda possibile sollecito di pagamento oppure possibile bolletta o fattura. Verifica contratto o pratica, importi e scadenze prima di effettuare pagamenti o rispondere."
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 393 può essere collegato a possibile atto giudiziario o sanzione amministrativa. Ritira la comunicazione e controlla subito autorità o ente mittente, oggetto, date ed eventuali termini per pagamento, risposta o contestazione. Non è possibile stabilire il singolo atto dal solo prefisso."
     },
-    "2000": {
-      "label": "Codice 2000",
-      "type": "Possibile comunicazione commerciale o di recupero crediti",
-      "category": "Pagamenti e servizi",
+    "398": {
+      "label": "Codice 398",
+      "type": "Possibile comunicazione previdenziale o amministrativa",
+      "category": "INPS e previdenza",
       "possibleSenders": [
-        "Gestori di utenze",
-        "Compagnie assicurative",
-        "Società di recupero crediti",
-        "Altri soggetti privati"
+        "INPS",
+        "Enti previdenziali",
+        "Pubblica Amministrazione"
       ],
       "possibleContents": [
-        "Possibile sollecito di pagamento",
-        "Possibile bolletta o fattura",
-        "Possibile comunicazione assicurativa o relativa a veicoli"
+        "Possibile comunicazione su pensione o prestazioni",
+        "Possibile comunicazione contributiva",
+        "Possibile pratica amministrativa o assistenziale"
       ],
       "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 2000 è associato a comunicazioni di natura variabile. Controlla chi ha inviato la lettera e se riguarda possibile sollecito di pagamento oppure possibile bolletta o fattura. Verifica contratto o pratica, importi e scadenze prima di effettuare pagamenti o rispondere."
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 398 viene associato a possibile comunicazione previdenziale o amministrativa. Dopo il ritiro verifica l’ente mittente, la pratica o prestazione richiamata, i periodi contributivi interessati e qualsiasi documento o risposta richiesta."
+    },
+    "527": {
+      "label": "Raccomandata RKE 527",
+      "type": "Possibile comunicazione fiscale o avviso bonario",
+      "category": "Fisco e riscossione",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Agenzia delle Entrate-Riscossione",
+        "Enti pubblici o competenti per tributi"
+      ],
+      "possibleContents": [
+        "Possibile avviso bonario o esito di controllo automatizzato",
+        "Possibile richiesta di regolarizzazione o modello F24",
+        "Possibile comunicazione su tributi, bollo auto o altre somme"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il 527 è spesso associato a comunicazioni fiscali o richieste di regolarizzazione. Dopo il ritiro controlla periodo d’imposta, importi, eventuale modello F24 e termine indicato prima di effettuare qualsiasi pagamento."
+    },
+    "529": {
+      "label": "Codice 529",
+      "type": "Possibile comunicazione relativa a recupero crediti o notifiche",
+      "category": "Comunicazioni amministrative e private",
+      "possibleSenders": [
+        "Società di recupero crediti",
+        "Aziende o soggetti privati",
+        "Uffici o soggetti incaricati di notifiche"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione relativa a recupero crediti",
+        "Possibile sollecito o richiesta di pagamento",
+        "Possibile comunicazione amministrativa o notifica"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 529 è stato segnalato in relazione a comunicazioni di natura variabile, incluse possibili attività di recupero crediti o notifiche. Il solo codice non permette di identificare con certezza il mittente o il contenuto. Verifica il mittente indicato sull'avviso e ritira la comunicazione per conoscere il contenuto effettivo."
+    },
+    "549": {
+      "label": "Codice 549",
+      "type": "Possibile comunicazione fiscale, amministrativa o di riscossione",
+      "category": "Fisco e amministrazione",
+      "possibleSenders": [
+        "Agenzia delle Entrate o Agenzia delle Entrate-Riscossione",
+        "Enti locali o di riscossione",
+        "Altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile sollecito o richiesta di pagamento",
+        "Possibile comunicazione fiscale",
+        "Possibile pratica amministrativa"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 549 orienta verso possibile comunicazione fiscale, amministrativa o di riscossione. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile sollecito o richiesta di pagamento e possibile comunicazione fiscale. Il codice da solo non prova il contenuto della singola raccomandata."
+    },
+    "569": {
+      "label": "Raccomandata RKE 569",
+      "type": "Possibile comunicazione fiscale o di riscossione",
+      "category": "Fisco e riscossione",
+      "possibleSenders": [
+        "Agenzia delle Entrate-Riscossione",
+        "Agenzia delle Entrate",
+        "Enti pubblici o soggetti incaricati della riscossione"
+      ],
+      "possibleContents": [
+        "Possibile cartella o comunicazione di riscossione",
+        "Possibile richiesta o sollecito di pagamento",
+        "Possibile comunicazione relativa a tributi, sanzioni o somme iscritte a ruolo",
+        "Possibile comunicazione relativa a definizioni o procedure di regolarizzazione"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il 569 è stato associato soprattutto a comunicazioni fiscali o di riscossione. Controlla se sull’avviso compaiono riferimenti a enti fiscali o di riscossione; dopo il ritiro verifica subito importi, motivo della richiesta e scadenze."
+    },
+    "570": {
+      "label": "Codice 570",
+      "type": "Possibile comunicazione fiscale",
+      "category": "Fisco",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Altri enti fiscali o pubblici"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione fiscale",
+        "Possibile richiesta di documentazione",
+        "Possibile avviso o controllo"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 570 orienta verso possibile comunicazione fiscale. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile comunicazione fiscale e possibile richiesta di documentazione. Il codice da solo non prova il contenuto della singola raccomandata."
+    },
+    "572": {
+      "label": "Raccomandata Market 572",
+      "type": "Possibile comunicazione fiscale o amministrativa",
+      "category": "Fisco, riscossione e notifiche",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Agenzia delle Entrate-Riscossione",
+        "INPS o altri enti pubblici"
+      ],
+      "possibleContents": [
+        "Possibile notifica relativa a un atto",
+        "Possibile comunicazione sulla riscossione",
+        "Possibile controllo fiscale o richiesta di pagamento",
+        "Possibile documentazione relativa a pratiche pubbliche"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 572 orienta verso possibile comunicazione fiscale o amministrativa. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile notifica relativa a un atto e possibile comunicazione sulla riscossione. Il codice da solo non prova il contenuto della singola raccomandata."
     },
     "573": {
       "label": "Codice 573",
@@ -536,40 +665,6 @@
       "riskLevel": "non determinabile",
       "nextStep": "Il prefisso 612 può riguardare possibile comunicazione bancaria o finanziaria. Verifica il mittente, il rapporto o prodotto indicato (conto, carta, finanziamento o altro), eventuali importi e la presenza di richieste operative. Per dati o pagamenti usa soltanto i canali ufficiali dell’istituto."
     },
-    "614": {
-      "label": "Codice 614",
-      "type": "Possibile comunicazione bancaria o finanziaria",
-      "category": "Banche e servizi",
-      "possibleSenders": [
-        "Banche",
-        "Istituti finanziari",
-        "Poste Italiane o operatori di servizi"
-      ],
-      "possibleContents": [
-        "Comunicazioni su conto corrente, mutuo o finanziamento",
-        "Comunicazioni relative a carte o servizi finanziari"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 614 può riguardare possibile comunicazione bancaria o finanziaria. Verifica il mittente, il rapporto o prodotto indicato (conto, carta, finanziamento o altro), eventuali importi e la presenza di richieste operative. Per dati o pagamenti usa soltanto i canali ufficiali dell’istituto."
-    },
-    "693": {
-      "label": "Codice 693",
-      "type": "Possibile comunicazione bancaria o finanziaria",
-      "category": "Banche e servizi",
-      "possibleSenders": [
-        "Banche",
-        "Istituti finanziari",
-        "Poste Italiane o operatori di servizi"
-      ],
-      "possibleContents": [
-        "Comunicazioni su conto corrente, mutuo o finanziamento",
-        "Comunicazioni relative a carte o servizi finanziari"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 693 può riguardare possibile comunicazione bancaria o finanziaria. Verifica il mittente, il rapporto o prodotto indicato (conto, carta, finanziamento o altro), eventuali importi e la presenza di richieste operative. Per dati o pagamenti usa soltanto i canali ufficiali dell’istituto."
-    },
     "613": {
       "label": "Codice 613",
       "type": "Possibile comunicazione fiscale o amministrativa",
@@ -587,6 +682,23 @@
       "confidence": "indicativa",
       "riskLevel": "da verificare",
       "nextStep": "Il prefisso 613 orienta verso possibile comunicazione fiscale o amministrativa. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile comunicazione fiscale e possibile richiesta relativa a imposte o pagamenti. Il codice da solo non prova il contenuto della singola raccomandata."
+    },
+    "614": {
+      "label": "Codice 614",
+      "type": "Possibile comunicazione bancaria o finanziaria",
+      "category": "Banche e servizi",
+      "possibleSenders": [
+        "Banche",
+        "Istituti finanziari",
+        "Poste Italiane o operatori di servizi"
+      ],
+      "possibleContents": [
+        "Comunicazioni su conto corrente, mutuo o finanziamento",
+        "Comunicazioni relative a carte o servizi finanziari"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 614 può riguardare possibile comunicazione bancaria o finanziaria. Verifica il mittente, il rapporto o prodotto indicato (conto, carta, finanziamento o altro), eventuali importi e la presenza di richieste operative. Per dati o pagamenti usa soltanto i canali ufficiali dell’istituto."
     },
     "615": {
       "label": "Codice 615",
@@ -625,21 +737,6 @@
       "confidence": "indicativa",
       "riskLevel": "da verificare",
       "nextStep": "Il prefisso 616 è associato a comunicazioni di natura variabile. Controlla chi ha inviato la lettera e se riguarda possibile bollo auto oppure possibile comunicazione assicurativa. Verifica contratto o pratica, importi e scadenze prima di effettuare pagamenti o rispondere."
-    },
-    "6161": {
-      "label": "Codice 6161",
-      "type": "Possibile comunicazione previdenziale",
-      "category": "Previdenza integrativa",
-      "possibleSenders": [
-        "Fondi pensione o fondi di previdenza integrativa"
-      ],
-      "possibleContents": [
-        "Possibile comunicazione relativa a previdenza complementare",
-        "Possibile documentazione su posizione o contribuzione"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 6161 viene associato a possibile comunicazione previdenziale. Dopo il ritiro verifica l’ente mittente, la pratica o prestazione richiamata, i periodi contributivi interessati e qualsiasi documento o risposta richiesta."
     },
     "617": {
       "label": "Codice 617",
@@ -699,6 +796,27 @@
       "riskLevel": "non determinabile",
       "nextStep": "Il prefisso 619 può essere collegato a possibile comunicazione privata, commerciale o amministrativa. Ritira la comunicazione e controlla subito autorità o ente mittente, oggetto, date ed eventuali termini per pagamento, risposta o contestazione. Non è possibile stabilire il singolo atto dal solo prefisso."
     },
+    "620": {
+      "label": "Raccomandata Market 620",
+      "type": "Comunicazione di natura variabile",
+      "category": "Previdenza, banche e servizi",
+      "possibleSenders": [
+        "INPS o altri enti",
+        "Banche o finanziarie",
+        "Compagnie assicurative",
+        "Gestori di utenze",
+        "Studi legali o società private"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione previdenziale",
+        "Possibile comunicazione bancaria o contrattuale",
+        "Possibile sollecito di pagamento",
+        "Possibile pratica amministrativa"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 620 viene associato a comunicazione di natura variabile. Dopo il ritiro verifica l’ente mittente, la pratica o prestazione richiamata, i periodi contributivi interessati e qualsiasi documento o risposta richiesta."
+    },
     "628": {
       "label": "Codice 628",
       "type": "Possibile comunicazione su bollo auto, pagamenti o da professionisti",
@@ -716,6 +834,61 @@
       "confidence": "indicativa",
       "riskLevel": "da verificare",
       "nextStep": "Il prefisso 628 è associato a comunicazioni di natura variabile. Controlla chi ha inviato la lettera e se riguarda possibile pagamento o mancato pagamento del bollo auto oppure possibile comunicazione da un avvocato. Verifica contratto o pratica, importi e scadenze prima di effettuare pagamenti o rispondere."
+    },
+    "629": {
+      "label": "Raccomandata Market 629",
+      "type": "Possibile comunicazione amministrativa, bancaria o privata",
+      "category": "Servizi, banche e notifiche",
+      "possibleSenders": [
+        "Banche o finanziarie",
+        "INPS o altri enti",
+        "Privati o studi legali",
+        "Altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile conferma o comunicazione relativa a una precedente consegna",
+        "Possibile comunicazione sul bollo auto",
+        "Possibile invio di carta bancaria",
+        "Possibile sollecito o comunicazione privata"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 629 può essere collegato a possibile comunicazione amministrativa, bancaria o privata. Ritira la comunicazione e controlla subito autorità o ente mittente, oggetto, date ed eventuali termini per pagamento, risposta o contestazione. Non è possibile stabilire il singolo atto dal solo prefisso."
+    },
+    "630": {
+      "label": "Codice 630",
+      "type": "Possibile comunicazione previdenziale",
+      "category": "INPS e previdenza",
+      "possibleSenders": [
+        "INPS",
+        "Enti previdenziali o assistenziali"
+      ],
+      "possibleContents": [
+        "Comunicazioni su pensioni o contributi",
+        "Comunicazioni su invalidità o prestazioni",
+        "Possibili convocazioni o visite mediche"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 630 viene associato a possibile comunicazione previdenziale. Dopo il ritiro verifica l’ente mittente, la pratica o prestazione richiamata, i periodi contributivi interessati e qualsiasi documento o risposta richiesta."
+    },
+    "647": {
+      "label": "Raccomandata Market 647",
+      "type": "Possibile comunicazione fiscale",
+      "category": "Fisco e controlli",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Altri enti fiscali o pubblici"
+      ],
+      "possibleContents": [
+        "Possibile avviso bonario",
+        "Possibile richiesta di documentazione",
+        "Possibile comunicazione relativa a controlli fiscali",
+        "Possibile sollecito o richiesta di pagamento"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 647 orienta verso possibile comunicazione fiscale. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile avviso bonario e possibile richiesta di documentazione. Il codice da solo non prova il contenuto della singola raccomandata."
     },
     "648": {
       "label": "Raccomandata Market 648",
@@ -756,6 +929,23 @@
       "confidence": "indicativa",
       "riskLevel": "da verificare",
       "nextStep": "Il prefisso 649 orienta verso possibile comunicazione fiscale, previdenziale, bancaria o di pagamento. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile richiesta o sollecito di pagamento e possibile comunicazione INPS. Il codice da solo non prova il contenuto della singola raccomandata."
+    },
+    "650": {
+      "label": "Codice 650",
+      "type": "Possibile comunicazione previdenziale",
+      "category": "INPS e previdenza",
+      "possibleSenders": [
+        "INPS",
+        "Enti previdenziali o assistenziali"
+      ],
+      "possibleContents": [
+        "Comunicazioni su pensioni o contributi",
+        "Comunicazioni su invalidità o prestazioni",
+        "Possibili convocazioni o visite mediche"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 650 viene associato a possibile comunicazione previdenziale. Dopo il ritiro verifica l’ente mittente, la pratica o prestazione richiamata, i periodi contributivi interessati e qualsiasi documento o risposta richiesta."
     },
     "664": {
       "label": "Raccomandata Market 664",
@@ -869,6 +1059,24 @@
       "riskLevel": "da verificare",
       "nextStep": "Il prefisso 671 orienta verso possibile comunicazione di riscossione. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile cartella di pagamento e possibile richiesta o sollecito relativo a tributi. Il codice da solo non prova il contenuto della singola raccomandata."
     },
+    "672": {
+      "label": "Raccomandata Market 672",
+      "type": "Possibile comunicazione di riscossione",
+      "category": "Riscossione e tributi",
+      "possibleSenders": [
+        "Agenzia delle Entrate-Riscossione",
+        "Enti di riscossione",
+        "Altri enti pubblici"
+      ],
+      "possibleContents": [
+        "Possibile cartella di pagamento",
+        "Possibile intimazione o richiesta relativa a somme iscritte a ruolo",
+        "Possibile comunicazione relativa a tributi o sanzioni"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il 672 viene associato a comunicazioni di riscossione. Dopo il ritiro verifica ente mittente, tipo di atto, importi, causale ed eventuali scadenze prima di decidere come procedere."
+    },
     "673": {
       "label": "Raccomandata Market 673",
       "type": "Possibile comunicazione di riscossione",
@@ -905,6 +1113,24 @@
       "riskLevel": "da verificare",
       "nextStep": "Il prefisso 674 orienta verso possibile comunicazione fiscale o amministrativa. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile avviso bonario e possibile richiesta di chiarimenti o documentazione. Il codice da solo non prova il contenuto della singola raccomandata."
     },
+    "675": {
+      "label": "Raccomandata Market 675",
+      "type": "Possibile comunicazione fiscale, amministrativa o di riscossione",
+      "category": "Riscossione e tributi locali",
+      "possibleSenders": [
+        "Agenzia delle Entrate-Riscossione",
+        "Comuni, Regioni o altri enti pubblici",
+        "Soggetti incaricati della riscossione"
+      ],
+      "possibleContents": [
+        "Possibile avviso o sollecito di pagamento",
+        "Possibile comunicazione su TARI, bollo auto o altri tributi",
+        "Possibile comunicazione amministrativa o di riscossione"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il 675 è stato segnalato in contesti fiscali, amministrativi e di riscossione. Verifica quale ente ha scritto, il tributo o la pratica interessata, l’anno di riferimento e gli eventuali termini."
+    },
     "676": {
       "label": "Raccomandata Market 676",
       "type": "Possibile comunicazione fiscale, previdenziale o di riscossione",
@@ -915,14 +1141,30 @@
         "Società incaricate della riscossione per Comuni o Regioni"
       ],
       "possibleContents": [
-        "Possibile sollecito per tributi non versati",
-        "Possibile comunicazione su contributi previdenziali",
-        "Possibile avviso bonario",
+        "Possibile sollecito o avviso relativo a tributi",
+        "Possibile comunicazione su contributi o prestazioni previdenziali",
         "Possibile richiesta di chiarimenti fiscali"
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Il prefisso 676 orienta verso possibile comunicazione fiscale, previdenziale o di riscossione. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile sollecito per tributi non versati e possibile comunicazione su contributi previdenziali. Il codice da solo non prova il contenuto della singola raccomandata."
+      "nextStep": "Dopo il ritiro, controlla chi ha inviato la lettera, a quale tributo o pratica si riferisce e l’anno indicato. Se trovi un importo o una scadenza, verifica i dettagli nel documento prima di pagare o rispondere."
+    },
+    "677": {
+      "label": "Codice 677",
+      "type": "Possibile Raccomandata Messo",
+      "category": "Notifiche e comunicazioni amministrative",
+      "possibleSenders": [
+        "Messo notificatore",
+        "Enti o soggetti che utilizzano servizi di notifica"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione notificata tramite messo",
+        "Possibile atto o comunicazione amministrativa",
+        "Possibile notifica relativa a una pratica o procedimento"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 677 è stato osservato su un avviso con tipologia Raccomandata Messo. Il solo codice non permette di identificare con certezza il mittente o il contenuto. Verifica sempre il mittente e gli altri dati presenti sull'avviso e ritira la comunicazione per conoscere il contenuto effettivo."
     },
     "684": {
       "label": "Raccomandata Market 684",
@@ -960,6 +1202,26 @@
       "confidence": "indicativa",
       "riskLevel": "da verificare",
       "nextStep": "Il prefisso 685 orienta verso possibile comunicazione relativa a pagamenti o tributi. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile multa e possibile comunicazione relativa a tasse o tributi. Il codice da solo non prova il contenuto della singola raccomandata."
+    },
+    "686": {
+      "label": "Raccomandata Market 686",
+      "type": "Possibile sollecito di pagamento o comunicazione relativa a crediti, utenze o tributi",
+      "category": "Pagamenti, recupero crediti e tributi",
+      "possibleSenders": [
+        "Gestori di luce, gas, acqua o telecomunicazioni",
+        "Banche, finanziarie o società di recupero crediti",
+        "Comuni o soggetti incaricati della riscossione di tributi locali",
+        "INPS o altri enti, secondo alcune segnalazioni"
+      ],
+      "possibleContents": [
+        "Possibile sollecito di pagamento o messa in mora",
+        "Possibile rata, bolletta o fattura non pagata",
+        "Possibile comunicazione relativa a TARI, bollo o altri tributi locali",
+        "Possibile comunicazione di recupero crediti"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 686 viene associato soprattutto a solleciti di pagamento e comunicazioni su crediti, utenze o tributi. Dopo il ritiro verifica il mittente, il contratto o tributo interessato, l'anno o periodo di riferimento, l'importo e la scadenza. Se viene richiesto un pagamento, confronta i dati con i tuoi documenti e usa esclusivamente i canali ufficiali del mittente."
     },
     "688": {
       "label": "Raccomandata Market 688",
@@ -1001,6 +1263,40 @@
       "riskLevel": "da verificare",
       "nextStep": "Il 689 viene spesso associato a riscossione e tributi. Dopo il ritiro verifica ente mittente, tributo o cartella richiamata, anno di riferimento, importo ed eventuali termini per pagamento o chiarimenti."
     },
+    "690": {
+      "label": "Codice 690",
+      "type": "Possibile comunicazione della Pubblica Amministrazione",
+      "category": "Pubblica Amministrazione",
+      "possibleSenders": [
+        "Enti pubblici",
+        "Amministrazioni locali",
+        "Altri uffici della Pubblica Amministrazione"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione amministrativa",
+        "Possibile avviso o richiesta proveniente da un ente pubblico"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 690 può essere collegato a possibile comunicazione della Pubblica Amministrazione. Dopo il ritiro identifica l’ente mittente, la pratica o il procedimento citato e controlla se sono richiesti documenti, pagamenti o una risposta entro una data."
+    },
+    "693": {
+      "label": "Codice 693",
+      "type": "Possibile comunicazione bancaria o finanziaria",
+      "category": "Banche e servizi",
+      "possibleSenders": [
+        "Banche",
+        "Istituti finanziari",
+        "Poste Italiane o operatori di servizi"
+      ],
+      "possibleContents": [
+        "Comunicazioni su conto corrente, mutuo o finanziamento",
+        "Comunicazioni relative a carte o servizi finanziari"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 693 può riguardare possibile comunicazione bancaria o finanziaria. Verifica il mittente, il rapporto o prodotto indicato (conto, carta, finanziamento o altro), eventuali importi e la presenza di richieste operative. Per dati o pagamenti usa soltanto i canali ufficiali dell’istituto."
+    },
     "695": {
       "label": "Raccomandata Market 695",
       "type": "Possibile comunicazione di riscossione o pagamento",
@@ -1018,24 +1314,6 @@
       "confidence": "indicativa",
       "riskLevel": "da verificare",
       "nextStep": "Il prefisso 695 orienta verso possibile comunicazione di riscossione o pagamento. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile cartella o richiesta di pagamento e possibile richiesta relativa al bollo auto. Il codice da solo non prova il contenuto della singola raccomandata."
-    },
-    "6951": {
-      "label": "Raccomandata Market 6951",
-      "type": "Possibile comunicazione di riscossione, pagamento o recupero crediti",
-      "category": "Riscossione e pagamenti",
-      "possibleSenders": [
-        "Agenzia delle Entrate-Riscossione",
-        "Enti o società di recupero crediti",
-        "Banche o altri soggetti"
-      ],
-      "possibleContents": [
-        "Possibile cartella o richiesta di pagamento",
-        "Possibile sollecito per utenze o crediti",
-        "Possibile comunicazione bancaria o assicurativa"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il prefisso 6951 orienta verso possibile comunicazione di riscossione, pagamento o recupero crediti. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile cartella o richiesta di pagamento e possibile sollecito per utenze o crediti. Il codice da solo non prova il contenuto della singola raccomandata."
     },
     "696": {
       "label": "Raccomandata Market 696",
@@ -1215,390 +1493,126 @@
       "riskLevel": "da verificare",
       "nextStep": "Il prefisso 788 può essere collegato a possibile atto giudiziario o amministrativo. Ritira la comunicazione e controlla subito autorità o ente mittente, oggetto, date ed eventuali termini per pagamento, risposta o contestazione. Non è possibile stabilire il singolo atto dal solo prefisso."
     },
-    "202": {
-      "label": "Codice 202",
-      "type": "Possibile comunicazione privata, bancaria o di recupero crediti",
-      "category": "Privati, banche e recupero crediti",
+    "1130": {
+      "label": "Codice segnalato 1130",
+      "type": "Prefisso parziale segnalato: serve il codice completo per una verifica affidabile",
+      "category": "Codice parziale - operatore da verificare",
+      "possibleSenders": [
+        "Mittente non determinabile dal solo prefisso 1130"
+      ],
+      "possibleContents": [
+        "Il prefisso 1130 da solo non identifica il contenuto della raccomandata",
+        "Un codice completo alfanumerico può permettere di riconoscere l’operatore postale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 1130 è stato segnalato in un avviso Fulmine Group, ma 1130 da solo non prova che ogni spedizione con queste cifre appartenga allo stesso operatore. Inserisci il codice completo esattamente come stampato sull’avviso, inclusa l’eventuale lettera R. Un codice completo R seguito da 11 cifre viene controllato separatamente dal decoder."
+    },
+    "1513": {
+      "label": "Codice 1513",
+      "type": "Raccomandata semplice o comunicazione privata",
+      "category": "Corrispondenza ordinaria",
       "possibleSenders": [
         "Privati",
-        "Banche o finanziarie",
-        "Compagnie assicurative",
-        "Studi legali",
-        "Società di recupero crediti"
+        "Aziende",
+        "Professionisti o studi legali"
       ],
       "possibleContents": [
-        "Possibile sollecito di pagamento",
-        "Possibile comunicazione bancaria o assicurativa",
-        "Possibile diffida o messa in mora",
-        "Possibile comunicazione contrattuale"
+        "Comunicazioni private o contrattuali",
+        "Solleciti di pagamento",
+        "Diffide o altre comunicazioni formali"
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 202 può riguardare possibile comunicazione privata, bancaria o di recupero crediti. Verifica il mittente, il rapporto o prodotto indicato (conto, carta, finanziamento o altro), eventuali importi e la presenza di richieste operative. Per dati o pagamenti usa soltanto i canali ufficiali dell’istituto."
+      "nextStep": "Il prefisso 1513 è compatibile con raccomandata semplice o comunicazione privata. Controlla il mittente e verifica se la lettera riguarda un contratto, una fattura, un sollecito, una diffida o un’altra comunicazione formale. Presta attenzione a eventuali date o scadenze."
     },
-    "393": {
-      "label": "Codice 393",
-      "type": "Possibile atto giudiziario o sanzione amministrativa",
-      "category": "Atti e Codice della Strada",
-      "possibleSenders": [
-        "Polizia Municipale",
-        "Enti locali",
-        "Autorità pubbliche o competenti"
-      ],
-      "possibleContents": [
-        "Possibile multa o verbale",
-        "Possibile infrazione al Codice della Strada",
-        "Possibile altro atto amministrativo o giudiziario"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il prefisso 393 può essere collegato a possibile atto giudiziario o sanzione amministrativa. Ritira la comunicazione e controlla subito autorità o ente mittente, oggetto, date ed eventuali termini per pagamento, risposta o contestazione. Non è possibile stabilire il singolo atto dal solo prefisso."
-    },
-    "398": {
-      "label": "Codice 398",
-      "type": "Possibile comunicazione previdenziale o amministrativa",
-      "category": "INPS e previdenza",
-      "possibleSenders": [
-        "INPS",
-        "Enti previdenziali",
-        "Pubblica Amministrazione"
-      ],
-      "possibleContents": [
-        "Possibile comunicazione su pensione o prestazioni",
-        "Possibile comunicazione contributiva",
-        "Possibile pratica amministrativa o assistenziale"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il prefisso 398 viene associato a possibile comunicazione previdenziale o amministrativa. Dopo il ritiro verifica l’ente mittente, la pratica o prestazione richiamata, i periodi contributivi interessati e qualsiasi documento o risposta richiesta."
-    },
-    "549": {
-      "label": "Codice 549",
-      "type": "Possibile comunicazione fiscale, amministrativa o di riscossione",
-      "category": "Fisco e amministrazione",
-      "possibleSenders": [
-        "Agenzia delle Entrate o Agenzia delle Entrate-Riscossione",
-        "Enti locali o di riscossione",
-        "Altri soggetti"
-      ],
-      "possibleContents": [
-        "Possibile sollecito o richiesta di pagamento",
-        "Possibile comunicazione fiscale",
-        "Possibile pratica amministrativa"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il prefisso 549 orienta verso possibile comunicazione fiscale, amministrativa o di riscossione. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile sollecito o richiesta di pagamento e possibile comunicazione fiscale. Il codice da solo non prova il contenuto della singola raccomandata."
-    },
-    "570": {
-      "label": "Codice 570",
-      "type": "Possibile comunicazione fiscale",
-      "category": "Fisco",
-      "possibleSenders": [
-        "Agenzia delle Entrate",
-        "Altri enti fiscali o pubblici"
-      ],
-      "possibleContents": [
-        "Possibile comunicazione fiscale",
-        "Possibile richiesta di documentazione",
-        "Possibile avviso o controllo"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il prefisso 570 orienta verso possibile comunicazione fiscale. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile comunicazione fiscale e possibile richiesta di documentazione. Il codice da solo non prova il contenuto della singola raccomandata."
-    },
-    "572": {
-      "label": "Raccomandata Market 572",
-      "type": "Possibile comunicazione fiscale o amministrativa",
-      "category": "Fisco, riscossione e notifiche",
-      "possibleSenders": [
-        "Agenzia delle Entrate",
-        "Agenzia delle Entrate-Riscossione",
-        "INPS o altri enti pubblici"
-      ],
-      "possibleContents": [
-        "Possibile notifica relativa a un atto",
-        "Possibile comunicazione sulla riscossione",
-        "Possibile controllo fiscale o richiesta di pagamento",
-        "Possibile documentazione relativa a pratiche pubbliche"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il prefisso 572 orienta verso possibile comunicazione fiscale o amministrativa. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile notifica relativa a un atto e possibile comunicazione sulla riscossione. Il codice da solo non prova il contenuto della singola raccomandata."
-    },
-    "5727": {
-      "label": "Raccomandata Market 5727",
-      "type": "Possibile comunicazione RKE fiscale o amministrativa",
-      "category": "Fisco e notifiche",
-      "possibleSenders": [
-        "Agenzia delle Entrate",
-        "Agenzia delle Entrate-Riscossione",
-        "Altri enti pubblici"
-      ],
-      "possibleContents": [
-        "Possibile comunicazione RKE o avviso di cortesia",
-        "Possibile notifica o deposito di un atto",
-        "Possibile comunicazione fiscale o di riscossione"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il 5727 è stato associato a comunicazioni RKE fiscali o amministrative. Controlla sull’avviso eventuali riferimenti all’ente e, dopo il ritiro, verifica oggetto, importi e termini indicati."
-    },
-    "620": {
-      "label": "Raccomandata Market 620",
-      "type": "Comunicazione di natura variabile",
-      "category": "Previdenza, banche e servizi",
-      "possibleSenders": [
-        "INPS o altri enti",
-        "Banche o finanziarie",
-        "Compagnie assicurative",
-        "Gestori di utenze",
-        "Studi legali o società private"
-      ],
-      "possibleContents": [
-        "Possibile comunicazione previdenziale",
-        "Possibile comunicazione bancaria o contrattuale",
-        "Possibile sollecito di pagamento",
-        "Possibile pratica amministrativa"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 620 viene associato a comunicazione di natura variabile. Dopo il ritiro verifica l’ente mittente, la pratica o prestazione richiamata, i periodi contributivi interessati e qualsiasi documento o risposta richiesta."
-    },
-    "629": {
-      "label": "Raccomandata Market 629",
-      "type": "Possibile comunicazione amministrativa, bancaria o privata",
-      "category": "Servizi, banche e notifiche",
-      "possibleSenders": [
-        "Banche o finanziarie",
-        "INPS o altri enti",
-        "Privati o studi legali",
-        "Altri soggetti"
-      ],
-      "possibleContents": [
-        "Possibile conferma o comunicazione relativa a una precedente consegna",
-        "Possibile comunicazione sul bollo auto",
-        "Possibile invio di carta bancaria",
-        "Possibile sollecito o comunicazione privata"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 629 può essere collegato a possibile comunicazione amministrativa, bancaria o privata. Ritira la comunicazione e controlla subito autorità o ente mittente, oggetto, date ed eventuali termini per pagamento, risposta o contestazione. Non è possibile stabilire il singolo atto dal solo prefisso."
-    },
-    "647": {
-      "label": "Raccomandata Market 647",
-      "type": "Possibile comunicazione fiscale",
-      "category": "Fisco e controlli",
-      "possibleSenders": [
-        "Agenzia delle Entrate",
-        "Altri enti fiscali o pubblici"
-      ],
-      "possibleContents": [
-        "Possibile avviso bonario",
-        "Possibile richiesta di documentazione",
-        "Possibile comunicazione relativa a controlli fiscali",
-        "Possibile sollecito o richiesta di pagamento"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il prefisso 647 orienta verso possibile comunicazione fiscale. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile avviso bonario e possibile richiesta di documentazione. Il codice da solo non prova il contenuto della singola raccomandata."
-    },
-    "690": {
-      "label": "Codice 690",
-      "type": "Possibile comunicazione della Pubblica Amministrazione",
-      "category": "Pubblica Amministrazione",
-      "possibleSenders": [
-        "Enti pubblici",
-        "Amministrazioni locali",
-        "Altri uffici della Pubblica Amministrazione"
-      ],
-      "possibleContents": [
-        "Possibile comunicazione amministrativa",
-        "Possibile avviso o richiesta proveniente da un ente pubblico"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il prefisso 690 può essere collegato a possibile comunicazione della Pubblica Amministrazione. Dopo il ritiro identifica l’ente mittente, la pratica o il procedimento citato e controlla se sono richiesti documenti, pagamenti o una risposta entro una data."
-    },
-    "6970": {
-      "label": "Raccomandata Market 6970",
-      "type": "Possibile comunicazione previdenziale",
-      "category": "INPS e previdenza",
-      "possibleSenders": [
-        "INPS"
-      ],
-      "possibleContents": [
-        "Possibile comunicazione su pensione",
-        "Possibile comunicazione su contributi",
-        "Possibile prestazione a sostegno del reddito",
-        "Possibile contenzioso o pratica previdenziale"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il 6970 viene associato in varie segnalazioni a comunicazioni INPS. Controlla nel documento la pratica previdenziale, pensionistica o contributiva richiamata e verifica eventuali richieste o termini."
-    },
-    "6980": {
-      "label": "Raccomandata Market 6980",
-      "type": "Possibile comunicazione amministrativa, fiscale o finanziaria",
-      "category": "Enti, banche e pagamenti",
-      "possibleSenders": [
-        "Agenzia delle Entrate-Riscossione o Regione",
-        "INPS o altri enti",
-        "Banche o finanziarie",
-        "Società di recupero crediti"
-      ],
-      "possibleContents": [
-        "Possibile comunicazione relativa a pagamenti o bollo auto",
-        "Possibile comunicazione previdenziale",
-        "Possibile sollecito di pagamento",
-        "Possibile comunicazione bancaria o finanziaria"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Le segnalazioni sul 6980 sono molto variabili. Identifica prima il mittente effettivo e poi verifica se si tratta di pagamenti, bollo auto, previdenza, banca o recupero crediti; non effettuare pagamenti basandoti sul solo codice."
-    },
-    "6856": {
-      "label": "Raccomandata Market 6856",
-      "type": "Possibile comunicazione su pagamenti, banche o servizi",
-      "category": "Pagamenti, banche e servizi",
-      "possibleSenders": [
-        "Banche o finanziarie",
-        "Compagnie assicurative",
-        "Gestori di utenze",
-        "INPS o enti locali",
-        "Privati o studi legali"
-      ],
-      "possibleContents": [
-        "Possibile sollecito per bolletta o pagamento",
-        "Possibile comunicazione bancaria o carta",
-        "Possibile comunicazione su veicolo o assicurazione",
-        "Possibile comunicazione previdenziale o privata"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 6856 può riguardare possibile comunicazione su pagamenti, banche o servizi. Verifica il mittente, il rapporto o prodotto indicato (conto, carta, finanziamento o altro), eventuali importi e la presenza di richieste operative. Per dati o pagamenti usa soltanto i canali ufficiali dell’istituto."
-    },
-    "6857": {
-      "label": "Raccomandata Market 6857",
-      "type": "Possibile comunicazione su pagamenti, banche o servizi",
-      "category": "Pagamenti, banche e servizi",
-      "possibleSenders": [
-        "Banche o finanziarie",
-        "Compagnie assicurative",
-        "Gestori di utenze",
-        "Enti o privati"
-      ],
-      "possibleContents": [
-        "Possibile sollecito di pagamento",
-        "Possibile comunicazione bancaria o carta",
-        "Possibile comunicazione su veicolo o assicurazione",
-        "Possibile bolletta non pagata"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 6857 può riguardare possibile comunicazione su pagamenti, banche o servizi. Verifica il mittente, il rapporto o prodotto indicato (conto, carta, finanziamento o altro), eventuali importi e la presenza di richieste operative. Per dati o pagamenti usa soltanto i canali ufficiali dell’istituto."
-    },
-    "6969": {
-      "label": "Raccomandata Market 6969",
-      "type": "Possibile comunicazione fiscale o di riscossione",
-      "category": "Riscossione e pagamenti",
-      "possibleSenders": [
-        "Agenzia delle Entrate-Riscossione",
-        "Agenzia delle Entrate",
-        "Altri enti o soggetti"
-      ],
-      "possibleContents": [
-        "Possibile cartella o richiesta di pagamento",
-        "Possibile comunicazione relativa al bollo auto",
-        "Possibile sollecito per fatture o tributi"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il prefisso 6969 orienta verso possibile comunicazione fiscale o di riscossione. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile cartella o richiesta di pagamento e possibile comunicazione relativa al bollo auto. Il codice da solo non prova il contenuto della singola raccomandata."
-    },
-    "6196": {
-      "label": "Raccomandata Market 6196",
-      "type": "Possibile sollecito da gestore di utenze",
-      "category": "Utenze e pagamenti",
-      "possibleSenders": [
-        "Gestori luce o gas",
-        "Società di servizi"
-      ],
-      "possibleContents": [
-        "Possibile messa in mora",
-        "Possibile sollecito per bolletta non pagata"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il 6196 è stato segnalato per solleciti legati a utenze. Verifica il gestore, il numero cliente o contratto, la fattura interessata e l’importo prima di pagare; confronta i dati con i tuoi documenti."
-    },
-    "6199": {
-      "label": "Raccomandata Market 6199",
-      "type": "Possibile sollecito relativo a servizio idrico",
-      "category": "Utenze e pagamenti",
-      "possibleSenders": [
-        "Gestori del servizio idrico",
-        "Società di servizi"
-      ],
-      "possibleContents": [
-        "Possibile fattura acqua non pagata",
-        "Possibile sollecito o messa in mora"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il 6199 è stato segnalato per comunicazioni relative al servizio idrico. Verifica gestore, utenza, numero fattura, periodo e importo; se qualcosa non coincide, contatta il gestore tramite i suoi canali ufficiali."
-    },
-    "06": {
-      "label": "Codice 06",
-      "type": "Possibile raccomandata da soggetto privato",
-      "category": "Privati e servizi",
+    "1514": {
+      "label": "Codice 1514",
+      "type": "Raccomandata semplice o comunicazione privata",
+      "category": "Corrispondenza ordinaria",
       "possibleSenders": [
         "Privati",
-        "Banche o società finanziarie",
-        "Aziende, assicurazioni o società di servizi"
+        "Aziende",
+        "Professionisti o studi legali"
       ],
       "possibleContents": [
-        "Possibile comunicazione privata o commerciale",
-        "Possibile comunicazione bancaria o assicurativa",
-        "Possibile sollecito o altra comunicazione formale"
+        "Comunicazioni private o contrattuali",
+        "Solleciti di pagamento",
+        "Diffide o altre comunicazioni formali"
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 06 è associato a comunicazioni di natura variabile. Controlla chi ha inviato la lettera e se riguarda possibile comunicazione privata o commerciale oppure possibile comunicazione bancaria o assicurativa. Verifica contratto o pratica, importi e scadenze prima di effettuare pagamenti o rispondere."
+      "nextStep": "Il prefisso 1514 è compatibile con raccomandata semplice o comunicazione privata. Controlla il mittente e verifica se la lettera riguarda un contratto, una fattura, un sollecito, una diffida o un’altra comunicazione formale. Presta attenzione a eventuali date o scadenze."
     },
-    "72": {
-      "label": "Codice 72",
-      "type": "Possibile comunicazione relativa a un rimborso",
-      "category": "Rimborsi e Pubblica Amministrazione",
+    "1515": {
+      "label": "Codice 1515",
+      "type": "Raccomandata semplice o comunicazione privata",
+      "category": "Corrispondenza ordinaria",
       "possibleSenders": [
-        "Agenzia delle Entrate",
-        "Enti pubblici o amministrazioni"
+        "Privati",
+        "Aziende",
+        "Professionisti o studi legali"
       ],
       "possibleContents": [
-        "Possibile rimborso o accredito",
-        "Possibile comunicazione amministrativa collegata a somme a credito"
+        "Comunicazioni private o contrattuali",
+        "Solleciti di pagamento",
+        "Diffide o altre comunicazioni formali"
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 72 può riguardare una comunicazione su rimborsi o accrediti. Verifica l’ente mittente, il motivo del rimborso, l’importo e gli eventuali dati richiesti. Non comunicare dati sensibili o bancari tramite canali non ufficiali."
+      "nextStep": "Il prefisso 1515 è compatibile con raccomandata semplice o comunicazione privata. Controlla il mittente e verifica se la lettera riguarda un contratto, una fattura, un sollecito, una diffida o un’altra comunicazione formale. Presta attenzione a eventuali date o scadenze."
     },
-    "527": {
-      "label": "Raccomandata RKE 527",
-      "type": "Possibile comunicazione fiscale o avviso bonario",
-      "category": "Fisco e riscossione",
+    "2000": {
+      "label": "Codice 2000",
+      "type": "Possibile comunicazione commerciale o di recupero crediti",
+      "category": "Pagamenti e servizi",
       "possibleSenders": [
-        "Agenzia delle Entrate",
-        "Agenzia delle Entrate-Riscossione",
-        "Enti pubblici o competenti per tributi"
+        "Gestori di utenze",
+        "Compagnie assicurative",
+        "Società di recupero crediti",
+        "Altri soggetti privati"
       ],
       "possibleContents": [
-        "Possibile avviso bonario o esito di controllo automatizzato",
-        "Possibile richiesta di regolarizzazione o modello F24",
-        "Possibile comunicazione su tributi, bollo auto o altre somme"
+        "Possibile sollecito di pagamento",
+        "Possibile bolletta o fattura",
+        "Possibile comunicazione assicurativa o relativa a veicoli"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 2000 è associato a comunicazioni di natura variabile. Controlla chi ha inviato la lettera e se riguarda possibile sollecito di pagamento oppure possibile bolletta o fattura. Verifica contratto o pratica, importi e scadenze prima di effettuare pagamenti o rispondere."
+    },
+    "2616": {
+      "label": "Codice segnalato 2616",
+      "type": "Prefisso reale segnalato dagli utenti, non classificabile con affidabilità dal solo codice",
+      "category": "Codice segnalato - classificazione da verificare",
+      "possibleSenders": [
+        "Mittente non determinabile con affidabilità dal solo prefisso"
+      ],
+      "possibleContents": [
+        "Contenuto non determinabile con affidabilità dal solo prefisso",
+        "Il codice completo può comunque essere utilizzato per verificare lo stato della spedizione"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 2616 è stato segnalato da utenti reali, ma al momento non risultano fonti italiane sufficientemente affidabili per attribuirlo a un mittente o contenuto specifico. Per evitare informazioni errate non facciamo supposizioni: controlla il codice completo tramite il tracciamento ufficiale e ritira la comunicazione per identificarla."
+    },
+    "3922": {
+      "label": "Raccomandata 3922",
+      "type": "Possibile comunicazione della famiglia 392, spesso collegata al bollo auto",
+      "category": "Bollo auto e comunicazioni formali",
+      "possibleSenders": [
+        "Regione o ente competente per la tassa automobilistica",
+        "Ente pubblico o soggetto incaricato della riscossione",
+        "Altro mittente istituzionale"
+      ],
+      "possibleContents": [
+        "Possibile accertamento o richiesta di pagamento del bollo auto",
+        "Possibile sollecito relativo alla tassa automobilistica",
+        "Possibile altra comunicazione formale"
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Il 527 è spesso associato a comunicazioni fiscali o richieste di regolarizzazione. Dopo il ritiro controlla periodo d’imposta, importi, eventuale modello F24 e termine indicato prima di effettuare qualsiasi pagamento."
+      "nextStep": "Il sotto-prefisso 3922 rientra nella famiglia 392. Le associazioni disponibili online lo collegano soprattutto al bollo auto, ma non esiste una tabella ufficiale pubblica che consenta di identificare con certezza il contenuto. Verifica mittente, targa o pratica, importo ed eventuali scadenze nel documento effettivo."
     },
     "5276": {
       "label": "Raccomandata RKE 5276",
@@ -1617,24 +1631,22 @@
       "riskLevel": "da verificare",
       "nextStep": "Il 5276 viene segnalato in relazione ad avvisi fiscali e controlli automatizzati. Verifica nel documento l’ente mittente, l’anno o periodo interessato, gli importi richiesti e le modalità ufficiali per chiarire o regolarizzare."
     },
-    "569": {
-      "label": "Raccomandata RKE 569",
+    "5479": {
+      "label": "Codice 5479",
       "type": "Possibile comunicazione fiscale o di riscossione",
       "category": "Fisco e riscossione",
       "possibleSenders": [
-        "Agenzia delle Entrate-Riscossione",
         "Agenzia delle Entrate",
-        "Enti pubblici o soggetti incaricati della riscossione"
+        "Agenzia delle Entrate-Riscossione"
       ],
       "possibleContents": [
-        "Possibile cartella o comunicazione di riscossione",
-        "Possibile richiesta o sollecito di pagamento",
-        "Possibile comunicazione relativa a tributi, sanzioni o somme iscritte a ruolo",
-        "Possibile comunicazione relativa a definizioni o procedure di regolarizzazione"
+        "Possibile comunicazione relativa a cartelle o riscossione",
+        "Possibile comunicazione relativa a rottamazione o definizione di debiti",
+        "Possibile avviso o comunicazione tributaria"
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Il 569 è stato associato soprattutto a comunicazioni fiscali o di riscossione. Controlla se sull’avviso compaiono riferimenti a enti fiscali o di riscossione; dopo il ritiro verifica subito importi, motivo della richiesta e scadenze."
+      "nextStep": "Il codice 5479 è stato associato da utenti a comunicazioni dell'Agenzia delle Entrate o dell'Agenzia delle Entrate-Riscossione, incluse comunicazioni relative a riscossione, cartelle o rottamazione. Il solo codice non permette di identificare con certezza il mittente o il contenuto. Verifica sempre il mittente indicato sull'avviso e ritira la comunicazione per conoscere il contenuto effettivo."
     },
     "5725": {
       "label": "Raccomandata RKE 5725",
@@ -1669,6 +1681,24 @@
       "confidence": "indicativa",
       "riskLevel": "da verificare",
       "nextStep": "Il 5726 può essere collegato a comunicazioni fiscali o procedure di definizione. Verifica nel documento l’ente mittente, la pratica richiamata, gli importi e le scadenze; non basarti sul solo prefisso."
+    },
+    "5727": {
+      "label": "Raccomandata Market 5727",
+      "type": "Possibile comunicazione RKE fiscale o amministrativa",
+      "category": "Fisco e notifiche",
+      "possibleSenders": [
+        "Agenzia delle Entrate",
+        "Agenzia delle Entrate-Riscossione",
+        "Altri enti pubblici"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione RKE o avviso di cortesia",
+        "Possibile notifica o deposito di un atto",
+        "Possibile comunicazione fiscale o di riscossione"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il 5727 è stato associato a comunicazioni RKE fiscali o amministrative. Controlla sull’avviso eventuali riferimenti all’ente e, dopo il ritiro, verifica oggetto, importi e termini indicati."
     },
     "5728": {
       "label": "Raccomandata RKE 5728",
@@ -1775,6 +1805,52 @@
       "riskLevel": "da verificare",
       "nextStep": "Il 5734 viene associato ad atti amministrativi di enti pubblici. Controlla quale ente ha inviato la raccomandata, a quale pratica si riferisce e se sono presenti richieste o scadenze da rispettare."
     },
+    "5888": {
+      "label": "Codice segnalato 5888",
+      "type": "Prefisso reale segnalato dagli utenti, non classificabile con affidabilità dal solo codice",
+      "category": "Codice segnalato - classificazione da verificare",
+      "possibleSenders": [
+        "Mittente non determinabile con affidabilità dal solo prefisso"
+      ],
+      "possibleContents": [
+        "Contenuto non determinabile con affidabilità dal solo prefisso",
+        "Il codice completo può comunque essere utilizzato per verificare lo stato della spedizione"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 5888 è stato segnalato da utenti reali, ma al momento non risultano fonti italiane sufficientemente affidabili per attribuirlo a un mittente o contenuto specifico. Per evitare informazioni errate non facciamo supposizioni: controlla il codice completo tramite il tracciamento ufficiale e ritira la comunicazione per identificarla."
+    },
+    "6161": {
+      "label": "Codice 6161",
+      "type": "Possibile comunicazione previdenziale",
+      "category": "Previdenza integrativa",
+      "possibleSenders": [
+        "Fondi pensione o fondi di previdenza integrativa"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione relativa a previdenza complementare",
+        "Possibile documentazione su posizione o contribuzione"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 6161 viene associato a possibile comunicazione previdenziale. Dopo il ritiro verifica l’ente mittente, la pratica o prestazione richiamata, i periodi contributivi interessati e qualsiasi documento o risposta richiesta."
+    },
+    "6196": {
+      "label": "Raccomandata Market 6196",
+      "type": "Possibile sollecito da gestore di utenze",
+      "category": "Utenze e pagamenti",
+      "possibleSenders": [
+        "Gestori luce o gas",
+        "Società di servizi"
+      ],
+      "possibleContents": [
+        "Possibile messa in mora",
+        "Possibile sollecito per bolletta non pagata"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il 6196 è stato segnalato per solleciti legati a utenze. Verifica il gestore, il numero cliente o contratto, la fattura interessata e l’importo prima di pagare; confronta i dati con i tuoi documenti."
+    },
     "6198": {
       "label": "Raccomandata Market 6198",
       "type": "Possibile comunicazione relativa a TARI o tributi locali",
@@ -1792,6 +1868,22 @@
       "confidence": "indicativa",
       "riskLevel": "da verificare",
       "nextStep": "Con il 6198 controlla in particolare eventuali riferimenti a TARI, Comune o ufficio tributi. Verifica anno di riferimento, immobile o utenza, importo ed eventuali scadenze indicate nella comunicazione."
+    },
+    "6199": {
+      "label": "Raccomandata Market 6199",
+      "type": "Possibile sollecito relativo a servizio idrico",
+      "category": "Utenze e pagamenti",
+      "possibleSenders": [
+        "Gestori del servizio idrico",
+        "Società di servizi"
+      ],
+      "possibleContents": [
+        "Possibile fattura acqua non pagata",
+        "Possibile sollecito o messa in mora"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il 6199 è stato segnalato per comunicazioni relative al servizio idrico. Verifica gestore, utenza, numero fattura, periodo e importo; se qualcosa non coincide, contatta il gestore tramite i suoi canali ufficiali."
     },
     "6200": {
       "label": "Raccomandata Market 6200",
@@ -1812,41 +1904,99 @@
       "riskLevel": "da verificare",
       "nextStep": "Il 6200 è stato associato a comunicazioni INPS o della Pubblica Amministrazione. Dopo il ritiro verifica ente, pratica o prestazione interessata e qualsiasi documento o risposta richiesta."
     },
-    "672": {
-      "label": "Raccomandata Market 672",
-      "type": "Possibile comunicazione di riscossione",
-      "category": "Riscossione e tributi",
+    "6856": {
+      "label": "Raccomandata Market 6856",
+      "type": "Possibile comunicazione su pagamenti, banche o servizi",
+      "category": "Pagamenti, banche e servizi",
       "possibleSenders": [
-        "Agenzia delle Entrate-Riscossione",
-        "Enti di riscossione",
-        "Altri enti pubblici"
+        "Banche o finanziarie",
+        "Compagnie assicurative",
+        "Gestori di utenze",
+        "INPS o enti locali",
+        "Privati o studi legali"
       ],
       "possibleContents": [
-        "Possibile cartella di pagamento",
-        "Possibile intimazione o richiesta relativa a somme iscritte a ruolo",
-        "Possibile comunicazione relativa a tributi o sanzioni"
+        "Possibile sollecito per bolletta o pagamento",
+        "Possibile comunicazione bancaria o carta",
+        "Possibile comunicazione su veicolo o assicurazione",
+        "Possibile comunicazione previdenziale o privata"
       ],
       "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il 672 viene associato a comunicazioni di riscossione. Dopo il ritiro verifica ente mittente, tipo di atto, importi, causale ed eventuali scadenze prima di decidere come procedere."
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 6856 può riguardare possibile comunicazione su pagamenti, banche o servizi. Verifica il mittente, il rapporto o prodotto indicato (conto, carta, finanziamento o altro), eventuali importi e la presenza di richieste operative. Per dati o pagamenti usa soltanto i canali ufficiali dell’istituto."
     },
-    "675": {
-      "label": "Raccomandata Market 675",
-      "type": "Possibile comunicazione fiscale, amministrativa o di riscossione",
-      "category": "Riscossione e tributi locali",
+    "6857": {
+      "label": "Raccomandata Market 6857",
+      "type": "Possibile comunicazione su pagamenti, banche o servizi",
+      "category": "Pagamenti, banche e servizi",
       "possibleSenders": [
-        "Agenzia delle Entrate-Riscossione",
-        "Comuni, Regioni o altri enti pubblici",
-        "Soggetti incaricati della riscossione"
+        "Banche o finanziarie",
+        "Compagnie assicurative",
+        "Gestori di utenze",
+        "Enti o privati"
       ],
       "possibleContents": [
-        "Possibile avviso o sollecito di pagamento",
-        "Possibile comunicazione su TARI, bollo auto o altri tributi",
-        "Possibile comunicazione amministrativa o di riscossione"
+        "Possibile sollecito di pagamento",
+        "Possibile comunicazione bancaria o carta",
+        "Possibile comunicazione su veicolo o assicurazione",
+        "Possibile bolletta non pagata"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 6857 può riguardare possibile comunicazione su pagamenti, banche o servizi. Verifica il mittente, il rapporto o prodotto indicato (conto, carta, finanziamento o altro), eventuali importi e la presenza di richieste operative. Per dati o pagamenti usa soltanto i canali ufficiali dell’istituto."
+    },
+    "6951": {
+      "label": "Raccomandata Market 6951",
+      "type": "Possibile comunicazione di riscossione, pagamento o recupero crediti",
+      "category": "Riscossione e pagamenti",
+      "possibleSenders": [
+        "Agenzia delle Entrate-Riscossione",
+        "Enti o società di recupero crediti",
+        "Banche o altri soggetti"
+      ],
+      "possibleContents": [
+        "Possibile cartella o richiesta di pagamento",
+        "Possibile sollecito per utenze o crediti",
+        "Possibile comunicazione bancaria o assicurativa"
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Il 675 è stato segnalato in contesti fiscali, amministrativi e di riscossione. Verifica quale ente ha scritto, il tributo o la pratica interessata, l’anno di riferimento e gli eventuali termini."
+      "nextStep": "Il prefisso 6951 orienta verso possibile comunicazione di riscossione, pagamento o recupero crediti. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile cartella o richiesta di pagamento e possibile sollecito per utenze o crediti. Il codice da solo non prova il contenuto della singola raccomandata."
+    },
+    "6969": {
+      "label": "Raccomandata Market 6969",
+      "type": "Possibile comunicazione fiscale o di riscossione",
+      "category": "Riscossione e pagamenti",
+      "possibleSenders": [
+        "Agenzia delle Entrate-Riscossione",
+        "Agenzia delle Entrate",
+        "Altri enti o soggetti"
+      ],
+      "possibleContents": [
+        "Possibile cartella o richiesta di pagamento",
+        "Possibile comunicazione relativa al bollo auto",
+        "Possibile sollecito per fatture o tributi"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il prefisso 6969 orienta verso possibile comunicazione fiscale o di riscossione. Dopo il ritiro verifica mittente, causale, periodo di riferimento, eventuali importi e scadenze. Tra le possibilità riportate nel database: possibile cartella o richiesta di pagamento e possibile comunicazione relativa al bollo auto. Il codice da solo non prova il contenuto della singola raccomandata."
+    },
+    "6970": {
+      "label": "Raccomandata Market 6970",
+      "type": "Possibile comunicazione previdenziale",
+      "category": "INPS e previdenza",
+      "possibleSenders": [
+        "INPS"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione su pensione",
+        "Possibile comunicazione su contributi",
+        "Possibile prestazione a sostegno del reddito",
+        "Possibile contenzioso o pratica previdenziale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Il 6970 viene associato in varie segnalazioni a comunicazioni INPS. Controlla nel documento la pratica previdenziale, pensionistica o contributiva richiamata e verifica eventuali richieste o termini."
     },
     "6971": {
       "label": "Raccomandata Market 6971",
@@ -1908,27 +2058,79 @@
       "riskLevel": "da verificare",
       "nextStep": "Il 6975 rientra nella famiglia 697 e può essere collegato a comunicazioni fiscali, previdenziali o di pagamento. Usa il codice solo come indizio e verifica nel documento mittente, causale, importi e termini."
     },
-    "154": {
-      "label": "Codice raccomandata 154",
-      "type": "Raccomandata semplice o comunicazione privata",
-      "category": "Privati, aziende e professionisti",
+    "6980": {
+      "label": "Raccomandata Market 6980",
+      "type": "Possibile comunicazione amministrativa, fiscale o finanziaria",
+      "category": "Enti, banche e pagamenti",
       "possibleSenders": [
-        "Privati o aziende",
-        "Avvocati o altri professionisti",
-        "Datore di lavoro",
-        "Compagnie assicurative",
-        "Amministratori di condominio o gestori di servizi"
+        "Agenzia delle Entrate-Riscossione o Regione",
+        "INPS o altri enti",
+        "Banche o finanziarie",
+        "Società di recupero crediti"
       ],
       "possibleContents": [
-        "Possibile comunicazione privata o contrattuale",
-        "Possibile diffida o sollecito di pagamento",
-        "Possibile comunicazione di lavoro",
-        "Possibile comunicazione assicurativa o condominiale",
-        "Possibile avviso relativo a una fattura o utenza"
+        "Possibile comunicazione relativa a pagamenti o bollo auto",
+        "Possibile comunicazione previdenziale",
+        "Possibile sollecito di pagamento",
+        "Possibile comunicazione bancaria o finanziaria"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "da verificare",
+      "nextStep": "Le segnalazioni sul 6980 sono molto variabili. Identifica prima il mittente effettivo e poi verifica se si tratta di pagamenti, bollo auto, previdenza, banca o recupero crediti; non effettuare pagamenti basandoti sul solo codice."
+    },
+    "05": {
+      "label": "Codice 05",
+      "type": "Raccomandata semplice o comunicazione privata",
+      "category": "Corrispondenza ordinaria",
+      "possibleSenders": [
+        "Privati",
+        "Aziende",
+        "Professionisti o studi legali"
+      ],
+      "possibleContents": [
+        "Comunicazioni private o contrattuali",
+        "Solleciti di pagamento",
+        "Diffide o altre comunicazioni formali"
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Il 154 è normalmente ricondotto a una raccomandata semplice. Controlla chi l’ha inviata e se riguarda un contratto, una diffida, il lavoro, il condominio, un’assicurazione o un pagamento; verifica sempre eventuali scadenze."
+      "nextStep": "Il prefisso 05 è compatibile con raccomandata semplice o comunicazione privata. Controlla il mittente e verifica se la lettera riguarda un contratto, una fattura, un sollecito, una diffida o un’altra comunicazione formale. Presta attenzione a eventuali date o scadenze."
+    },
+    "056": {
+      "label": "Codice 056",
+      "type": "Possibile comunicazione da soggetto privato",
+      "category": "Privati e servizi",
+      "possibleSenders": [
+        "Banche o finanziarie",
+        "Professionisti",
+        "Aziende o altri soggetti privati"
+      ],
+      "possibleContents": [
+        "Comunicazioni bancarie o finanziarie",
+        "Comunicazioni professionali",
+        "Altre comunicazioni private o commerciali"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 056 è associato a comunicazioni di natura variabile. Controlla chi ha inviato la lettera e se riguarda comunicazioni bancarie o finanziarie oppure comunicazioni professionali. Verifica contratto o pratica, importi e scadenze prima di effettuare pagamenti o rispondere."
+    },
+    "06": {
+      "label": "Codice 06",
+      "type": "Possibile raccomandata da soggetto privato",
+      "category": "Privati e servizi",
+      "possibleSenders": [
+        "Privati",
+        "Banche o società finanziarie",
+        "Aziende, assicurazioni o società di servizi"
+      ],
+      "possibleContents": [
+        "Possibile comunicazione privata o commerciale",
+        "Possibile comunicazione bancaria o assicurativa",
+        "Possibile sollecito o altra comunicazione formale"
+      ],
+      "confidence": "indicativa",
+      "riskLevel": "non determinabile",
+      "nextStep": "Il prefisso 06 è associato a comunicazioni di natura variabile. Controlla chi ha inviato la lettera e se riguarda possibile comunicazione privata o commerciale oppure possibile comunicazione bancaria o assicurativa. Verifica contratto o pratica, importi e scadenze prima di effettuare pagamenti o rispondere."
     },
     "050": {
       "label": "Codice raccomandata 050",
@@ -1947,209 +2149,6 @@
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
       "nextStep": "Il 050 è associato alla Raccomandata Veloce. Controlla subito chi è il mittente e se la comunicazione contiene una data o una scadenza, poi ritirala nei tempi indicati sull’avviso."
-    },
-    "381": {
-      "label": "Raccomandata Market 381",
-      "type": "Possibile comunicazione relativa al bollo auto o a un tributo sul veicolo",
-      "category": "Bollo auto e tributi regionali",
-      "possibleSenders": [
-        "Regione o ente competente per la tassa automobilistica",
-        "Agenzia delle Entrate o soggetto incaricato della riscossione",
-        "Comune o altro ente pubblico"
-      ],
-      "possibleContents": [
-        "Possibile sollecito o accertamento relativo al bollo auto",
-        "Possibile richiesta di pagamento della tassa automobilistica",
-        "Possibile comunicazione su un tributo locale o regionale collegato al veicolo"
-      ],
-      "confidence": "media",
-      "riskLevel": "da verificare",
-      "nextStep": "Il prefisso 381 viene associato soprattutto a comunicazioni relative al bollo auto o ad altri tributi sul veicolo. Dopo il ritiro verifica ente mittente, targa o veicolo indicato, anno di riferimento, importo ed eventuali scadenze. Se hai già pagato, confronta i dati con la ricevuta prima di effettuare un nuovo pagamento."
-    },
-    "392": {
-      "label": "Raccomandata 392",
-      "type": "Possibile accertamento relativo al bollo auto o altra comunicazione formale",
-      "category": "Bollo auto e comunicazioni formali",
-      "possibleSenders": [
-        "Regione o ente competente per la tassa automobilistica",
-        "Ente pubblico o soggetto incaricato della riscossione",
-        "Autorità o altro mittente istituzionale"
-      ],
-      "possibleContents": [
-        "Possibile avviso di accertamento o pagamento del bollo auto",
-        "Possibile sollecito relativo alla tassa automobilistica",
-        "In alcune segnalazioni, possibile altra comunicazione formale o giudiziaria"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il prefisso 392 viene associato soprattutto ad accertamenti o richieste relative al bollo auto, ma le segnalazioni non sono uniformi. Controlla quindi il mittente effettivo e verifica targa, anno, importo, causale ed eventuali termini riportati nella comunicazione."
-    },
-    "3922": {
-      "label": "Raccomandata 3922",
-      "type": "Possibile comunicazione della famiglia 392, spesso collegata al bollo auto",
-      "category": "Bollo auto e comunicazioni formali",
-      "possibleSenders": [
-        "Regione o ente competente per la tassa automobilistica",
-        "Ente pubblico o soggetto incaricato della riscossione",
-        "Altro mittente istituzionale"
-      ],
-      "possibleContents": [
-        "Possibile accertamento o richiesta di pagamento del bollo auto",
-        "Possibile sollecito relativo alla tassa automobilistica",
-        "Possibile altra comunicazione formale"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il sotto-prefisso 3922 rientra nella famiglia 392. Le associazioni disponibili online lo collegano soprattutto al bollo auto, ma non esiste una tabella ufficiale pubblica che consenta di identificare con certezza il contenuto. Verifica mittente, targa o pratica, importo ed eventuali scadenze nel documento effettivo."
-    },
-    "2616": {
-      "label": "Codice segnalato 2616",
-      "type": "Prefisso reale segnalato dagli utenti, non classificabile con affidabilità dal solo codice",
-      "category": "Codice segnalato - classificazione da verificare",
-      "possibleSenders": [
-        "Mittente non determinabile con affidabilità dal solo prefisso"
-      ],
-      "possibleContents": [
-        "Contenuto non determinabile con affidabilità dal solo prefisso",
-        "Il codice completo può comunque essere utilizzato per verificare lo stato della spedizione"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 2616 è stato segnalato da utenti reali, ma al momento non risultano fonti italiane sufficientemente affidabili per attribuirlo a un mittente o contenuto specifico. Per evitare informazioni errate non facciamo supposizioni: controlla il codice completo tramite il tracciamento ufficiale e ritira la comunicazione per identificarla."
-    },
-    "5888": {
-      "label": "Codice segnalato 5888",
-      "type": "Prefisso reale segnalato dagli utenti, non classificabile con affidabilità dal solo codice",
-      "category": "Codice segnalato - classificazione da verificare",
-      "possibleSenders": [
-        "Mittente non determinabile con affidabilità dal solo prefisso"
-      ],
-      "possibleContents": [
-        "Contenuto non determinabile con affidabilità dal solo prefisso",
-        "Il codice completo può comunque essere utilizzato per verificare lo stato della spedizione"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 5888 è stato segnalato da utenti reali, ma al momento non risultano fonti italiane sufficientemente affidabili per attribuirlo a un mittente o contenuto specifico. Per evitare informazioni errate non facciamo supposizioni: controlla il codice completo tramite il tracciamento ufficiale e ritira la comunicazione per identificarla."
-    },
-    "686": {
-      "label": "Raccomandata Market 686",
-      "type": "Possibile sollecito di pagamento o comunicazione relativa a crediti, utenze o tributi",
-      "category": "Pagamenti, recupero crediti e tributi",
-      "possibleSenders": [
-        "Gestori di luce, gas, acqua o telecomunicazioni",
-        "Banche, finanziarie o società di recupero crediti",
-        "Comuni o soggetti incaricati della riscossione di tributi locali",
-        "INPS o altri enti, secondo alcune segnalazioni"
-      ],
-      "possibleContents": [
-        "Possibile sollecito di pagamento o messa in mora",
-        "Possibile rata, bolletta o fattura non pagata",
-        "Possibile comunicazione relativa a TARI, bollo o altri tributi locali",
-        "Possibile comunicazione di recupero crediti"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il prefisso 686 viene associato soprattutto a solleciti di pagamento e comunicazioni su crediti, utenze o tributi. Dopo il ritiro verifica il mittente, il contratto o tributo interessato, l'anno o periodo di riferimento, l'importo e la scadenza. Se viene richiesto un pagamento, confronta i dati con i tuoi documenti e usa esclusivamente i canali ufficiali del mittente."
-    },
-    "113": {
-      "label": "Codice segnalato 113",
-      "type": "Prefisso parziale segnalato: serve il codice completo per una verifica affidabile",
-      "category": "Codice parziale - operatore da verificare",
-      "possibleSenders": [
-        "Mittente non determinabile dal solo prefisso 113"
-      ],
-      "possibleContents": [
-        "Il prefisso 113 da solo non permette di identificare il contenuto",
-        "Se sull’avviso compare un codice completo nel formato R + 11 cifre, il sistema può verificare l’eventuale operatore postale"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Hai inserito solo il prefisso 113. Non esistono fonti pubbliche sufficienti per attribuire con certezza questo prefisso a un mittente o contenuto specifico. Inserisci il codice completo esattamente come appare sull’avviso, comprese eventuali lettere iniziali. Se il codice è nel formato R seguito da 11 cifre e l’avviso è Fulmine Group, il decoder può riconoscere l’operatore."
-    },
-    "1130": {
-      "label": "Codice segnalato 1130",
-      "type": "Prefisso parziale segnalato: serve il codice completo per una verifica affidabile",
-      "category": "Codice parziale - operatore da verificare",
-      "possibleSenders": [
-        "Mittente non determinabile dal solo prefisso 1130"
-      ],
-      "possibleContents": [
-        "Il prefisso 1130 da solo non identifica il contenuto della raccomandata",
-        "Un codice completo alfanumerico può permettere di riconoscere l’operatore postale"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 1130 è stato segnalato in un avviso Fulmine Group, ma 1130 da solo non prova che ogni spedizione con queste cifre appartenga allo stesso operatore. Inserisci il codice completo esattamente come stampato sull’avviso, inclusa l’eventuale lettera R. Un codice completo R seguito da 11 cifre viene controllato separatamente dal decoder."
-    },
-        "529": {
-      "label": "Codice 529",
-      "type": "Possibile comunicazione relativa a recupero crediti o notifiche",
-      "category": "Comunicazioni amministrative e private",
-      "possibleSenders": [
-        "Società di recupero crediti",
-        "Aziende o soggetti privati",
-        "Uffici o soggetti incaricati di notifiche"
-      ],
-      "possibleContents": [
-        "Possibile comunicazione relativa a recupero crediti",
-        "Possibile sollecito o richiesta di pagamento",
-        "Possibile comunicazione amministrativa o notifica"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il prefisso 529 è stato segnalato in relazione a comunicazioni di natura variabile, incluse possibili attività di recupero crediti o notifiche. Il solo codice non permette di identificare con certezza il mittente o il contenuto. Verifica il mittente indicato sull'avviso e ritira la comunicazione per conoscere il contenuto effettivo."
-    },
-            "5479": {
-      "label": "Codice 5479",
-      "type": "Possibile comunicazione fiscale o di riscossione",
-      "category": "Fisco e riscossione",
-      "possibleSenders": [
-        "Agenzia delle Entrate",
-        "Agenzia delle Entrate-Riscossione"
-      ],
-      "possibleContents": [
-        "Possibile comunicazione relativa a cartelle o riscossione",
-        "Possibile comunicazione relativa a rottamazione o definizione di debiti",
-        "Possibile avviso o comunicazione tributaria"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il codice 5479 è stato associato da utenti a comunicazioni dell'Agenzia delle Entrate o dell'Agenzia delle Entrate-Riscossione, incluse comunicazioni relative a riscossione, cartelle o rottamazione. Il solo codice non permette di identificare con certezza il mittente o il contenuto. Verifica sempre il mittente indicato sull'avviso e ritira la comunicazione per conoscere il contenuto effettivo."
-     },
-        "260": {
-      "label": "Codice 260",
-      "type": "Possibile Raccomandata gestita da Eurisko Post",
-      "category": "Raccomandate e comunicazioni postali",
-      "possibleSenders": [
-        "Eurisko Post",
-        "Soggetti o enti che utilizzano i servizi postali Eurisko"
-      ],
-      "possibleContents": [
-        "Possibile comunicazione tramite Raccomandata",
-        "Possibile comunicazione amministrativa o privata",
-        "Possibile documento o notifica affidata al servizio postale"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il codice 260 è compatibile con una spedizione Raccomandata gestita tramite Eurisko Post. Il solo codice non permette di identificare con certezza il mittente o il contenuto. Verifica sempre i dati riportati sull'avviso e ritira la comunicazione per conoscere il contenuto effettivo."
-    },
-    "677": {
-      "label": "Codice 677",
-      "type": "Possibile Raccomandata Messo",
-      "category": "Notifiche e comunicazioni amministrative",
-      "possibleSenders": [
-        "Messo notificatore",
-        "Enti o soggetti che utilizzano servizi di notifica"
-      ],
-      "possibleContents": [
-        "Possibile comunicazione notificata tramite messo",
-        "Possibile atto o comunicazione amministrativa",
-        "Possibile notifica relativa a una pratica o procedimento"
-      ],
-      "confidence": "indicativa",
-      "riskLevel": "da verificare",
-      "nextStep": "Il prefisso 677 è stato osservato su un avviso con tipologia Raccomandata Messo. Il solo codice non permette di identificare con certezza il mittente o il contenuto. Verifica sempre il mittente e gli altri dati presenti sull'avviso e ritira la comunicazione per conoscere il contenuto effettivo."
     }
   }
 }
