@@ -341,178 +341,62 @@
 
   function renderKnownResult(inputCode, match) {
     const item = match.data || {};
-
-    const label =
-      item.label || `Codice ${match.prefix}`;
-
-    const type =
-      item.type || 'Raccomandata';
-
-    const category =
-      item.category || 'Comunicazione';
-
-    const senders = renderList(
-      item.possibleSenders,
-      'Mittente non determinabile dal solo codice.'
-    );
-
-    const contents = renderList(
-      item.possibleContents,
-      'Contenuto non determinabile dal solo codice.'
-    );
-
-    const nextStep =
-      item.nextStep ||
-      'Controlla le informazioni presenti sull’avviso di giacenza e ritira la raccomandata per conoscere il contenuto effettivo.';
-
-    const confidence =
-      confidenceLabel(item.confidence);
+    const label = item.label || `Raccomandata Market ${match.prefix}`;
+    const senders = Array.isArray(item.possibleSenders)
+      ? item.possibleSenders.filter(Boolean).slice(0, 3)
+      : [];
+    const contents = Array.isArray(item.possibleContents)
+      ? item.possibleContents.filter(Boolean).slice(0, 4)
+      : [];
+    const nextStep = item.nextStep ||
+      'Ritira la comunicazione e verifica il mittente, l’oggetto e le eventuali scadenze indicate nella lettera.';
 
     setResult(
       `
-        <div class="result-card">
-
-          <div class="result-top">
-
-            <div>
-
-              <span class="result-eyebrow">
-                Codice riconosciuto
-              </span>
-
-              <h2 class="result-title">
-                ${escapeHTML(label)}
-              </h2>
-
-              <p class="result-subtitle">
-                Identificazione orientativa basata sul prefisso
-                <strong>${escapeHTML(match.prefix)}</strong>.
-              </p>
-
-            </div>
-
-            <div class="result-code-box">
-
-              <span>
-                Codice inserito
-              </span>
-
-              <strong>
-                ${escapeHTML(inputCode)}
-              </strong>
-
-            </div>
-
-          </div>
-
-          <div class="result-summary-grid">
-
-            <div class="result-summary-item">
-
-              <span>
-                Tipologia
-              </span>
-
-              <strong>
-                ${escapeHTML(type)}
-              </strong>
-
-            </div>
-
-            <div class="result-summary-item">
-
-              <span>
-                Categoria
-              </span>
-
-              <strong>
-                ${escapeHTML(category)}
-              </strong>
-
-            </div>
-
-            <div class="result-summary-item">
-
-              <span>
-                Attendibilità
-              </span>
-
-              <strong>
-                ${escapeHTML(confidence)}
-              </strong>
-
-            </div>
-
-          </div>
-
-          <div class="result-details">
-
-            <section class="result-section">
-
-              <h3>
-                Possibili mittenti
-              </h3>
-
-              ${senders}
-
-            </section>
-
-            <section class="result-section">
-
-              <h3>
-                Possibile contenuto
-              </h3>
-
-              ${contents}
-
-            </section>
-
-          </div>
-
-          <div class="result-next-step">
-
-            <h3>
-              Cosa fare adesso
-            </h3>
-
-            <p>
-              ${escapeHTML(nextStep)}
+        <article class="result-card result-card-compact">
+          <header class="result-compact-header">
+            <span class="result-eyebrow">Codice riconosciuto</span>
+            <h2 class="result-title">${escapeHTML(label)}</h2>
+            <p class="result-subtitle">
+              Prefisso <strong>${escapeHTML(match.prefix)}</strong>
+              <span class="result-code-inline">· Codice inserito: ${escapeHTML(inputCode)}</span>
             </p>
+            <p class="result-meta-line">
+              ${escapeHTML(item.type || 'Raccomandata')}
+              ${item.category ? `<span>· ${escapeHTML(item.category)}</span>` : ''}
+            </p>
+          </header>
 
-          </div>
+          <section class="result-compact-section result-sender-highlight">
+            <h3>Possibile mittente</h3>
+            <p class="result-sender-primary">
+              ${escapeHTML(senders[0] || 'Mittente non identificabile dal solo prefisso')}
+            </p>
+            ${senders.length > 1 ? `
+              <p class="result-sender-alternatives">
+                Altre possibilità: ${escapeHTML(senders.slice(1).join('; '))}.
+              </p>
+            ` : ''}
+          </section>
 
-          <div class="result-disclaimer">
+          <section class="result-compact-section">
+            <h3>Cosa può contenere</h3>
+            ${renderList(contents, 'Il contenuto non è determinabile dal solo prefisso.')}
+          </section>
 
-            <strong>
-              Importante:
-            </strong>
+          <section class="result-compact-section result-next-step">
+            <h3>Cosa fare adesso</h3>
+            <p>${escapeHTML(nextStep)}</p>
+          </section>
 
-            ${escapeHTML(
-              database?.disclaimer ||
-                'L’identificazione è indicativa e non consente di determinare con certezza il mittente o il contenuto della raccomandata.'
-            )}
-
-          </div>
-
-          <p class="official-tracking-note">
-
-            Per verificare lo stato effettivo della spedizione,
-            utilizza il servizio ufficiale di tracciamento di
-            Poste Italiane quando il codice appartiene a Poste.
-
+          <p class="result-compact-note">
+            Indicazione orientativa: il prefisso non conferma il mittente né il contenuto della singola raccomandata.
           </p>
 
-          <button
-            type="button"
-            class="new-search-button"
-            data-new-search
-          >
-
+          <button type="button" class="new-search-button" data-new-search>
             Controlla un altro codice
-
           </button>
-
-        </div>
+        </article>
       `,
       'success'
     );
@@ -525,168 +409,48 @@
      ========================================================= */
 
   function renderOperatorResult(operatorResult) {
-    const senders = renderList(
-      operatorResult.possibleSenders,
-      'Mittente non determinabile dal solo codice.'
-    );
-
-    const contents = renderList(
-      operatorResult.possibleContents,
-      'Contenuto non determinabile dal solo codice.'
-    );
+    const senders = Array.isArray(operatorResult.possibleSenders)
+      ? operatorResult.possibleSenders.filter(Boolean).slice(0, 3)
+      : [];
+    const contents = Array.isArray(operatorResult.possibleContents)
+      ? operatorResult.possibleContents.filter(Boolean).slice(0, 3)
+      : [];
 
     setResult(
       `
-        <div class="result-card">
-
-          <div class="result-top">
-
-            <div>
-
-              <span class="result-eyebrow">
-                Operatore identificato
-              </span>
-
-              <h2 class="result-title">
-                ${escapeHTML(operatorResult.label)}
-              </h2>
-
-              <p class="result-subtitle">
-
-                Il formato del codice è compatibile con
-
-                <strong>
-                  ${escapeHTML(operatorResult.operator)}
-                </strong>.
-
-              </p>
-
-            </div>
-
-            <div class="result-code-box">
-
-              <span>
-                Codice inserito
-              </span>
-
-              <strong>
-                ${escapeHTML(operatorResult.code)}
-              </strong>
-
-            </div>
-
-          </div>
-
-          <div class="result-summary-grid">
-
-            <div class="result-summary-item">
-
-              <span>
-                Operatore
-              </span>
-
-              <strong>
-                ${escapeHTML(operatorResult.operator)}
-              </strong>
-
-            </div>
-
-            <div class="result-summary-item">
-
-              <span>
-                Tipologia
-              </span>
-
-              <strong>
-                ${escapeHTML(operatorResult.type)}
-              </strong>
-
-            </div>
-
-            <div class="result-summary-item">
-
-              <span>
-                Attendibilità operatore
-              </span>
-
-              <strong>
-                ${escapeHTML(
-                  confidenceLabel(
-                    operatorResult.confidence
-                  )
-                )}
-              </strong>
-
-            </div>
-
-          </div>
-
-          <div class="result-details">
-
-            <section class="result-section">
-
-              <h3>
-                Possibile mittente
-              </h3>
-
-              ${senders}
-
-            </section>
-
-            <section class="result-section">
-
-              <h3>
-                Cosa indica il codice
-              </h3>
-
-              ${contents}
-
-            </section>
-
-          </div>
-
-          <div class="result-next-step">
-
-            <h3>
-              Cosa fare adesso
-            </h3>
-
-            <p>
-              ${escapeHTML(operatorResult.nextStep)}
+        <article class="result-card result-card-compact">
+          <header class="result-compact-header">
+            <span class="result-eyebrow">Operatore riconosciuto</span>
+            <h2 class="result-title">${escapeHTML(operatorResult.label)}</h2>
+            <p class="result-subtitle">
+              Formato compatibile con <strong>${escapeHTML(operatorResult.operator)}</strong>.
             </p>
+            <p class="result-meta-line">${escapeHTML(operatorResult.type)}</p>
+          </header>
 
-          </div>
+          <section class="result-compact-section result-sender-highlight">
+            <h3>Possibile mittente</h3>
+            ${renderList(senders, 'Il mittente non è identificabile dal codice di spedizione.')}
+          </section>
 
-          <div class="result-disclaimer">
+          <section class="result-compact-section">
+            <h3>Cosa indica il codice</h3>
+            ${renderList(contents, 'Il codice identifica il formato della spedizione, non il contenuto.')}
+          </section>
 
-            <strong>
-              Importante:
-            </strong>
+          <section class="result-compact-section result-next-step">
+            <h3>Cosa fare adesso</h3>
+            <p>${escapeHTML(operatorResult.nextStep)}</p>
+          </section>
 
-            Il formato del codice permette di riconoscere
-            l’operatore postale, ma non consente di conoscere
-            con certezza il mittente o il contenuto della busta.
-
-          </div>
-
-          <p class="official-tracking-note">
-
-            Per questo codice utilizza la tracciabilità ufficiale
-            di Fulmine Group, non il tracking Poste Italiane.
-
+          <p class="result-compact-note">
+            Il formato può indicare l’operatore, ma non conferma il mittente o il contenuto della busta.
           </p>
 
-          <button
-            type="button"
-            class="new-search-button"
-            data-new-search
-          >
-
+          <button type="button" class="new-search-button" data-new-search>
             Controlla un altro codice
-
           </button>
-
-        </div>
+        </article>
       `,
       'success'
     );
