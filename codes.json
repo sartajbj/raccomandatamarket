@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-30",
-  "version": "4.6",
+  "version": "4.7",
   "language": "it",
   "country": "IT",
   "site": "https://raccomandatamarket.com/",
@@ -22,7 +22,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, leggi chi ha inviato la lettera e a quale rapporto, contratto o pratica si riferisce. Controlla se contiene una richiesta, documenti da fornire o una data entro cui rispondere."
     },
     "13": {
       "label": "Codice 13",
@@ -40,7 +40,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, leggi chi ha inviato la lettera e a quale rapporto, contratto o pratica si riferisce. Controlla se contiene una richiesta, documenti da fornire o una data entro cui rispondere."
     },
     "14": {
       "label": "Codice 14",
@@ -58,7 +58,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, leggi chi ha inviato la lettera e a quale rapporto, contratto o pratica si riferisce. Controlla se contiene una richiesta, documenti da fornire o una data entro cui rispondere."
     },
     "15": {
       "label": "Codice 15",
@@ -76,7 +76,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, leggi chi ha inviato la lettera e a quale rapporto, contratto o pratica si riferisce. Controlla se contiene una richiesta, documenti da fornire o una data entro cui rispondere."
     },
     "63": {
       "label": "Codice 63",
@@ -93,7 +93,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
+      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale."
     },
     "65": {
       "label": "Codice 65",
@@ -110,7 +110,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
+      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale."
     },
     "72": {
       "label": "Codice 72",
@@ -126,7 +126,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, verifica se si tratta davvero di un rimborso, quale ufficio gestisce la pratica, l’importo e l’anno di riferimento. Controlla se sono richiesti dati o documenti: il prefisso non garantisce che sia previsto un accredito."
     },
     "75": {
       "label": "Codice 75",
@@ -144,7 +144,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "76": {
       "label": "Codice 76",
@@ -162,7 +162,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "77": {
       "label": "Codice 77",
@@ -180,7 +180,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "78": {
       "label": "Codice 78",
@@ -198,7 +198,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "79": {
       "label": "Codice 79",
@@ -216,7 +216,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "113": {
       "label": "Codice segnalato 113",
@@ -229,9 +229,9 @@
         "Il prefisso 113 da solo non permette di identificare il contenuto",
         "Se sull’avviso compare un codice completo nel formato R + 11 cifre, il sistema può verificare l’eventuale operatore postale"
       ],
-      "confidence": "indicativa",
+      "confidence": "insufficiente",
       "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 113 non basta per una verifica attendibile. Inserisci il codice completo riportato sull’avviso, comprese eventuali lettere, per controllare se è riconoscibile."
+      "nextStep": "Il prefisso non identifica con affidabilità il mittente o il contenuto. Controlla tutte le cifre e l’eventuale sigla dell’operatore riportata sull’avviso; senza questi dati non è corretto formulare ipotesi."
     },
     "151": {
       "label": "Codice 151",
@@ -249,7 +249,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, leggi chi ha inviato la lettera e a quale rapporto, contratto o pratica si riferisce. Controlla se contiene una richiesta, documenti da fornire o una data entro cui rispondere."
     },
     "152": {
       "label": "Codice 152",
@@ -267,7 +267,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, leggi chi ha inviato la lettera e a quale rapporto, contratto o pratica si riferisce. Controlla se contiene una richiesta, documenti da fornire o una data entro cui rispondere."
     },
     "154": {
       "label": "Codice raccomandata 154",
@@ -289,7 +289,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, leggi chi ha inviato la lettera e a quale rapporto, contratto o pratica si riferisce. Controlla se contiene una richiesta, documenti da fornire o una data entro cui rispondere."
     },
     "200": {
       "label": "Codice 200",
@@ -308,7 +308,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica il mittente e il contratto o la fattura citata. Controlla periodo, importo, pagamenti già eseguiti ed eventuale scadenza; prima di pagare, verifica la richiesta con il fornitore usando un recapito ufficiale."
     },
     "201": {
       "label": "Codice 201",
@@ -327,7 +327,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica il mittente e il contratto o la fattura citata. Controlla periodo, importo, pagamenti già eseguiti ed eventuale scadenza; prima di pagare, verifica la richiesta con il fornitore usando un recapito ufficiale."
     },
     "202": {
       "label": "Codice 202",
@@ -348,7 +348,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica banca o intermediario e la pratica, il conto o il contratto citato. Verifica importi e scadenze direttamente tramite i canali ufficiali dell’istituto; non comunicare PIN, password o codici di sicurezza in risposta a richieste inattese."
     },
     "260": {
       "label": "Codice 260",
@@ -365,7 +365,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Controlla sull’avviso il nome dell’operatore che gestisce la spedizione e usa il codice completo per verificarne lo stato. L’operatore postale può essere diverso dal mittente: il contenuto si conosce dal documento ritirato."
     },
     "381": {
       "label": "Raccomandata Market 381",
@@ -383,7 +383,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, verifica targa, Regione competente, annualità del bollo e causale della richiesta. Confronta l’importo con le ricevute di pagamento e controlla la data entro cui puoi chiedere chiarimenti o contestare."
     },
     "386": {
       "label": "Codice 386",
@@ -401,7 +401,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "388": {
       "label": "Codice 388",
@@ -416,7 +416,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "390": {
       "label": "Codice 390",
@@ -432,7 +432,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, verifica targa, Regione competente, annualità del bollo e causale della richiesta. Confronta l’importo con le ricevute di pagamento e controlla la data entro cui puoi chiedere chiarimenti o contestare."
     },
     "392": {
       "label": "Raccomandata 392",
@@ -450,7 +450,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, verifica targa, Regione competente, annualità del bollo e causale della richiesta. Confronta l’importo con le ricevute di pagamento e controlla la data entro cui puoi chiedere chiarimenti o contestare."
     },
     "393": {
       "label": "Codice 393",
@@ -468,7 +468,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "398": {
       "label": "Codice 398",
@@ -486,7 +486,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
+      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale."
     },
     "527": {
       "label": "Raccomandata RKE 527",
@@ -504,7 +504,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "529": {
       "label": "Codice 529",
@@ -522,7 +522,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Dopo il ritiro, identifica il mittente e il contratto o la fattura citata. Controlla periodo, importo, pagamenti già eseguiti ed eventuale scadenza; prima di pagare, verifica la richiesta con il fornitore usando un recapito ufficiale."
     },
     "549": {
       "label": "Codice 549",
@@ -540,7 +540,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "569": {
       "label": "Raccomandata RKE 569",
@@ -559,7 +559,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "570": {
       "label": "Codice 570",
@@ -576,7 +576,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "572": {
       "label": "Raccomandata Market 572",
@@ -595,7 +595,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "573": {
       "label": "Codice 573",
@@ -614,7 +614,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "608": {
       "label": "Codice 608",
@@ -630,7 +630,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, verifica quale ufficio ha emesso la comunicazione, il numero di pratica e l’azione eventualmente richiesta. Controlla documenti da presentare e scadenze: il prefisso non identifica da solo il procedimento."
     },
     "609": {
       "label": "Codice 609",
@@ -646,7 +646,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, verifica quale ufficio ha emesso la comunicazione, il numero di pratica e l’azione eventualmente richiesta. Controlla documenti da presentare e scadenze: il prefisso non identifica da solo il procedimento."
     },
     "612": {
       "label": "Codice 612",
@@ -663,7 +663,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, confronta la comunicazione con il contratto, la fattura o la pratica indicata. Controlla importi e scadenze e usa solo i canali ufficiali del soggetto mittente."
+      "nextStep": "Dopo il ritiro, identifica banca o intermediario e la pratica, il conto o il contratto citato. Verifica importi e scadenze direttamente tramite i canali ufficiali dell’istituto; non comunicare PIN, password o codici di sicurezza in risposta a richieste inattese."
     },
     "613": {
       "label": "Codice 613",
@@ -681,7 +681,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "614": {
       "label": "Codice 614",
@@ -698,7 +698,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, confronta la comunicazione con il contratto, la fattura o la pratica indicata. Controlla importi e scadenze e usa solo i canali ufficiali del soggetto mittente."
+      "nextStep": "Dopo il ritiro, identifica banca o intermediario e la pratica, il conto o il contratto citato. Verifica importi e scadenze direttamente tramite i canali ufficiali dell’istituto; non comunicare PIN, password o codici di sicurezza in risposta a richieste inattese."
     },
     "615": {
       "label": "Codice 615",
@@ -716,7 +716,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "616": {
       "label": "Codice 616",
@@ -736,7 +736,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, controlla compagnia, numero di polizza o sinistro, veicolo e data dell’evento. Verifica se la lettera richiede documenti o una risposta entro un termine e contatta la compagnia tramite i recapiti ufficiali."
     },
     "617": {
       "label": "Codice 617",
@@ -754,7 +754,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, confronta la comunicazione con il contratto, la fattura o la pratica indicata. Controlla importi e scadenze e usa solo i canali ufficiali del soggetto mittente."
+      "nextStep": "Dopo il ritiro, identifica banca o intermediario e la pratica, il conto o il contratto citato. Verifica importi e scadenze direttamente tramite i canali ufficiali dell’istituto; non comunicare PIN, password o codici di sicurezza in risposta a richieste inattese."
     },
     "618": {
       "label": "Codice 618",
@@ -772,7 +772,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, verifica targa, Regione competente, annualità del bollo e causale della richiesta. Confronta l’importo con le ricevute di pagamento e controlla la data entro cui puoi chiedere chiarimenti o contestare."
     },
     "619": {
       "label": "Raccomandata Market 619",
@@ -794,7 +794,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "620": {
       "label": "Raccomandata Market 620",
@@ -815,7 +815,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
+      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale."
     },
     "628": {
       "label": "Codice 628",
@@ -833,7 +833,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, verifica targa, Regione competente, annualità del bollo e causale della richiesta. Confronta l’importo con le ricevute di pagamento e controlla la data entro cui puoi chiedere chiarimenti o contestare."
     },
     "629": {
       "label": "Raccomandata Market 629",
@@ -853,7 +853,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "630": {
       "label": "Codice 630",
@@ -870,7 +870,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
+      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale."
     },
     "647": {
       "label": "Raccomandata Market 647",
@@ -888,7 +888,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "648": {
       "label": "Raccomandata Market 648",
@@ -907,7 +907,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, controlla compagnia, numero di polizza o sinistro, veicolo e data dell’evento. Verifica se la lettera richiede documenti o una risposta entro un termine e contatta la compagnia tramite i recapiti ufficiali."
     },
     "649": {
       "label": "Raccomandata Market 649",
@@ -928,7 +928,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale."
     },
     "650": {
       "label": "Codice 650",
@@ -945,7 +945,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
+      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale."
     },
     "664": {
       "label": "Raccomandata Market 664",
@@ -963,7 +963,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, confronta la comunicazione con il contratto, la fattura o la pratica indicata. Controlla importi e scadenze e usa solo i canali ufficiali del soggetto mittente."
+      "nextStep": "Dopo il ritiro, identifica banca o intermediario e la pratica, il conto o il contratto citato. Verifica importi e scadenze direttamente tramite i canali ufficiali dell’istituto; non comunicare PIN, password o codici di sicurezza in risposta a richieste inattese."
     },
     "665": {
       "label": "Raccomandata Market 665",
@@ -984,7 +984,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, controlla compagnia, numero di polizza o sinistro, veicolo e data dell’evento. Verifica se la lettera richiede documenti o una risposta entro un termine e contatta la compagnia tramite i recapiti ufficiali."
     },
     "668": {
       "label": "Codice 668",
@@ -1003,7 +1003,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "669": {
       "label": "Raccomandata Market 669",
@@ -1021,7 +1021,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica banca o intermediario e la pratica, il conto o il contratto citato. Verifica importi e scadenze direttamente tramite i canali ufficiali dell’istituto; non comunicare PIN, password o codici di sicurezza in risposta a richieste inattese."
     },
     "670": {
       "label": "Raccomandata Market 670",
@@ -1039,7 +1039,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "671": {
       "label": "Raccomandata Market 671",
@@ -1057,7 +1057,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "672": {
       "label": "Raccomandata Market 672",
@@ -1075,7 +1075,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "673": {
       "label": "Raccomandata Market 673",
@@ -1093,7 +1093,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "674": {
       "label": "Raccomandata Market 674",
@@ -1111,7 +1111,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "675": {
       "label": "Raccomandata Market 675",
@@ -1129,7 +1129,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "676": {
       "label": "Raccomandata Market 676",
@@ -1147,7 +1147,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale."
     },
     "677": {
       "label": "Codice 677",
@@ -1165,7 +1165,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione presso l’ufficio indicato, portando avviso e documento. Il messo è chi esegue la notifica, non necessariamente il mittente. Dopo il ritiro, verifica quale ente ha emesso l’atto, la causale, la data di notifica e gli eventuali termini. Non dedurre un debito né effettuare pagamenti basandoti sul solo prefisso."
+      "nextStep": "Ritira l’atto presso l’ufficio indicato. Il messo esegue la notifica, ma non è necessariamente il mittente. Dopo il ritiro, identifica l’ente che ha emesso il documento e controlla data, causale e termini. Non presumere che esista un debito dal solo prefisso."
     },
     "684": {
       "label": "Raccomandata Market 684",
@@ -1183,7 +1183,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
+      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale."
     },
     "685": {
       "label": "Raccomandata Market 685",
@@ -1202,7 +1202,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "686": {
       "label": "Raccomandata Market 686",
@@ -1222,7 +1222,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "688": {
       "label": "Raccomandata Market 688",
@@ -1244,7 +1244,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica banca o intermediario e la pratica, il conto o il contratto citato. Verifica importi e scadenze direttamente tramite i canali ufficiali dell’istituto; non comunicare PIN, password o codici di sicurezza in risposta a richieste inattese."
     },
     "689": {
       "label": "Raccomandata Market 689",
@@ -1262,7 +1262,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "690": {
       "label": "Codice 690",
@@ -1279,7 +1279,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, verifica quale ufficio ha emesso la comunicazione, il numero di pratica e l’azione eventualmente richiesta. Controlla documenti da presentare e scadenze: il prefisso non identifica da solo il procedimento."
     },
     "693": {
       "label": "Codice 693",
@@ -1296,7 +1296,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, confronta la comunicazione con il contratto, la fattura o la pratica indicata. Controlla importi e scadenze e usa solo i canali ufficiali del soggetto mittente."
+      "nextStep": "Dopo il ritiro, identifica banca o intermediario e la pratica, il conto o il contratto citato. Verifica importi e scadenze direttamente tramite i canali ufficiali dell’istituto; non comunicare PIN, password o codici di sicurezza in risposta a richieste inattese."
     },
     "695": {
       "label": "Raccomandata Market 695",
@@ -1314,7 +1314,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "696": {
       "label": "Raccomandata Market 696",
@@ -1332,7 +1332,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "697": {
       "label": "Raccomandata Market 697",
@@ -1351,7 +1351,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "698": {
       "label": "Raccomandata Market 698",
@@ -1372,7 +1372,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, identifica il mittente effettivo, l’oggetto e la pratica a cui si riferisce. Controlla eventuali importi, documenti richiesti e scadenze riportate nella lettera: il prefisso da solo non permette di confermare il contenuto."
     },
     "720": {
       "label": "Codice 720",
@@ -1388,7 +1388,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, verifica se si tratta davvero di un rimborso, quale ufficio gestisce la pratica, l’importo e l’anno di riferimento. Controlla se sono richiesti dati o documenti: il prefisso non garantisce che sia previsto un accredito."
     },
     "721": {
       "label": "Codice 721",
@@ -1404,7 +1404,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, verifica se si tratta davvero di un rimborso, quale ufficio gestisce la pratica, l’importo e l’anno di riferimento. Controlla se sono richiesti dati o documenti: il prefisso non garantisce che sia previsto un accredito."
     },
     "722": {
       "label": "Codice 722",
@@ -1420,7 +1420,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, verifica se si tratta davvero di un rimborso, quale ufficio gestisce la pratica, l’importo e l’anno di riferimento. Controlla se sono richiesti dati o documenti: il prefisso non garantisce che sia previsto un accredito."
     },
     "785": {
       "label": "Codice 785",
@@ -1438,7 +1438,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "786": {
       "label": "Codice 786",
@@ -1456,7 +1456,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "787": {
       "label": "Codice 787",
@@ -1474,7 +1474,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "788": {
       "label": "Codice 788",
@@ -1492,7 +1492,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "1130": {
       "label": "Codice segnalato 1130",
@@ -1505,9 +1505,9 @@
         "Il prefisso 1130 da solo non identifica il contenuto della raccomandata",
         "Un codice completo alfanumerico può permettere di riconoscere l’operatore postale"
       ],
-      "confidence": "indicativa",
+      "confidence": "insufficiente",
       "riskLevel": "non determinabile",
-      "nextStep": "Il prefisso 1130 non basta per una verifica attendibile. Inserisci il codice completo riportato sull’avviso, comprese eventuali lettere, per controllare se è riconoscibile."
+      "nextStep": "Il prefisso non identifica con affidabilità il mittente o il contenuto. Controlla tutte le cifre e l’eventuale sigla dell’operatore riportata sull’avviso; senza questi dati non è corretto formulare ipotesi."
     },
     "1513": {
       "label": "Codice 1513",
@@ -1525,7 +1525,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, leggi chi ha inviato la lettera e a quale rapporto, contratto o pratica si riferisce. Controlla se contiene una richiesta, documenti da fornire o una data entro cui rispondere."
     },
     "1514": {
       "label": "Codice 1514",
@@ -1543,7 +1543,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, leggi chi ha inviato la lettera e a quale rapporto, contratto o pratica si riferisce. Controlla se contiene una richiesta, documenti da fornire o una data entro cui rispondere."
     },
     "1515": {
       "label": "Codice 1515",
@@ -1561,7 +1561,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, leggi chi ha inviato la lettera e a quale rapporto, contratto o pratica si riferisce. Controlla se contiene una richiesta, documenti da fornire o una data entro cui rispondere."
     },
     "2000": {
       "label": "Codice 2000",
@@ -1580,7 +1580,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica il mittente e il contratto o la fattura citata. Controlla periodo, importo, pagamenti già eseguiti ed eventuale scadenza; prima di pagare, verifica la richiesta con il fornitore usando un recapito ufficiale."
     },
     "2616": {
       "label": "Codice segnalato 2616",
@@ -1593,9 +1593,9 @@
         "Contenuto non determinabile con affidabilità dal solo prefisso",
         "Il codice completo può comunque essere utilizzato per verificare lo stato della spedizione"
       ],
-      "confidence": "indicativa",
+      "confidence": "insufficiente",
       "riskLevel": "non determinabile",
-      "nextStep": "Le informazioni disponibili non permettono di identificare con affidabilità questa spedizione. Controlla il codice completo e il nome dell’operatore sull’avviso; il contenuto si conosce solo ritirando la comunicazione."
+      "nextStep": "Il prefisso non identifica con affidabilità il mittente o il contenuto. Controlla tutte le cifre e l’eventuale sigla dell’operatore riportata sull’avviso; senza questi dati non è corretto formulare ipotesi."
     },
     "3922": {
       "label": "Raccomandata 3922",
@@ -1613,7 +1613,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, verifica targa, Regione competente, annualità del bollo e causale della richiesta. Confronta l’importo con le ricevute di pagamento e controlla la data entro cui puoi chiedere chiarimenti o contestare."
     },
     "5276": {
       "label": "Raccomandata RKE 5276",
@@ -1630,7 +1630,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "5479": {
       "label": "Codice 5479",
@@ -1647,7 +1647,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "5725": {
       "label": "Raccomandata RKE 5725",
@@ -1664,7 +1664,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "5726": {
       "label": "Raccomandata RKE 5726",
@@ -1681,7 +1681,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "5727": {
       "label": "Raccomandata Market 5727",
@@ -1699,7 +1699,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "5728": {
       "label": "Raccomandata RKE 5728",
@@ -1717,7 +1717,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "5730": {
       "label": "Raccomandata RKE 5730",
@@ -1735,7 +1735,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Ritira la comunicazione appena possibile. Controlla autorità mittente, data dell’atto e termini indicati per pagamento, risposta o eventuale contestazione."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "5731": {
       "label": "Raccomandata RKE 5731",
@@ -1753,7 +1753,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale."
     },
     "5732": {
       "label": "Raccomandata RKE 5732",
@@ -1769,7 +1769,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
+      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale."
     },
     "5733": {
       "label": "Raccomandata RKE 5733",
@@ -1786,7 +1786,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "5734": {
       "label": "Raccomandata RKE 5734",
@@ -1804,7 +1804,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, verifica quale ufficio ha emesso la comunicazione, il numero di pratica e l’azione eventualmente richiesta. Controlla documenti da presentare e scadenze: il prefisso non identifica da solo il procedimento."
     },
     "5888": {
       "label": "Codice segnalato 5888",
@@ -1817,9 +1817,9 @@
         "Contenuto non determinabile con affidabilità dal solo prefisso",
         "Il codice completo può comunque essere utilizzato per verificare lo stato della spedizione"
       ],
-      "confidence": "indicativa",
+      "confidence": "insufficiente",
       "riskLevel": "non determinabile",
-      "nextStep": "Le informazioni disponibili non permettono di identificare con affidabilità questa spedizione. Controlla il codice completo e il nome dell’operatore sull’avviso; il contenuto si conosce solo ritirando la comunicazione."
+      "nextStep": "Il prefisso non identifica con affidabilità il mittente o il contenuto. Controlla tutte le cifre e l’eventuale sigla dell’operatore riportata sull’avviso; senza questi dati non è corretto formulare ipotesi."
     },
     "6161": {
       "label": "Codice 6161",
@@ -1834,7 +1834,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
+      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale."
     },
     "6196": {
       "label": "Raccomandata Market 6196",
@@ -1850,7 +1850,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica il mittente e il contratto o la fattura citata. Controlla periodo, importo, pagamenti già eseguiti ed eventuale scadenza; prima di pagare, verifica la richiesta con il fornitore usando un recapito ufficiale."
     },
     "6198": {
       "label": "Raccomandata Market 6198",
@@ -1868,7 +1868,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "6199": {
       "label": "Raccomandata Market 6199",
@@ -1884,7 +1884,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica il mittente e il contratto o la fattura citata. Controlla periodo, importo, pagamenti già eseguiti ed eventuale scadenza; prima di pagare, verifica la richiesta con il fornitore usando un recapito ufficiale."
     },
     "6200": {
       "label": "Raccomandata Market 6200",
@@ -1903,7 +1903,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
+      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale."
     },
     "6856": {
       "label": "Raccomandata Market 6856",
@@ -1924,7 +1924,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica banca o intermediario e la pratica, il conto o il contratto citato. Verifica importi e scadenze direttamente tramite i canali ufficiali dell’istituto; non comunicare PIN, password o codici di sicurezza in risposta a richieste inattese."
     },
     "6857": {
       "label": "Raccomandata Market 6857",
@@ -1944,7 +1944,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica banca o intermediario e la pratica, il conto o il contratto citato. Verifica importi e scadenze direttamente tramite i canali ufficiali dell’istituto; non comunicare PIN, password o codici di sicurezza in risposta a richieste inattese."
     },
     "6951": {
       "label": "Raccomandata Market 6951",
@@ -1962,7 +1962,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "6969": {
       "label": "Raccomandata Market 6969",
@@ -1980,7 +1980,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso."
     },
     "6970": {
       "label": "Raccomandata Market 6970",
@@ -1997,7 +1997,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, verifica la pratica o prestazione citata, i periodi interessati e gli eventuali documenti richiesti. Rispetta le date indicate nella comunicazione."
+      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale."
     },
     "6971": {
       "label": "Raccomandata Market 6971",
@@ -2017,7 +2017,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale."
     },
     "6972": {
       "label": "Raccomandata Market 6972",
@@ -2037,7 +2037,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale."
     },
     "6975": {
       "label": "Raccomandata Market 6975",
@@ -2057,7 +2057,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale."
     },
     "6980": {
       "label": "Raccomandata Market 6980",
@@ -2077,7 +2077,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla ente mittente, causale, periodo di riferimento e importo. Verifica ogni scadenza e confronta la richiesta con i tuoi documenti prima di pagare."
+      "nextStep": "Dopo il ritiro, identifica banca o intermediario e la pratica, il conto o il contratto citato. Verifica importi e scadenze direttamente tramite i canali ufficiali dell’istituto; non comunicare PIN, password o codici di sicurezza in risposta a richieste inattese."
     },
     "05": {
       "label": "Codice 05",
@@ -2095,7 +2095,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, leggi chi ha inviato la lettera e a quale rapporto, contratto o pratica si riferisce. Controlla se contiene una richiesta, documenti da fornire o una data entro cui rispondere."
     },
     "056": {
       "label": "Codice 056",
@@ -2113,7 +2113,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, leggi chi ha inviato la lettera e a quale rapporto, contratto o pratica si riferisce. Controlla se contiene una richiesta, documenti da fornire o una data entro cui rispondere."
     },
     "06": {
       "label": "Codice 06",
@@ -2131,7 +2131,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, leggi chi ha inviato la lettera e a quale rapporto, contratto o pratica si riferisce. Controlla se contiene una richiesta, documenti da fornire o una data entro cui rispondere."
     },
     "050": {
       "label": "Codice raccomandata 050",
@@ -2149,7 +2149,7 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, leggi l’oggetto della comunicazione e verifica chi l’ha inviata, a quale pratica si riferisce e se sono richiesti documenti o una risposta entro una data."
+      "nextStep": "Dopo il ritiro, leggi chi ha inviato la lettera e a quale rapporto, contratto o pratica si riferisce. Controlla se contiene una richiesta, documenti da fornire o una data entro cui rispondere."
     }
   }
 }
