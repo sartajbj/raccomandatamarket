@@ -1712,3 +1712,125 @@ p {
 .footer-grid > .footer-links a:hover {
   color: #fff;
 }
+
+
+/* =========================================================
+   COMPACT DECODER RESULTS
+   ========================================================= */
+
+.decoder-result {
+  max-width: 820px;
+  margin: 18px auto 0;
+}
+
+.result-card-compact {
+  padding: clamp(18px, 3vw, 26px);
+}
+
+.result-compact-header {
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.result-compact-header .result-title {
+  margin-bottom: 6px;
+}
+
+.result-compact-header .result-subtitle {
+  font-size: 0.94rem;
+}
+
+.result-code-inline {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.result-meta-line {
+  margin: 9px 0 0;
+  color: var(--text-soft);
+  font-size: 0.88rem;
+}
+
+.result-meta-line span {
+  color: var(--muted);
+}
+
+.result-compact-section {
+  margin-top: 14px;
+  padding: 16px 18px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.result-compact-section h3 {
+  margin: 0 0 9px;
+  font-size: 1.02rem;
+}
+
+.result-sender-highlight {
+  border-color: #d5e7dc;
+  background: #f3faf6;
+}
+
+.result-sender-primary {
+  margin: 0;
+  color: #205d43;
+  font-size: 1.08rem;
+  font-weight: 800;
+}
+
+.result-sender-alternatives {
+  margin: 7px 0 0;
+  color: var(--text-soft);
+  font-size: 0.88rem;
+}
+
+.result-compact-section .result-list {
+  padding-left: 19px;
+}
+
+.result-compact-section .result-list li + li {
+  margin-top: 5px;
+}
+
+.result-compact-section.result-next-step {
+  margin-top: 14px;
+  padding: 16px 18px;
+}
+
+.result-compact-section.result-next-step p {
+  margin: 0;
+  color: #334d66;
+}
+
+.result-compact-note {
+  margin: 13px 0 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.result-card-compact .new-search-button {
+  margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+  .result-card-compact {
+    padding: 17px;
+  }
+
+  .result-compact-section {
+    margin-top: 11px;
+    padding: 14px;
+  }
+
+  .result-sender-primary {
+    font-size: 1rem;
+  }
+
+  .result-code-inline {
+    display: block;
+    margin-top: 3px;
+  }
+}
