@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-30",
-  "version": "4.8",
+  "version": "4.9",
   "language": "it",
   "country": "IT",
   "site": "https://raccomandatamarket.com/",
@@ -1633,21 +1633,21 @@
       "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato."
     },
     "5479": {
-      "label": "Codice 5479",
+      "label": "Raccomandata RKE 5479",
       "type": "Possibile comunicazione fiscale o di riscossione",
-      "category": "Fisco e riscossione",
+      "category": "Fisco, TFR e riscossione",
       "possibleSenders": [
         "Agenzia delle Entrate",
         "Agenzia delle Entrate-Riscossione"
       ],
       "possibleContents": [
-        "Possibile comunicazione relativa a cartelle o riscossione",
-        "Possibile comunicazione relativa a rottamazione o definizione di debiti",
-        "Possibile avviso o comunicazione tributaria"
+        "Possibile ricalcolo della tassazione IRPEF sul TFR (segnalato da alcuni destinatari)",
+        "Possibile comunicazione su cartelle, rate o definizione agevolata",
+        "Possibile avviso o altra comunicazione tributaria"
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato."
+      "nextStep": "Dopo il ritiro, controlla l’ente mittente, l’anno d’imposta e la causale. Se riguarda il TFR, confronta il ricalcolo IRPEF con la documentazione del datore di lavoro; se riguarda la riscossione, verifica numero dell’atto, importi e pagamenti già effettuati. Rispetta i termini indicati e non dedurre un debito dal solo prefisso."
     },
     "5725": {
       "label": "Raccomandata RKE 5725",
