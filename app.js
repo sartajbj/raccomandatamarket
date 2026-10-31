@@ -349,51 +349,77 @@
       ? item.possibleContents.filter(Boolean).slice(0, 4)
       : [];
     const nextStep = item.nextStep ||
-      'Ritira la comunicazione e verifica il mittente, l’oggetto e le eventuali scadenze indicate nella lettera.';
+      'Dopo il ritiro, verifica il mittente, l’oggetto e le eventuali scadenze indicate nella comunicazione.';
+    const category = item.category || item.type || 'Comunicazione da verificare';
 
     setResult(
       `
-        <article class="result-card result-card-compact">
-          <header class="result-compact-header">
-            <span class="result-eyebrow">Codice riconosciuto</span>
-            <h2 class="result-title">${escapeHTML(label)}</h2>
-            <p class="result-subtitle">
-              Prefisso <strong>${escapeHTML(match.prefix)}</strong>
-              <span class="result-code-inline">· Codice inserito: ${escapeHTML(inputCode)}</span>
-            </p>
-            <p class="result-meta-line">
-              ${escapeHTML(item.type || 'Raccomandata')}
-              ${item.category ? `<span>· ${escapeHTML(item.category)}</span>` : ''}
-            </p>
+        <article class="result-card result-card-compact result-card-visual">
+          <header class="result-visual-header">
+            <div class="result-visual-heading">
+              <div>
+                <span class="result-eyebrow">Analisi indicativa del prefisso</span>
+                <h2 class="result-title">${escapeHTML(label)}</h2>
+                <span class="result-category-badge">${escapeHTML(category)}</span>
+              </div>
+              <button type="button" class="result-quick-reset" data-new-search>
+                Altro codice
+              </button>
+            </div>
           </header>
 
-          <section class="result-compact-section result-sender-highlight">
-            <h3>Possibile mittente</h3>
-            <p class="result-sender-primary">
-              ${escapeHTML(senders[0] || 'Mittente non identificabile dal solo prefisso')}
+          <section class="result-visual-sender">
+            <span class="result-visual-label">Mittente più probabile</span>
+            <p class="result-visual-sender-name">
+              ${escapeHTML(senders[0] || 'Mittente non determinabile dal solo prefisso')}
             </p>
             ${senders.length > 1 ? `
-              <p class="result-sender-alternatives">
-                Altre possibilità: ${escapeHTML(senders.slice(1).join('; '))}.
+              <p class="result-visual-alternatives">
+                Altre possibilità: ${escapeHTML(senders.slice(1).join(' · '))}
               </p>
             ` : ''}
           </section>
 
-          <section class="result-compact-section">
-            <h3>Cosa può contenere</h3>
-            ${renderList(contents, 'Il contenuto non è determinabile dal solo prefisso.')}
+          <div class="result-visual-grid">
+            <section class="result-visual-panel">
+              <h3><span class="result-icon result-icon-check" aria-hidden="true">✓</span> Può riguardare</h3>
+              ${renderList(contents.map((value) => value.replace(/^Possibile\s+/i, '')), 'Il contenuto effettivo si conosce soltanto leggendo la comunicazione.')}
+            </section>
+
+            <section class="result-visual-panel result-visual-caution">
+              <h3><span class="result-icon result-icon-info" aria-hidden="true">i</span> Cosa non conferma il codice</h3>
+              <ul class="result-visual-plain-list">
+                <li>Il mittente effettivo.</li>
+                <li>Il contenuto preciso della busta.</li>
+                <li>Che esista un debito o una sanzione da pagare.</li>
+              </ul>
+            </section>
+          </div>
+
+          <section class="result-visual-panel result-visual-retention">
+            <h3>Controlla il termine di ritiro</h3>
+            <p>Il periodo di giacenza dipende dal tipo di invio. Fai riferimento alla data e al termine riportati sull’avviso: non basarti soltanto sul prefisso.</p>
           </section>
 
-          <section class="result-compact-section result-next-step">
-            <h3>Cosa fare adesso</h3>
+          <section class="result-visual-panel result-visual-pickup">
+            <h3>Come ritirarla</h3>
+            <div class="result-pickup-options">
+              <div><strong>Ufficio</strong><span>All’indirizzo indicato sull’avviso</span></div>
+              <div><strong>Delega</strong><span>Se ammessa, con i documenti richiesti</span></div>
+              <div><strong>Online</strong><span>Solo se il ritiro digitale è disponibile</span></div>
+            </div>
+          </section>
+
+          <details class="result-visual-next">
+            <summary>Cosa verificare dopo il ritiro</summary>
             <p>${escapeHTML(nextStep)}</p>
-          </section>
+          </details>
 
-          <p class="result-compact-note">
-            Indicazione orientativa: il prefisso non conferma il mittente né il contenuto della singola raccomandata.
+          <p class="result-visual-disclaimer">
+            Informazione orientativa basata sul prefisso. Il codice non identifica con certezza il mittente o il contenuto della singola raccomandata.
           </p>
 
-          <button type="button" class="new-search-button" data-new-search>
+          <button type="button" class="result-main-reset" data-new-search>
             Controlla un altro codice
           </button>
         </article>
