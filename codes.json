@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-30",
-  "version": "4.9",
+  "lastUpdated": "2026-10-31",
+  "version": "5.0",
   "language": "it",
   "country": "IT",
   "site": "https://raccomandatamarket.com/",
@@ -1248,21 +1248,21 @@
     },
     "689": {
       "label": "Raccomandata Market 689",
-      "type": "Possibile comunicazione di riscossione o relativa a tributi",
-      "category": "Riscossione e tributi",
+      "type": "Comunicazione che può riguardare riscossione, tributi o previdenza",
+      "category": "Riscossione, tributi e previdenza",
       "possibleSenders": [
         "Agenzia delle Entrate-Riscossione",
-        "Enti locali",
-        "Altri enti pubblici"
+        "Comune o altro ente locale",
+        "INPS"
       ],
       "possibleContents": [
-        "Possibile cartella di pagamento",
-        "Possibile comunicazione relativa a tributi locali",
-        "Possibile richiesta relativa a tasse o contributi"
+        "Cartella di pagamento o comunicazione di riscossione",
+        "Comunicazione relativa a tributi locali, come TARI o IMU",
+        "Comunicazione previdenziale o richiesta di chiarimenti INPS"
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla chi è l’ente creditore e se Agenzia delle Entrate-Riscossione agisce come agente della riscossione. Verifica numero e data dell’atto, tributo, annualità, importo e pagamenti già effettuati; leggi con attenzione i termini per chiedere chiarimenti o contestare."
+      "nextStep": "Dopo il ritiro, identifica l’ente che ha emesso la comunicazione e leggi la causale. Se è una cartella di pagamento, controlla ente creditore, numero e data dell’atto, annualità, importo e pagamenti già effettuati. Le scadenze dipendono dal tipo di atto e dalla materia: fai riferimento alla comunicazione ricevuta e, in caso di dubbio, chiedi chiarimenti all’ente indicato."
     },
     "690": {
       "label": "Codice 690",
