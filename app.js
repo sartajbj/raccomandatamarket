@@ -350,7 +350,13 @@
       : [];
     const nextStep = item.nextStep ||
       'Dopo il ritiro, verifica il mittente, l’oggetto e le eventuali scadenze indicate nella comunicazione.';
+    const afterPickup = Array.isArray(item.afterPickup)
+      ? item.afterPickup.filter(Boolean).slice(0, 4)
+      : [nextStep];
     const category = item.category || item.type || 'Comunicazione da verificare';
+    const senderLabel = item.confidence === 'insufficiente'
+      ? 'Mittente non identificabile dal prefisso'
+      : 'Mittente spesso associato';
 
     setResult(
       `
@@ -369,7 +375,7 @@
           </header>
 
           <section class="result-visual-sender">
-            <span class="result-visual-label">Mittente più probabile</span>
+            <span class="result-visual-label">${senderLabel}</span>
             <p class="result-visual-sender-name">
               ${escapeHTML(senders[0] || 'Mittente non determinabile dal solo prefisso')}
             </p>
@@ -412,7 +418,7 @@
 
           <details class="result-visual-next">
             <summary>Cosa verificare dopo il ritiro</summary>
-            <p>${escapeHTML(nextStep)}</p>
+            ${renderList(afterPickup, escapeHTML(nextStep))}
           </details>
 
           <p class="result-visual-disclaimer">
