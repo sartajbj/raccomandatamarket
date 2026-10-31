@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-31",
-  "version": "5.1",
+  "version": "5.2",
   "language": "it",
   "country": "IT",
   "site": "https://raccomandatamarket.com/",
@@ -162,12 +162,12 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, verifica se si tratta davvero di un rimborso, quale ufficio gestisce la pratica, l’importo e l’anno di riferimento. Controlla se sono richiesti dati o documenti: il prefisso non garantisce che sia previsto un accredito.",
+      "nextStep": "Dopo il ritiro, verifica che si tratti davvero di un rimborso o di una somma a credito. Identifica l’ente, l’anno e la pratica; controlla l’importo e gli eventuali dati o documenti richiesti. Non comunicare credenziali bancarie o codici OTP per ricevere un rimborso.",
       "afterPickup": [
-        "Identifica banca o intermediario, contratto, conto o carta a cui si riferisce la comunicazione.",
-        "Controlla periodo, importi, movimenti e scadenze; confrontali con estratti conto e ricevute.",
-        "Verifica la richiesta contattando l’istituto tramite app, sito o numero ufficiale già conosciuto.",
-        "Non inviare PIN, password, OTP o codici di sicurezza in risposta a comunicazioni inattese."
+        "Identifica l’ente o l’ufficio che gestisce la pratica e il numero di riferimento.",
+        "Controlla se la comunicazione conferma un rimborso, richiede documenti o segnala un importo da regolarizzare: il prefisso non garantisce un accredito.",
+        "Confronta anno, importo e coordinate eventualmente indicate con la tua documentazione; verifica ogni richiesta tramite i recapiti ufficiali dell’ente.",
+        "Non fornire PIN, password, codici OTP o dati completi della carta per sbloccare un presunto rimborso."
       ]
     },
     "75": {
@@ -1078,12 +1078,12 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale.",
+      "nextStep": "Dopo il ritiro, identifica mittente e oggetto. Se riguarda INPS, controlla prestazione e periodo; se riguarda banca, utenza o pagamento, verifica contratto, importo e pagamenti già effettuati. Segui soltanto le scadenze riportate nella comunicazione.",
       "afterPickup": [
-        "Individua la prestazione o la posizione interessata: pensione, contributi, invalidità o altra pratica.",
-        "Controlla periodo di riferimento, importi, eventuali dati contributivi e documenti richiesti.",
-        "Verifica la scadenza per rispondere o integrare la pratica e confronta le informazioni con la tua area personale INPS.",
-        "Per chiarimenti, contatta l’ente tramite recapiti ufficiali; non comunicare password o codici di accesso."
+        "Identifica mittente, numero della pratica e motivo della comunicazione.",
+        "Se riguarda INPS, controlla prestazione, periodo contributivo o pensionistico e documenti richiesti.",
+        "Se riguarda banca, utenza o pagamento, confronta contratto, importi e scadenze con estratti conto, fatture e ricevute.",
+        "Verifica la richiesta tramite i recapiti ufficiali del mittente e conserva lettera, busta e prove di pagamento."
       ]
     },
     "628": {
@@ -1128,12 +1128,12 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Ritira la comunicazione senza rimandare. Nel documento verifica l’autorità che ha emesso l’atto, la data di notifica e gli eventuali termini per pagare, rispondere o contestare. Se riguarda un procedimento, valuta un parere professionale.",
+      "nextStep": "Dopo il ritiro, leggi il mittente e l’oggetto effettivo: il prefisso non permette di distinguere una conferma di consegna da una comunicazione su bollo auto, banca o altro rapporto. Controlla pratica, importi ed eventuali scadenze.",
       "afterPickup": [
-        "Individua la prestazione o la posizione interessata: pensione, contributi, invalidità o altra pratica.",
-        "Controlla periodo di riferimento, importi, eventuali dati contributivi e documenti richiesti.",
-        "Verifica la scadenza per rispondere o integrare la pratica e confronta le informazioni con la tua area personale INPS.",
-        "Per chiarimenti, contatta l’ente tramite recapiti ufficiali; non comunicare password o codici di accesso."
+        "Leggi mittente, oggetto e numero di riferimento riportati nella comunicazione.",
+        "Se riguarda il bollo auto, controlla targa, Regione, annualità e pagamenti effettuati.",
+        "Se riguarda una carta o un rapporto bancario, verifica l’istituto e la pratica tramite app o recapiti ufficiali già conosciuti.",
+        "Se è una conferma di consegna o un sollecito, confrontala con la spedizione, il contratto o la fattura a cui si riferisce."
       ]
     },
     "630": {
@@ -1227,12 +1227,12 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale.",
+      "nextStep": "Dopo il ritiro, identifica il mittente e la pratica. Per una richiesta di pagamento controlla causale, periodo, importo e ricevute; per una comunicazione INPS verifica prestazione e periodo; per banca o utenza usa i recapiti ufficiali del fornitore.",
       "afterPickup": [
-        "Individua la prestazione o la posizione interessata: pensione, contributi, invalidità o altra pratica.",
-        "Controlla periodo di riferimento, importi, eventuali dati contributivi e documenti richiesti.",
-        "Verifica la scadenza per rispondere o integrare la pratica e confronta le informazioni con la tua area personale INPS.",
-        "Per chiarimenti, contatta l’ente tramite recapiti ufficiali; non comunicare password o codici di accesso."
+        "Identifica mittente, oggetto e numero della pratica.",
+        "Per pagamenti o tributi, controlla causale, annualità, importo e pagamenti già effettuati.",
+        "Per INPS, verifica prestazione, periodo contributivo o pensionistico e documenti richiesti.",
+        "Per banca o utenza, confronta la richiesta con contratto, estratto conto o fattura e contatta il fornitore tramite canali ufficiali."
       ]
     },
     "650": {
@@ -1566,12 +1566,12 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale.",
+      "nextStep": "Dopo il ritiro, individua l’ente o il fornitore e la pratica citata. Se riguarda previdenza, verifica prestazione e periodo; se riguarda un servizio o pagamento, controlla contratto, fattura, importo e scadenza.",
       "afterPickup": [
-        "Individua la prestazione o la posizione interessata: pensione, contributi, invalidità o altra pratica.",
-        "Controlla periodo di riferimento, importi, eventuali dati contributivi e documenti richiesti.",
-        "Verifica la scadenza per rispondere o integrare la pratica e confronta le informazioni con la tua area personale INPS.",
-        "Per chiarimenti, contatta l’ente tramite recapiti ufficiali; non comunicare password o codici di accesso."
+        "Identifica l’ente o il fornitore, l’oggetto e il numero di pratica.",
+        "Se riguarda previdenza o INPS, verifica prestazione, periodo e documenti richiesti.",
+        "Se riguarda un’utenza o un pagamento, confronta fattura, importo e scadenza con le ricevute.",
+        "Contatta il mittente tramite recapiti ufficiali se i dati non coincidono o la richiesta non è chiara."
       ]
     },
     "685": {
@@ -1617,12 +1617,12 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente creditore e l’eventuale agente della riscossione, il tributo, l’anno e la causale. Confronta importi e pagamenti già effettuati e verifica i termini indicati. Non pagare né ignorare la richiesta basandoti sul solo prefisso.",
+      "nextStep": "Dopo il ritiro, identifica il creditore e la natura della richiesta. Per una bolletta o fattura verifica contratto, periodo e pagamenti; per tributi controlla ente, annualità e causale; per recupero crediti chiedi il dettaglio del credito e conserva le prove.",
       "afterPickup": [
-        "Individua la prestazione o la posizione interessata: pensione, contributi, invalidità o altra pratica.",
-        "Controlla periodo di riferimento, importi, eventuali dati contributivi e documenti richiesti.",
-        "Verifica la scadenza per rispondere o integrare la pratica e confronta le informazioni con la tua area personale INPS.",
-        "Per chiarimenti, contatta l’ente tramite recapiti ufficiali; non comunicare password o codici di accesso."
+        "Identifica il creditore, il numero della pratica e la causale della richiesta.",
+        "Per bollette o fatture, confronta periodo, importo e pagamenti con contratto e ricevute.",
+        "Per TARI, bollo o altri tributi, controlla ente creditore, annualità, targa o immobile, importo e pagamenti effettuati.",
+        "Per recupero crediti, chiedi il dettaglio del credito e verifica la documentazione prima di pagare; rispetta i termini indicati nell’atto."
       ]
     },
     "688": {
@@ -1815,12 +1815,12 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica il mittente effettivo, l’oggetto e la pratica a cui si riferisce. Controlla eventuali importi, documenti richiesti e scadenze riportate nella lettera: il prefisso da solo non permette di confermare il contenuto.",
+      "nextStep": "Dopo il ritiro, identifica l’autorità, l’ente o il soggetto che ha inviato la comunicazione e leggi l’oggetto. Se riguarda un procedimento, verifica numero e termini; se riguarda previdenza o banca, controlla pratica e documenti. Il prefisso non consente di escludere o confermare una specifica natura dell’atto.",
       "afterPickup": [
-        "Identifica banca o intermediario, contratto, conto o carta a cui si riferisce la comunicazione.",
-        "Controlla periodo, importi, movimenti e scadenze; confrontali con estratti conto e ricevute.",
-        "Verifica la richiesta contattando l’istituto tramite app, sito o numero ufficiale già conosciuto.",
-        "Non inviare PIN, password, OTP o codici di sicurezza in risposta a comunicazioni inattese."
+        "Identifica mittente, oggetto, numero di pratica o procedimento e data di notifica.",
+        "Se è un atto amministrativo o relativo a una violazione, leggi con attenzione cosa viene richiesto e i termini indicati.",
+        "Se riguarda previdenza, controlla prestazione e periodo; se riguarda banca o finanza, verifica il rapporto tramite canali ufficiali.",
+        "Conserva busta e documenti ricevuti; in caso di contestazione o termini legali, chiedi assistenza qualificata."
       ]
     },
     "720": {
@@ -2556,12 +2556,12 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "non determinabile",
-      "nextStep": "Dopo il ritiro, identifica banca o intermediario e la pratica, il conto o il contratto citato. Verifica importi e scadenze direttamente tramite i canali ufficiali dell’istituto; non comunicare PIN, password o codici di sicurezza in risposta a richieste inattese.",
+      "nextStep": "Dopo il ritiro, identifica mittente e pratica. Se riguarda una banca, verifica conto o carta; per utenze controlla contratto e fattura; per veicoli o assicurazioni controlla targa e polizza; per previdenza verifica la posizione INPS.",
       "afterPickup": [
-        "Individua la prestazione o la posizione interessata: pensione, contributi, invalidità o altra pratica.",
-        "Controlla periodo di riferimento, importi, eventuali dati contributivi e documenti richiesti.",
-        "Verifica la scadenza per rispondere o integrare la pratica e confronta le informazioni con la tua area personale INPS.",
-        "Per chiarimenti, contatta l’ente tramite recapiti ufficiali; non comunicare password o codici di accesso."
+        "Identifica mittente, oggetto e numero di pratica.",
+        "Per banca o carta, verifica il rapporto tramite app o recapiti ufficiali; non comunicare PIN, password o OTP.",
+        "Per utenze o assicurazioni, controlla contratto, periodo, importo, targa o numero di polizza e pagamenti effettuati.",
+        "Per comunicazioni previdenziali, verifica prestazione e periodo nella tua posizione INPS. Segui le scadenze indicate nella lettera."
       ]
     },
     "6857": {
@@ -2679,12 +2679,12 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale.",
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e la natura dell’atto. Per cartelle o tributi controlla causale, annualità, importo e pagamenti; per INPS verifica la prestazione; per banca o recupero crediti controlla contratto e documentazione. Le scadenze dipendono dall’atto ricevuto.",
       "afterPickup": [
-        "Individua la prestazione o la posizione interessata: pensione, contributi, invalidità o altra pratica.",
-        "Controlla periodo di riferimento, importi, eventuali dati contributivi e documenti richiesti.",
-        "Verifica la scadenza per rispondere o integrare la pratica e confronta le informazioni con la tua area personale INPS.",
-        "Per chiarimenti, contatta l’ente tramite recapiti ufficiali; non comunicare password o codici di accesso."
+        "Identifica il mittente effettivo e, se compare AdeR, anche l’ente creditore per conto del quale riscuote.",
+        "Per cartelle o tributi, controlla numero e data dell’atto, causale, annualità, importo e pagamenti già effettuati.",
+        "Per comunicazioni INPS, verifica prestazione, periodo contributivo o pensionistico e documenti richiesti.",
+        "Per richieste bancarie o di recupero crediti, verifica contratto e dettaglio del credito tramite canali ufficiali. Segui i termini riportati nell’atto."
       ]
     },
     "6972": {
@@ -2705,12 +2705,12 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale.",
+      "nextStep": "Dopo il ritiro, identifica l’ente e il tipo di comunicazione. Per cartelle o tributi controlla causale, annualità, importo e pagamenti; per INPS verifica la prestazione; per banca o recupero crediti controlla il rapporto e la documentazione. Non applicare una scadenza basata sul solo prefisso.",
       "afterPickup": [
-        "Individua la prestazione o la posizione interessata: pensione, contributi, invalidità o altra pratica.",
-        "Controlla periodo di riferimento, importi, eventuali dati contributivi e documenti richiesti.",
-        "Verifica la scadenza per rispondere o integrare la pratica e confronta le informazioni con la tua area personale INPS.",
-        "Per chiarimenti, contatta l’ente tramite recapiti ufficiali; non comunicare password o codici di accesso."
+        "Identifica il mittente effettivo e l’eventuale ente creditore.",
+        "Per cartelle, tributi o bollo auto, verifica atto, annualità, targa se pertinente, importo e pagamenti già effettuati.",
+        "Per INPS, controlla prestazione, periodo contributivo o pensionistico e documenti richiesti.",
+        "Per comunicazioni bancarie o recupero crediti, verifica contratto e dettaglio della richiesta tramite recapiti ufficiali. Rispetta i termini scritti nell’atto."
       ]
     },
     "6975": {
@@ -2731,12 +2731,12 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale.",
+      "nextStep": "Dopo il ritiro, identifica l’ente e il tipo di comunicazione. Per cartelle o tributi controlla causale, annualità, importo e pagamenti; per INPS verifica la prestazione; per banca o recupero crediti controlla il rapporto e la documentazione. Non applicare una scadenza basata sul solo prefisso.",
       "afterPickup": [
-        "Individua la prestazione o la posizione interessata: pensione, contributi, invalidità o altra pratica.",
-        "Controlla periodo di riferimento, importi, eventuali dati contributivi e documenti richiesti.",
-        "Verifica la scadenza per rispondere o integrare la pratica e confronta le informazioni con la tua area personale INPS.",
-        "Per chiarimenti, contatta l’ente tramite recapiti ufficiali; non comunicare password o codici di accesso."
+        "Identifica il mittente effettivo e l’eventuale ente creditore.",
+        "Per cartelle, tributi o bollo auto, verifica atto, annualità, targa se pertinente, importo e pagamenti già effettuati.",
+        "Per INPS, controlla prestazione, periodo contributivo o pensionistico e documenti richiesti.",
+        "Per comunicazioni bancarie o recupero crediti, verifica contratto e dettaglio della richiesta tramite recapiti ufficiali. Rispetta i termini scritti nell’atto."
       ]
     },
     "6980": {
@@ -2757,12 +2757,12 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica banca o intermediario e la pratica, il conto o il contratto citato. Verifica importi e scadenze direttamente tramite i canali ufficiali dell’istituto; non comunicare PIN, password o codici di sicurezza in risposta a richieste inattese.",
+      "nextStep": "Dopo il ritiro, identifica mittente e pratica. Per tributi o bollo controlla ente, annualità, targa o immobile e pagamenti; per INPS verifica la prestazione; per banca o recupero crediti controlla il rapporto e il dettaglio della richiesta.",
       "afterPickup": [
-        "Individua la prestazione o la posizione interessata: pensione, contributi, invalidità o altra pratica.",
-        "Controlla periodo di riferimento, importi, eventuali dati contributivi e documenti richiesti.",
-        "Verifica la scadenza per rispondere o integrare la pratica e confronta le informazioni con la tua area personale INPS.",
-        "Per chiarimenti, contatta l’ente tramite recapiti ufficiali; non comunicare password o codici di accesso."
+        "Identifica il mittente effettivo e il numero della pratica.",
+        "Per tributi o bollo auto, controlla ente creditore, annualità, targa o immobile, importo e pagamenti effettuati.",
+        "Per INPS, verifica prestazione, periodo contributivo o pensionistico e documenti richiesti.",
+        "Per banca o recupero crediti, confronta la richiesta con contratto ed estratti conto e contatta il soggetto tramite recapiti ufficiali."
       ]
     },
     "05": {
