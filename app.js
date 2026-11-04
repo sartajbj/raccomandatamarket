@@ -345,18 +345,25 @@
     const senders = Array.isArray(item.possibleSenders)
       ? item.possibleSenders.filter(Boolean).slice(0, 3)
       : [];
-    const contents = Array.isArray(item.possibleContents)
-      ? item.possibleContents.filter(Boolean).slice(0, 4)
+    const rawContents = Array.isArray(item.possibleContents)
+      ? item.possibleContents.filter(Boolean).slice(0, 3)
       : [];
-    const nextStep = item.nextStep ||
-      'Dopo il ritiro, verifica il mittente, l’oggetto e le eventuali scadenze indicate nella comunicazione.';
-    const afterPickup = Array.isArray(item.afterPickup)
-      ? item.afterPickup.filter(Boolean).slice(0, 4)
-      : [nextStep];
-    const category = item.category || item.type || 'Comunicazione da verificare';
+    const contents = rawContents.map((value) =>
+      String(value).replace(/^Possibile\\s+/i, '')
+    );
+    while (contents.length < 3) {
+      contents.push('Altra comunicazione della categoria indicata');
+    }
+    const category = (item.category || item.type || 'Comunicazioni da verificare')
+      .split(/\\s+/).slice(0, 4).join(' ');
+    const afterText = String(item.nextStep || 'Identifica il mittente, leggi la causale e controlla eventuali richieste e scadenze.')
+      .replace(/^Dopo il ritiro,?\\s*/i, '');
+    const afterSentences = afterText.match(/[^.!?]+[.!?]?/g) || [];
+    const afterPickup = afterSentences.map(s => s.trim()).filter(Boolean).slice(0, 3).join(' ');
     const senderLabel = item.confidence === 'insufficiente'
       ? 'Mittente non identificabile dal prefisso'
       : 'Mittente spesso associato';
+    const otherSenders = senders.slice(1, 3);
 
     setResult(
       `
@@ -364,79 +371,60 @@
           <header class="result-visual-header">
             <div class="result-visual-heading">
               <div>
-                <span class="result-eyebrow">Analisi indicativa del prefisso</span>
                 <h2 class="result-title">${escapeHTML(label)}</h2>
                 <span class="result-category-badge">${escapeHTML(category)}</span>
               </div>
-              <button type="button" class="result-quick-reset" data-new-search>
-                Altro codice
-              </button>
+              <button type="button" class="result-quick-reset" data-new-search>Altro codice</button>
             </div>
           </header>
 
           <section class="result-visual-sender">
             <span class="result-visual-label">${senderLabel}</span>
-            <p class="result-visual-sender-name">
-              ${escapeHTML(senders[0] || 'Mittente non determinabile dal solo prefisso')}
-            </p>
-            ${senders.length > 1 ? `
-              <p class="result-visual-alternatives">
-                Altre possibilità: ${escapeHTML(senders.slice(1).join(' · '))}
-              </p>
+            <p class="result-visual-sender-name">${escapeHTML(senders[0] || 'Non determinabile dal solo prefisso')}</p>
+            ${otherSenders.length ? `
+              <p class="result-visual-alternatives">Altre possibilità: ${escapeHTML(otherSenders.join(' · '))}</p>
             ` : ''}
           </section>
 
           <div class="result-visual-grid">
             <section class="result-visual-panel">
               <h3><span class="result-icon result-icon-check" aria-hidden="true">✓</span> Può riguardare</h3>
-              ${renderList(contents.map((value) => value.replace(/^Possibile\s+/i, '')), 'Il contenuto effettivo si conosce soltanto leggendo la comunicazione.')}
+              ${renderList(contents, 'Contenuto non determinabile dal prefisso.')}
             </section>
-
             <section class="result-visual-panel result-visual-caution">
               <h3><span class="result-icon result-icon-info" aria-hidden="true">i</span> Cosa non conferma il codice</h3>
               <ul class="result-visual-plain-list">
-                <li>Il mittente effettivo.</li>
-                <li>Il contenuto preciso della busta.</li>
+                <li>Il mittente effettivo e il contenuto preciso.</li>
                 <li>Che esista un debito o una sanzione da pagare.</li>
               </ul>
             </section>
           </div>
 
           <section class="result-visual-panel result-visual-retention">
-            <h3>Controlla il termine di ritiro</h3>
-            <p>Il termine dipende dal servizio: la Raccomandata standard resta in giacenza 30 giorni, mentre Raccomandata 1 15 giorni. Per atti giudiziari e altri invii possono valere regole diverse. Controlla sempre la data e il termine indicati sull’avviso: il prefisso non identifica il prodotto postale.</p>
+            <h3>Termine di ritiro</h3>
+            <p>Di norma la raccomandata resta in giacenza 30 giorni; per la Raccomandata 1 il termine è di 15 giorni. Controlla sempre la scadenza indicata sull’avviso.</p>
           </section>
 
           <section class="result-visual-panel result-visual-pickup">
             <h3>Come ritirarla</h3>
             <div class="result-pickup-options">
-              <div><strong>Ufficio</strong><span>All’indirizzo indicato sull’avviso</span></div>
-              <div><strong>Delega</strong><span>Compila la sezione sull’avviso; il delegato porta il proprio documento e una copia di quello del delegante</span></div>
-              <div><strong>Online</strong><span>Solo se l’avviso abilita il Ritiro Digitale per quella spedizione</span></div>
+              <div><strong>Ufficio:</strong><span> all’indirizzo indicato sull’avviso</span></div>
+              <div><strong>Delega:</strong><span> compila la sezione sull’avviso; il delegato porta il proprio documento e una copia di quello del delegante</span></div>
+              <div><strong>Online:</strong><span> solo se l’avviso abilita il Ritiro Digitale</span></div>
             </div>
           </section>
 
           <section class="result-visual-panel result-visual-after">
-            <h3>Cosa fare dopo il ritiro</h3>
-            <p class="result-visual-next-intro">${escapeHTML(nextStep)}</p>
-            <details class="result-visual-next">
-              <summary>Altri controlli utili</summary>
-              ${renderList(afterPickup, escapeHTML(nextStep))}
-            </details>
+            <h3>Dopo il ritiro</h3>
+            <p class="result-visual-next-intro">${escapeHTML(afterPickup)}</p>
           </section>
 
-          <p class="result-visual-disclaimer">
-            Informazione orientativa basata sul prefisso. Il codice non identifica con certezza il mittente o il contenuto della singola raccomandata.
-          </p>
-
-          <button type="button" class="result-main-reset" data-new-search>
-            Controlla un altro codice
-          </button>
+          <p class="result-visual-disclaimer">Le informazioni basate sul prefisso sono indicative: il codice non identifica con certezza mittente o contenuto.</p>
+          <button type="button" class="result-main-reset" data-new-search>Controlla un altro codice</button>
         </article>
       `,
       'success'
     );
-
     scrollToResult();
   }
 
