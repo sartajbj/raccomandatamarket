@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-11-04",
-  "version": "5.3",
+  "version": "5.4",
   "language": "it",
   "country": "IT",
   "site": "https://raccomandatamarket.com/",
@@ -1669,12 +1669,12 @@
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, identifica l’ente che ha emesso la comunicazione e leggi la causale. Se è una cartella di pagamento, controlla ente creditore, numero e data dell’atto, annualità, importo e pagamenti già effettuati. Le scadenze dipendono dal tipo di atto e dalla materia: fai riferimento alla comunicazione ricevuta e, in caso di dubbio, chiedi chiarimenti all’ente indicato.",
+      "nextStep": "Dopo il ritiro, identifica l’ente creditore e leggi la causale. Se trovi una cartella di pagamento, controlla numero e data di notifica, annualità, importo e pagamenti già effettuati: per il pagamento della cartella il termine ordinario indicato da Agenzia delle entrate-Riscossione è di 60 giorni dalla notifica. Le modalità e i termini per contestare dipendono invece dal tipo di credito e dall’autorità competente.",
       "afterPickup": [
-        "Identifica l’ente creditore: Agenzia delle Entrate-Riscossione può riscuotere somme per conto di Comuni, INPS o altri enti.",
-        "Se trovi una cartella, controlla numero e data di notifica, causale, annualità, importo e pagamenti già effettuati.",
-        "Se la comunicazione riguarda INPS, verifica prestazione, periodo contributivo o pensionistico e documenti richiesti.",
-        "Segui i termini scritti nell’atto. Per una cartella di pagamento, AdeR indica generalmente 60 giorni dalla notifica per pagare; i termini per contestare dipendono dal tipo di credito e dall’autorità competente."
+        "Identifica l’ente creditore e la causale: Agenzia delle Entrate-Riscossione può riscuotere somme per conto di Comuni, INPS o altri enti.",
+        "Se trovi una cartella, controlla numero e data di notifica, annualità, causale, importo e pagamenti già effettuati.",
+        "Per una cartella di pagamento, il termine ordinario per pagare è di 60 giorni dalla notifica. Se ritieni che la somma non sia dovuta, verifica subito le procedure e i termini di sospensione o contestazione indicati nell’atto: non sono uguali per ogni credito.",
+        "Se la comunicazione riguarda INPS, verifica prestazione, periodo contributivo o pensionistico e documenti richiesti."
       ]
     },
     "690": {
