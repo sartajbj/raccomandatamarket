@@ -8,7 +8,7 @@
 
 (() => {
   const CONFIG = {
-    databaseUrl: "/codes.json?v=20261031-3",
+    databaseUrl: "/codes.json?v=20261104-1",
     minDigits: 2,
     maxDigits: 20
   };
