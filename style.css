@@ -2056,3 +2056,29 @@ p {
     font-size: 0.68rem;
   }
 }
+
+
+/* Production clarity improvements — November 2026 */
+.result-visual-after {
+  margin-top: 13px;
+}
+.result-visual-next-intro {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+.result-visual-after .result-visual-next {
+  margin-top: 11px;
+}
+.result-visual-disclaimer {
+  color: #344253;
+}
+.result-pickup-options span {
+  color: #405064;
+}
+@media (max-width: 600px) {
+  .result-pickup-options span {
+    font-size: 0.7rem;
+  }
+}
