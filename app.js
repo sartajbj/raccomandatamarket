@@ -349,15 +349,15 @@
       ? item.possibleContents.filter(Boolean).slice(0, 3)
       : [];
     const contents = rawContents.map((value) =>
-      String(value).replace(/^Possibile\\s+/i, '')
+      String(value).replace(/^Possibile\s+/i, '')
     );
     while (contents.length < 3) {
       contents.push('Altra comunicazione della categoria indicata');
     }
     const category = (item.category || item.type || 'Comunicazioni da verificare')
-      .split(/\\s+/).slice(0, 4).join(' ');
+      .split(/\s+/).slice(0, 4).join(' ');
     const afterText = String(item.nextStep || 'Identifica il mittente, leggi la causale e controlla eventuali richieste e scadenze.')
-      .replace(/^Dopo il ritiro,?\\s*/i, '');
+      .replace(/^Dopo il ritiro,?\s*/i, '');
     const afterSentences = afterText.match(/[^.!?]+[.!?]?/g) || [];
     const afterPickup = afterSentences.map(s => s.trim()).filter(Boolean).slice(0, 3).join(' ');
     const senderLabel = item.confidence === 'insufficiente'
