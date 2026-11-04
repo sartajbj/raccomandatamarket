@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-31",
-  "version": "5.2",
+  "lastUpdated": "2026-11-04",
+  "version": "5.3",
   "language": "it",
   "country": "IT",
   "site": "https://raccomandatamarket.com/",
@@ -788,10 +788,10 @@
       "riskLevel": "da verificare",
       "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato.",
       "afterPickup": [
-        "Individua la prestazione o la posizione interessata: pensione, contributi, invalidità o altra pratica.",
-        "Controlla periodo di riferimento, importi, eventuali dati contributivi e documenti richiesti.",
-        "Verifica la scadenza per rispondere o integrare la pratica e confronta le informazioni con la tua area personale INPS.",
-        "Per chiarimenti, contatta l’ente tramite recapiti ufficiali; non comunicare password o codici di accesso."
+        "Individua il tributo o la pratica fiscale e l’anno a cui si riferisce.",
+        "Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con la dichiarazione e le ricevute F24.",
+        "Se il mittente è INPS o un altro ente pubblico, verifica la pratica e i documenti richiesti senza presumere che si tratti di una questione fiscale.",
+        "Rispetta il termine indicato nella comunicazione e contatta l’ente tramite recapiti ufficiali."
       ]
     },
     "573": {
@@ -1202,10 +1202,10 @@
       "riskLevel": "da verificare",
       "nextStep": "Dopo il ritiro, controlla compagnia, numero di polizza o sinistro, veicolo e data dell’evento. Verifica se la lettera richiede documenti o una risposta entro un termine e contatta la compagnia tramite i recapiti ufficiali.",
       "afterPickup": [
-        "Identifica banca o intermediario, contratto, conto o carta a cui si riferisce la comunicazione.",
-        "Controlla periodo, importi, movimenti e scadenze; confrontali con estratti conto e ricevute.",
-        "Verifica la richiesta contattando l’istituto tramite app, sito o numero ufficiale già conosciuto.",
-        "Non inviare PIN, password, OTP o codici di sicurezza in risposta a comunicazioni inattese."
+        "Identifica il mittente e la natura della comunicazione: fiscale, bancaria o assicurativa.",
+        "Se riguarda un controllo fiscale, verifica anno d’imposta, causale, importi e documenti richiesti; confrontali con dichiarazione e ricevute.",
+        "Se riguarda una banca o un’assicurazione, controlla contratto, conto, polizza o sinistro e gli eventuali importi.",
+        "Usa i recapiti ufficiali dell’ente o della società e rispetta la scadenza indicata nella lettera."
       ]
     },
     "649": {
@@ -1520,10 +1520,10 @@
       "riskLevel": "da verificare",
       "nextStep": "Dopo il ritiro, controlla quale ente ha inviato la comunicazione, la prestazione o posizione contributiva interessata e il periodo di riferimento. Verifica documenti richiesti e scadenze; confronta i dati con la tua posizione previdenziale.",
       "afterPickup": [
-        "Individua la prestazione o la posizione interessata: pensione, contributi, invalidità o altra pratica.",
-        "Controlla periodo di riferimento, importi, eventuali dati contributivi e documenti richiesti.",
-        "Verifica la scadenza per rispondere o integrare la pratica e confronta le informazioni con la tua area personale INPS.",
-        "Per chiarimenti, contatta l’ente tramite recapiti ufficiali; non comunicare password o codici di accesso."
+        "Identifica il mittente e la pratica a cui si riferisce la comunicazione: tributo locale, riscossione o prestazione INPS.",
+        "Per tributi o riscossione, controlla ente creditore, causale, annualità, importo e pagamenti già effettuati.",
+        "Per INPS, verifica prestazione, periodo contributivo o pensionistico e documenti richiesti.",
+        "Segui i termini indicati nell’atto e chiedi chiarimenti all’ente tramite recapiti ufficiali."
       ]
     },
     "677": {
@@ -2608,10 +2608,10 @@
       "riskLevel": "da verificare",
       "nextStep": "Dopo il ritiro, controlla chi è l’ente creditore e se Agenzia delle Entrate-Riscossione agisce come agente della riscossione. Verifica numero e data dell’atto, tributo, annualità, importo e pagamenti già effettuati; leggi con attenzione i termini per chiedere chiarimenti o contestare.",
       "afterPickup": [
-        "Identifica banca o intermediario, contratto, conto o carta a cui si riferisce la comunicazione.",
-        "Controlla periodo, importi, movimenti e scadenze; confrontali con estratti conto e ricevute.",
-        "Verifica la richiesta contattando l’istituto tramite app, sito o numero ufficiale già conosciuto.",
-        "Non inviare PIN, password, OTP o codici di sicurezza in risposta a comunicazioni inattese."
+        "Identifica l’ente creditore e verifica se Agenzia delle Entrate-Riscossione agisce come agente della riscossione.",
+        "Per una cartella o un atto di riscossione, controlla numero e data, causale, annualità, importo e pagamenti già effettuati.",
+        "Per un sollecito di utenza o un credito privato, confronta la richiesta con contratto, fatture e ricevute.",
+        "Verifica la scadenza riportata nella comunicazione; non dedurre l’esistenza di un debito dal solo prefisso."
       ]
     },
     "6969": {
