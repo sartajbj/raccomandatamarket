@@ -2160,3 +2160,74 @@ p {
     margin-right: 5px;
   }
 }
+
+
+/* Homepage UX refinement — compact spacing and consistent share controls */
+.section-heading {
+  margin-bottom: 28px;
+}
+
+.article-content > .section-heading {
+  margin-bottom: 22px;
+}
+
+.tool-share {
+  margin: 20px auto 16px;
+  text-align: center;
+}
+
+.tool-share-title {
+  display: block;
+  margin-bottom: 9px;
+  color: var(--primary);
+  font-size: 0.94rem;
+  line-height: 1.4;
+}
+
+.tool-share-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tool-share-links a {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 13px;
+  border: 1px solid var(--border-dark);
+  border-radius: 9px;
+  background: #fff;
+  color: var(--primary);
+  font-size: 0.9rem;
+  font-weight: 750;
+  text-decoration: none;
+  transition: border-color var(--transition), background var(--transition);
+}
+
+.tool-share-links a:hover {
+  border-color: var(--primary);
+  background: var(--primary-light);
+}
+
+@media (max-width: 720px) {
+  .section-heading {
+    margin-bottom: 24px;
+  }
+
+  .article-content > .section-heading {
+    margin-bottom: 18px;
+  }
+
+  .tool-share {
+    margin: 16px auto 14px;
+  }
+
+  .tool-share-links a {
+    min-height: 40px;
+    padding: 7px 11px;
+    font-size: 0.86rem;
+  }
+}
