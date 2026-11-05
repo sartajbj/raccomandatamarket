@@ -2082,3 +2082,28 @@ p {
     font-size: 0.7rem;
   }
 }
+
+
+/* Mobile pickup options: readable rows instead of narrow columns */
+@media (max-width: 600px) {
+  .result-pickup-options {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .result-pickup-options div {
+    display: grid;
+    grid-template-columns: 76px minmax(0, 1fr);
+    align-items: start;
+    gap: 8px;
+    padding: 11px 12px;
+    text-align: left;
+  }
+  .result-pickup-options strong {
+    text-align: left;
+  }
+  .result-pickup-options span {
+    margin-top: 0;
+    font-size: 0.78rem;
+    line-height: 1.4;
+  }
+}
