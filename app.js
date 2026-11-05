@@ -348,18 +348,26 @@
     const rawContents = Array.isArray(item.possibleContents)
       ? item.possibleContents.filter(Boolean).slice(0, 3)
       : [];
+    const limitWords = (value, max) =>
+      String(value).trim().split(/\\s+/).slice(0, max).join(' ');
     const contents = rawContents.map((value) =>
-      String(value).replace(/^Possibile\s+/i, '')
+      limitWords(String(value).replace(/^Possibile\\s+/i, ''), 10)
     );
     while (contents.length < 3) {
-      contents.push('Altra comunicazione della categoria indicata');
+      contents.push('Il prefisso non consente una classificazione più precisa');
     }
-    const category = (item.category || item.type || 'Comunicazioni da verificare')
-      .split(/\s+/).slice(0, 4).join(' ');
-    const afterText = String(item.nextStep || 'Identifica il mittente, leggi la causale e controlla eventuali richieste e scadenze.')
-      .replace(/^Dopo il ritiro,?\s*/i, '');
+    const category = limitWords(
+      item.category || item.type || 'Comunicazioni da verificare',
+      4
+    );
+    const afterText = String(item.nextStep ||
+      'Identifica il mittente, leggi la causale e controlla eventuali richieste e scadenze.')
+      .replace(/^Dopo il ritiro,?\\s*/i, '');
     const afterSentences = afterText.match(/[^.!?]+[.!?]?/g) || [];
-    const afterPickup = afterSentences.map(s => s.trim()).filter(Boolean).slice(0, 3).join(' ');
+    const afterPickup = limitWords(
+      afterSentences.map(s => s.trim()).filter(Boolean).slice(0, 3).join(' '),
+      27
+    );
     const senderLabel = item.confidence === 'insufficiente'
       ? 'Mittente non identificabile dal prefisso'
       : 'Mittente spesso associato';
@@ -402,7 +410,7 @@
 
           <section class="result-visual-panel result-visual-retention">
             <h3>Termine di ritiro</h3>
-            <p>Di norma la raccomandata resta in giacenza 30 giorni; per la Raccomandata 1 il termine è di 15 giorni. Controlla sempre la scadenza indicata sull’avviso.</p>
+            <p>Di norma la raccomandata resta in giacenza 30 giorni; per la Raccomandata 1 il termine è di 15 giorni. Per gli atti giudiziari valgono regole diverse: controlla l’avviso.</p>
           </section>
 
           <section class="result-visual-panel result-visual-pickup">
