@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-11-05",
-  "version": "5.5",
+  "version": "5.6",
   "language": "it",
   "country": "IT",
   "site": "https://raccomandatamarket.com/",
@@ -1460,17 +1460,17 @@
       "category": "Fisco e tributi",
       "possibleSenders": [
         "Agenzia delle Entrate",
-        "Enti pubblici o competenti per tributi"
+        "Agenzia delle Entrate-Riscossione",
+        "Comune"
       ],
       "possibleContents": [
-        "Possibile avviso bonario",
-        "Possibile richiesta di chiarimenti o documentazione",
-        "Possibile segnalazione di irregolarità fiscale",
-        "Possibile comunicazione relativa al bollo auto"
+        "Avviso bonario",
+        "Richiesta di chiarimenti o documentazione",
+        "Comunicazione di irregolarità fiscale"
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato.",
+      "nextStep": "Individua il tributo o la pratica fiscale e l’anno di riferimento. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato.",
       "afterPickup": [
         "Controlla targa, data e luogo dell’infrazione o annualità del tributo, secondo il tipo di atto.",
         "Verifica ente emittente, numero del verbale/accertamento, importo e modalità di pagamento.",
@@ -1637,11 +1637,9 @@
         "Privati o professionisti"
       ],
       "possibleContents": [
-        "Possibile diffida o sollecito di pagamento",
-        "Possibile comunicazione bancaria o relativa a una carta di pagamento",
-        "Possibile comunicazione su utenze, assicurazioni o recupero crediti",
-        "Possibile comunicazione fiscale o relativa a tributi",
-        "Possibile comunicazione relativa a veicoli, bollo o altri servizi"
+        "Diffida o sollecito di pagamento",
+        "Comunicazione bancaria o relativa a una carta",
+        "Comunicazione su utenze, assicurazioni o recupero crediti"
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
@@ -1806,10 +1804,9 @@
         "Altri soggetti"
       ],
       "possibleContents": [
-        "Possibile comunicazione amministrativa",
-        "Possibile notifica relativa a violazioni o procedimenti",
-        "Possibile comunicazione previdenziale",
-        "Possibile comunicazione bancaria o finanziaria"
+        "Comunicazione amministrativa",
+        "Notifica relativa a violazioni o procedimenti",
+        "Comunicazione previdenziale o bancaria"
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
