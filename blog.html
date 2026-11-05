@@ -14,6 +14,7 @@
 
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="stylesheet" href="/style.css">
+  <script src="/app.js?v=20261105-6" defer></script>
 
   <style>
     .blog-page {
@@ -226,11 +227,14 @@
         <span>RaccomandataMarket.com</span>
       </a>
 
-      <nav class="main-nav" aria-label="Navigazione principale">
+      <button class="menu-button" id="menuButton" type="button" aria-label="Apri menu" aria-controls="mainNav" aria-expanded="false" data-menu-button><span class="menu-button-lines" aria-hidden="true"></span></button>
+      <nav class="main-nav" id="mainNav" aria-label="Navigazione principale" data-main-nav>
         <a href="/">Home</a>
         <a href="/#verifica-codice">Verifica codice</a>
         <a href="/codici-raccomandata-market">Codici</a>
-        <a href="/blog" aria-current="page">Guide</a>
+        <a href="/blog" aria-current="page">Blog</a>
+        <a href="/#guida">Guida</a>
+        <a href="/#faq">FAQ</a>
       </nav>
 
     </div>
@@ -532,6 +536,17 @@
           <h2><a href="/come-delegare-ritiro-raccomandata">Come delegare il ritiro di una raccomandata</a></h2>
           <p>Documenti, dati da inserire nella delega e controlli da fare prima di mandare un’altra persona allo sportello.</p>
           <a class="blog-read-more" href="/come-delegare-ritiro-raccomandata">Leggi la guida →</a>
+        </div>
+      </article>
+
+      <article class="blog-card">
+        <a class="blog-card-image" href="/avviso-di-giacenza-falso-come-riconoscerlo" aria-label="Leggi la guida per riconoscere un falso avviso di giacenza">
+          <img src="/avviso-di-giacenza-clean.webp" alt="Guida per controllare un avviso di giacenza sospetto" width="800" height="450" loading="lazy">
+        </a>
+        <div class="blog-card-content">
+          <h2><a href="/avviso-di-giacenza-falso-come-riconoscerlo">Avviso di giacenza falso: come riconoscere una truffa</a></h2>
+          <p>Controlli utili per valutare messaggi, email e richieste di pagamento sospette che imitano un avviso postale.</p>
+          <a class="blog-read-more" href="/avviso-di-giacenza-falso-come-riconoscerlo">Leggi la guida →</a>
         </div>
       </article>
 
