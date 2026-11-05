@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-04",
-  "version": "5.4",
+  "lastUpdated": "2026-11-05",
+  "version": "5.5",
   "language": "it",
   "country": "IT",
   "site": "https://raccomandatamarket.com/",
@@ -1777,23 +1777,21 @@
       "category": "Fisco e riscossione",
       "possibleSenders": [
         "Agenzia delle Entrate",
-        "Enti di riscossione",
-        "Altri enti o soggetti"
+        "Agenzia delle Entrate-Riscossione",
+        "Comuni o altri enti locali"
       ],
       "possibleContents": [
-        "Possibile cartella o richiesta di pagamento",
-        "Possibile sollecito di pagamento",
-        "Possibile messa in mora",
-        "Possibile altra comunicazione fiscale"
+        "Comunicazione fiscale o avviso dell’ente",
+        "Richiesta di documenti o chiarimenti",
+        "Sollecito o richiesta di pagamento"
       ],
       "confidence": "indicativa",
       "riskLevel": "da verificare",
-      "nextStep": "Dopo il ritiro, individua il tributo o la pratica fiscale e l’anno a cui si riferisce. Controlla se la lettera riguarda un controllo, un conguaglio, una richiesta di documenti o un pagamento; confronta i dati con dichiarazione e ricevute F24 e rispetta il termine di risposta indicato.",
+      "nextStep": "Individua il tributo o la pratica e l’anno di riferimento. Confronta i dati con la dichiarazione e le ricevute F24. Se trovi una cartella, controlla data di notifica, importo e pagamenti effettuati; rispetta il termine indicato nell’atto.",
       "afterPickup": [
-        "Identifica ente creditore, tributo o causale e annualità a cui si riferisce la richiesta.",
-        "Controlla numero e data dell’atto, importo, interessi e pagamenti già effettuati; confrontali con F24 o ricevute.",
-        "Se è una cartella di pagamento, verifica le istruzioni e i termini riportati nell’atto: il termine ordinario per pagare è generalmente 60 giorni dalla notifica, ma le modalità di contestazione variano.",
-        "In caso di importi non riconosciuti o già pagati, contatta l’ente creditore o AdeR tramite canali ufficiali e conserva le prove."
+        "Individua il tributo o la pratica e l’anno di riferimento.",
+        "Confronta i dati con la dichiarazione e le ricevute F24.",
+        "Se trovi una cartella, controlla data di notifica, importo e pagamenti effettuati."
       ]
     },
     "698": {
