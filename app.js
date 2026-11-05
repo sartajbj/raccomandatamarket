@@ -366,7 +366,7 @@
     const afterSentences = afterText.match(/[^.!?]+[.!?]?/g) || [];
     const afterPickup = limitWords(
       afterSentences.map(s => s.trim()).filter(Boolean).slice(0, 3).join(' '),
-      27
+      45
     );
     const senderLabel = item.confidence === 'insufficiente'
       ? 'Mittente non identificabile dal prefisso'
