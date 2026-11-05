@@ -2107,3 +2107,29 @@ p {
     line-height: 1.4;
   }
 }
+
+
+/* Final mobile pickup layout: full-width readable instructions */
+@media (max-width: 600px) {
+  .result-pickup-options {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .result-pickup-options div {
+    display: block;
+    padding: 11px 13px;
+    text-align: left;
+  }
+  .result-pickup-options strong {
+    display: block;
+    margin-bottom: 3px;
+    text-align: left;
+  }
+  .result-pickup-options span {
+    display: block;
+    margin-top: 0;
+    color: #334155;
+    font-size: 16px;
+    line-height: 1.45;
+  }
+}
