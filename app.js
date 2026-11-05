@@ -416,9 +416,9 @@
           <section class="result-visual-panel result-visual-pickup">
             <h3>Come ritirarla</h3>
             <div class="result-pickup-options">
-              <div><strong>Ufficio</strong><span>Presso l’ufficio indicato sull’avviso</span></div>
-              <div><strong>Delega</strong><span>Compila la sezione sull’avviso; il delegato porta il proprio documento e una copia di quello del delegante</span></div>
-              <div><strong>Online</strong><span>Solo se l’avviso abilita il Ritiro Digitale</span></div>
+              <div><strong><span class="pickup-option-icon" aria-hidden="true">🏢</span> Ufficio</strong><span>Presso l’ufficio indicato sull’avviso</span></div>
+              <div><strong><span class="pickup-option-icon" aria-hidden="true">📄</span> Delega</strong><span>Compila la sezione sull’avviso; il delegato porta il proprio documento e una copia di quello del delegante</span></div>
+              <div><strong><span class="pickup-option-icon" aria-hidden="true">💻</span> Online</strong><span>Solo se l’avviso abilita il Ritiro Digitale</span></div>
             </div>
           </section>
 
