@@ -382,7 +382,7 @@
                 <h2 class="result-title">${escapeHTML(label)}</h2>
                 <span class="result-category-badge">${escapeHTML(category)}</span>
               </div>
-              <button type="button" class="result-quick-reset" data-new-search>Altro codice</button>
+              <button type="button" class="result-quick-reset" data-new-search>Verifica un altro codice</button>
             </div>
           </header>
 
@@ -400,7 +400,7 @@
               ${renderList(contents, 'Contenuto non determinabile dal prefisso.')}
             </section>
             <section class="result-visual-panel result-visual-caution">
-              <h3><span class="result-icon result-icon-info" aria-hidden="true">i</span> Cosa non conferma il codice</h3>
+              <h3><span class="result-icon result-icon-info" aria-hidden="true">ⓘ</span> Cosa non conferma il codice</h3>
               <ul class="result-visual-plain-list">
                 <li>Il mittente effettivo e il contenuto preciso.</li>
                 <li>Che esista un debito o una sanzione da pagare.</li>
@@ -416,9 +416,9 @@
           <section class="result-visual-panel result-visual-pickup">
             <h3>Come ritirarla</h3>
             <div class="result-pickup-options">
-              <div><strong>Ufficio:</strong><span> all’indirizzo indicato sull’avviso</span></div>
-              <div><strong>Delega:</strong><span> compila la sezione sull’avviso; il delegato porta il proprio documento e una copia di quello del delegante</span></div>
-              <div><strong>Online:</strong><span> solo se l’avviso abilita il Ritiro Digitale</span></div>
+              <div><strong>Ufficio</strong><span> all’indirizzo indicato sull’avviso</span></div>
+              <div><strong>Delega</strong><span> compila la sezione sull’avviso; il delegato porta il proprio documento e una copia di quello del delegante</span></div>
+              <div><strong>Online</strong><span> solo se l’avviso abilita il Ritiro Digitale</span></div>
             </div>
           </section>
 
@@ -428,7 +428,7 @@
           </section>
 
           <p class="result-visual-disclaimer">Le informazioni basate sul prefisso sono indicative: il codice non identifica con certezza mittente o contenuto.</p>
-          <button type="button" class="result-main-reset" data-new-search>Controlla un altro codice</button>
+          <button type="button" class="result-main-reset" data-new-search>Verifica un altro codice</button>
         </article>
       `,
       'success'
