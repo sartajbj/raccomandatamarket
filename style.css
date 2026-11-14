@@ -2622,3 +2622,236 @@ p {
   .site-header .header-inner { gap: 6px; }
   .site-header .menu-button { width: 43px; height: 43px; flex-basis: 43px; }
 }
+
+
+/* =========================================================
+   HOMEPAGE HERO + DECODER — FINAL VISUAL POLISH
+   Presentation-only overrides. Existing form, scanner, share
+   destinations, result output and decoder JS remain unchanged.
+   ========================================================= */
+.hero {
+  padding: 48px 0 62px;
+  background:
+    radial-gradient(ellipse at 3% 9%, rgba(20, 150, 88, .12), transparent 18%),
+    radial-gradient(ellipse at 97% 12%, rgba(218, 38, 50, .10), transparent 19%),
+    radial-gradient(ellipse at 50% 0%, rgba(91, 170, 230, .15), transparent 48%),
+    linear-gradient(180deg, #f8fcff 0%, #edf5fc 100%);
+}
+.hero::after {
+  right: -100px;
+  bottom: -180px;
+  background: rgba(18, 61, 104, .045);
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1020px;
+}
+.hero-badge { order: 0; margin-bottom: 16px; }
+.hero h1 {
+  order: 1;
+  max-width: 940px;
+  margin-bottom: 14px;
+  font-size: clamp(2.15rem, 5.2vw, 3.45rem);
+  line-height: 1.12;
+  letter-spacing: -.045em;
+}
+.hero-description {
+  order: 2;
+  max-width: 850px;
+  margin-bottom: 27px;
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  line-height: 1.55;
+}
+.decoder-card {
+  order: 3;
+  width: 100%;
+  max-width: 990px;
+  margin: 0 auto;
+  padding: clamp(20px, 3vw, 30px);
+  border: 1px solid #d4e3f2;
+  border-radius: 24px;
+  background: rgba(255,255,255,.94);
+  box-shadow: 0 12px 32px rgba(18,61,104,.11);
+}
+.decoder-label {
+  margin-bottom: 12px;
+  font-size: 1.08rem;
+}
+.decoder-input-row { position: relative; }
+.decoder-input-row::before {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 17px;
+  transform: translateY(-50%);
+  color: #123d68;
+  content: "▥";
+  font-size: 1.45rem;
+  font-weight: 800;
+  line-height: 1;
+  pointer-events: none;
+}
+.decoder-input {
+  min-height: 64px;
+  padding-left: 56px;
+  border: 2px solid #c6d8eb;
+  border-radius: 14px;
+  font-size: 1.12rem;
+}
+.identify-button {
+  min-height: 64px;
+  padding: 0 26px;
+  border-radius: 14px;
+  background: #ffc400;
+  color: #102c4d;
+  box-shadow: 0 5px 14px rgba(190,145,0,.18);
+  font-size: .98rem;
+  font-weight: 850;
+}
+.identify-button:hover {
+  background: #f0b800;
+  color: #102c4d;
+}
+.decoder-help { margin-top: 13px; }
+.decoder-result { order: 4; width: 100%; }
+
+/* Put the existing camera scanner before the existing share links. */
+.hero-content .camera-tool {
+  order: 5;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px 20px;
+  width: 100%;
+  max-width: 930px;
+  margin: 18px auto 0;
+  padding: 18px 20px;
+  border: 1px solid #d5e4f4;
+  border-radius: 18px;
+  background: #f4f8fd;
+  box-shadow: 0 5px 16px rgba(18,61,104,.06);
+}
+.hero-content .camera-heading { min-width: 0; }
+.hero-content .camera-icon {
+  width: 54px;
+  height: 54px;
+  flex-basis: 54px;
+  border-radius: 13px;
+  background: #e2eefb;
+  font-size: 1.45rem;
+}
+.hero-content .camera-heading strong {
+  color: #102f50;
+  font-size: 1rem;
+}
+.hero-content .camera-heading span:not(.camera-icon) {
+  color: #53677e;
+  font-size: .9rem;
+  line-height: 1.45;
+}
+.hero-content .camera-button {
+  min-height: 52px;
+  margin: 0;
+  padding: 0 20px;
+  border: 2px solid #2475bd;
+  border-radius: 12px;
+  background: #fff;
+  color: #123d68;
+  font-size: .95rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.hero-content .camera-button:hover {
+  background: #eaf4ff;
+}
+.hero-content .camera-status,
+.hero-content .camera-area {
+  grid-column: 1 / -1;
+  width: 100%;
+}
+.hero-content .tool-share {
+  order: 6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  max-width: 930px;
+  margin: 18px auto 0;
+  padding: 14px 17px;
+  border: 1px solid #d5e4f4;
+  border-radius: 17px;
+  background: rgba(255,255,255,.88);
+  box-shadow: 0 5px 15px rgba(18,61,104,.06);
+  text-align: left;
+}
+.hero-content .tool-share-title {
+  max-width: 245px;
+  margin: 0;
+  color: #123d68;
+  font-size: .98rem;
+}
+.hero-content .tool-share-links {
+  justify-content: flex-end;
+  gap: 9px;
+}
+.hero-content .tool-share-links a {
+  min-height: 44px;
+  padding: 8px 14px;
+  border-radius: 11px;
+  background: #fff;
+}
+.hero-content .tool-share-links a:hover { background: #edf5fc; }
+
+@media (max-width: 720px) {
+  .hero { padding: 40px 0 46px; }
+  .hero h1 { font-size: clamp(1.9rem, 8vw, 2.65rem); }
+  .hero-description { margin-bottom: 21px; }
+  .decoder-card {
+    padding: 18px;
+    border-radius: 19px;
+  }
+  .decoder-input-row::before { top: 27px; }
+  .decoder-input {
+    min-height: 58px;
+    padding-left: 52px;
+    border-radius: 12px;
+  }
+  .identify-button {
+    min-height: 58px;
+    width: 100%;
+    border-radius: 12px;
+  }
+  .hero-content .camera-tool {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 16px;
+    border-radius: 16px;
+  }
+  .hero-content .camera-button {
+    width: 100%;
+    min-height: 50px;
+  }
+  .hero-content .tool-share {
+    display: block;
+    padding: 14px;
+    text-align: center;
+  }
+  .hero-content .tool-share-title {
+    max-width: none;
+    margin: 0 0 10px;
+  }
+  .hero-content .tool-share-links { justify-content: center; }
+}
+@media (max-width: 420px) {
+  .hero { padding-top: 34px; }
+  .hero h1 { font-size: clamp(1.75rem, 8.2vw, 2.2rem); }
+  .hero-content .tool-share-links { gap: 7px; }
+  .hero-content .tool-share-links a {
+    min-height: 40px;
+    padding: 7px 10px;
+    font-size: .82rem;
+  }
+}
