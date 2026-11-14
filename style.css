@@ -2855,3 +2855,62 @@ p {
     font-size: .82rem;
   }
 }
+
+
+/* HERO DECORATIONS — Italian brush flag + Colosseum illustration.
+   Decorative pseudo-elements only; no content or tool behavior changes. */
+.hero {
+  isolation: isolate;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 12px;
+  left: max(12px, calc((100vw - 1180px) / 2));
+  width: clamp(105px, 15vw, 205px);
+  height: clamp(82px, 11vw, 150px);
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20220%20150%22%3E%3Cg%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M18%20122C35%2087%2049%2048%2086%2019M27%20137C49%2094%2062%2058%2099%2025M43%20139C63%20100%2077%2064%20111%2034%22%20stroke%3D%22%23159447%22%20stroke-width%3D%2213%22%20opacity%3D%22.9%22%2F%3E%3Cpath%20d%3D%22M84%20139C103%2098%20119%2062%20153%2021M101%20145C119%20105%20139%2062%20174%2022M119%20142C138%20100%20157%2061%20192%2030%22%20stroke%3D%22%23fff%22%20stroke-width%3D%2212%22%20opacity%3D%22.92%22%2F%3E%3Cpath%20d%3D%22M143%20135C158%2096%20177%2058%20207%2024M159%20140C174%2098%20191%2065%20215%2039M174%20137C190%20102%20203%2076%20218%2056%22%20stroke%3D%22%23d92736%22%20stroke-width%3D%2213%22%20opacity%3D%22.9%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: contain;
+  opacity: .82;
+  pointer-events: none;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: max(-10px, calc((100vw - 1280px) / 2));
+  width: clamp(145px, 22vw, 285px);
+  height: clamp(190px, 28vw, 355px);
+  border-radius: 0;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20300%20360%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23b68b69%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20opacity%3D%22.88%22%3E%3Cpath%20d%3D%22M28%20110Q145%2034%20270%2092L282%20315Q153%20354%2020%20320Z%22%20fill%3D%22%23d8b99c%22%20fill-opacity%3D%22.16%22%2F%3E%3Cpath%20d%3D%22M28%20110L38%2082Q147%2018%20270%2070L270%2092Q145%2048%2028%20130Z%22%2F%3E%3Cpath%20d%3D%22M37%20145Q150%2095%20274%20125M34%20218Q155%20178%20278%20197M24%20294Q153%20264%20280%20278%22%2F%3E%3Cpath%20d%3D%22M48%20131L51%20311M92%20115L94%20321M137%20104L139%20329M183%20105L185%20329M229%20115L231%20321M263%20128L265%20310%22%2F%3E%3Cpath%20d%3D%22M54%20181Q72%20151%2089%20179V211H54ZM99%20167Q117%20137%20134%20166V201H99ZM145%20161Q163%20132%20180%20161V197H145ZM191%20166Q209%20137%20226%20166V201H191ZM236%20179Q252%20151%20268%20181V211H236Z%22%2F%3E%3Cpath%20d%3D%22M49%20253Q70%20224%2091%20253V282H49ZM96%20243Q117%20215%20138%20243V275H96ZM143%20237Q164%20210%20185%20237V271H143ZM190%20243Q211%20215%20232%20243V275H190ZM237%20253Q256%20226%20274%20254V282H237Z%22%2F%3E%3Cpath%20d%3D%22M18%20326Q150%20345%20285%20323M18%20338Q150%20358%20285%20336%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+  opacity: .34;
+  pointer-events: none;
+}
+.hero > .container {
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 720px) {
+  .hero::before {
+    top: 7px;
+    left: 4px;
+    width: 92px;
+    height: 70px;
+    opacity: .42;
+  }
+  .hero::after {
+    top: 3px;
+    right: -18px;
+    width: 118px;
+    height: 158px;
+    opacity: .16;
+  }
+}
