@@ -349,9 +349,9 @@
       ? item.possibleContents.filter(Boolean).slice(0, 3)
       : [];
     const limitWords = (value, max) =>
-      String(value).trim().split(/\\s+/).slice(0, max).join(' ');
+      String(value).trim().split(/\s+/).slice(0, max).join(' ');
     const contents = rawContents.map((value) =>
-      limitWords(String(value).replace(/^Possibile\\s+/i, ''), 10)
+      limitWords(String(value).replace(/^Possibile\s+/i, ''), 10)
     );
     while (contents.length < 3) {
       contents.push('Il prefisso non consente una classificazione più precisa');
@@ -362,7 +362,7 @@
     );
     const afterText = String(item.nextStep ||
       'Identifica il mittente, leggi la causale e controlla eventuali richieste e scadenze.')
-      .replace(/^Dopo il ritiro,?\\s*/i, '');
+      .replace(/^Dopo il ritiro,?\s*/i, '');
     const afterSentences = afterText.match(/[^.!?]+[.!?]?/g) || [];
     const afterPickup = limitWords(
       afterSentences.map(s => s.trim()).filter(Boolean).slice(0, 3).join(' '),
