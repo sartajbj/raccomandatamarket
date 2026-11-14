@@ -430,7 +430,7 @@
               <h3>Come ritirare la raccomandata</h3>
               <div class="result-pickup-options">
                 <div><strong><span class="pickup-option-icon" aria-hidden="true">▣</span> Allo sportello</strong><span>Presso l’ufficio indicato sull’avviso</span></div>
-                <div><strong><span class="pickup-option-icon" aria-hidden="true">♧</span> Con delega</strong><span>Compila la sezione dedicata sull’avviso. Il delegato deve presentare i documenti richiesti.</span></div>
+                <div><strong><span class="pickup-option-icon" aria-hidden="true">♧</span> Con delega</strong><span>Compila la sezione dedicata sull’avviso. Il delegato deve presentare il proprio documento e una copia del documento del delegante.</span></div>
                 <div><strong><span class="pickup-option-icon" aria-hidden="true">▱</span> Online</strong><span>Solo se l’avviso indica che è disponibile il servizio di Ritiro Digitale.</span></div>
               </div>
             </div>
@@ -444,7 +444,7 @@
             </div>
           </section>
 
-          <p class="result-visual-disclaimer"><span class="result-disclaimer-icon" aria-hidden="true">⬡</span><em>Le informazioni basate sul prefisso sono indicative e non sostituiscono la comunicazione ufficiale.</em></p>
+          <p class="result-visual-disclaimer"><span class="result-disclaimer-icon" aria-hidden="true">⬡</span><em>Le informazioni basate sul prefisso sono indicative: il codice non identifica con certezza il mittente o il contenuto e non sostituisce la comunicazione ufficiale.</em></p>
           <button type="button" class="result-main-reset" data-new-search>↻ Verifica un altro codice</button>
         </article>
       `,
