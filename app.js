@@ -349,9 +349,9 @@
       ? item.possibleContents.filter(Boolean).slice(0, 3)
       : [];
     const limitWords = (value, max) =>
-      String(value).trim().split(/\s+/).slice(0, max).join(' ');
+      String(value).trim().split(/\\s+/).slice(0, max).join(' ');
     const contents = rawContents.map((value) =>
-      limitWords(String(value).replace(/^Possibile\s+/i, ''), 10)
+      limitWords(String(value).replace(/^Possibile\\s+/i, ''), 10)
     );
     while (contents.length < 3) {
       contents.push('Il prefisso non consente una classificazione più precisa');
@@ -362,7 +362,7 @@
     );
     const afterText = String(item.nextStep ||
       'Identifica il mittente, leggi la causale e controlla eventuali richieste e scadenze.')
-      .replace(/^Dopo il ritiro,?\s*/i, '');
+      .replace(/^Dopo il ritiro,?\\s*/i, '');
     const afterSentences = afterText.match(/[^.!?]+[.!?]?/g) || [];
     const afterPickup = limitWords(
       afterSentences.map(s => s.trim()).filter(Boolean).slice(0, 3).join(' '),
@@ -370,7 +370,7 @@
     );
     const senderLabel = item.confidence === 'insufficiente'
       ? 'Mittente non identificabile dal prefisso'
-      : 'Mittente spesso associato';
+      : 'Possibili mittenti';
     const otherSenders = senders.slice(1, 3);
 
     setResult(
@@ -380,55 +380,72 @@
             <div class="result-visual-heading">
               <div>
                 <h2 class="result-title">${escapeHTML(label)}</h2>
-                <span class="result-category-badge">${escapeHTML(category)}</span>
+                <span class="result-category-badge">Risultato indicativo · ${escapeHTML(category)}</span>
               </div>
-              <button type="button" class="result-quick-reset" data-new-search>Verifica un altro codice</button>
+              <button type="button" class="result-quick-reset" data-new-search>↻ Verifica un altro codice</button>
             </div>
           </header>
 
           <section class="result-visual-sender">
-            <span class="result-visual-label">${senderLabel}</span>
-            <p class="result-visual-sender-name">${escapeHTML(senders[0] || 'Non determinabile dal solo prefisso')}</p>
-            ${otherSenders.length ? `
-              <p class="result-visual-alternatives">Altre possibilità: ${escapeHTML(otherSenders.join(' · '))}</p>
-            ` : ''}
+            <span class="result-section-icon" aria-hidden="true">▥</span>
+            <div class="result-section-content">
+              <h3 class="result-visual-label">${senderLabel}</h3>
+              <p class="result-visual-sender-name">${escapeHTML(senders[0] || 'Non determinabile dal solo prefisso')}</p>
+              ${otherSenders.length ? `
+                <p class="result-visual-alternatives">Altre possibilità: ${escapeHTML(otherSenders.join(' · '))}</p>
+              ` : ''}
+            </div>
           </section>
 
-          <div class="result-visual-grid">
-            <section class="result-visual-panel">
-              <h3><span class="result-icon result-icon-check" aria-hidden="true">✓</span> Può riguardare</h3>
+          <section class="result-visual-panel result-visual-content">
+            <span class="result-section-icon" aria-hidden="true">▤</span>
+            <div class="result-section-content">
+              <h3>A cosa potrebbe riferirsi</h3>
               ${renderList(contents, 'Contenuto non determinabile dal prefisso.')}
-            </section>
-            <section class="result-visual-panel result-visual-caution">
-              <h3><span class="result-icon result-icon-info" aria-hidden="true">ⓘ</span> Cosa non conferma il codice</h3>
+            </div>
+          </section>
+
+          <section class="result-visual-panel result-visual-caution">
+            <span class="result-section-icon" aria-hidden="true">ⓘ</span>
+            <div class="result-section-content">
+              <h3>Cosa non conferma il codice</h3>
               <ul class="result-visual-plain-list">
-                <li>Il mittente effettivo e il contenuto preciso.</li>
-                <li>Che esista un debito o una sanzione da pagare.</li>
+                <li>Non identifica con certezza il mittente né il contenuto della busta.</li>
+                <li>Non dimostra da solo la presenza di un debito o di una sanzione.</li>
               </ul>
-            </section>
-          </div>
+            </div>
+          </section>
 
           <section class="result-visual-panel result-visual-retention">
-            <h3>Termine di ritiro</h3>
-            <p>Di norma la raccomandata resta in giacenza 30 giorni; per la Raccomandata 1 il termine è di 15 giorni. Per gli atti giudiziari valgono regole diverse: controlla l’avviso.</p>
+            <span class="result-section-icon" aria-hidden="true">▦</span>
+            <div class="result-section-content">
+              <h3>Tempi di giacenza</h3>
+              <p>Per la Posta Raccomandata ordinaria, il periodo di giacenza è di 30 giorni. Per Raccomandata 1, Raccomandata 1 con prova di consegna e Raccomandata 1 in contrassegno è di 15 giorni. Per atti giudiziari e altri prodotti possono applicarsi regole specifiche: controlla sempre il termine riportato sull’avviso.</p>
+            </div>
           </section>
 
           <section class="result-visual-panel result-visual-pickup">
-            <h3>Come ritirarla</h3>
-            <div class="result-pickup-options">
-              <div><strong><span class="pickup-option-icon" aria-hidden="true">🏢</span> Ufficio</strong><span>Presso l’ufficio indicato sull’avviso</span></div>
-              <div><strong><span class="pickup-option-icon" aria-hidden="true">📄</span> Delega</strong><span>Compila la sezione sull’avviso; il delegato porta il proprio documento e una copia di quello del delegante</span></div>
-              <div><strong><span class="pickup-option-icon" aria-hidden="true">💻</span> Online</strong><span>Solo se l’avviso abilita il Ritiro Digitale</span></div>
+            <span class="result-section-icon" aria-hidden="true">⌖</span>
+            <div class="result-section-content">
+              <h3>Come ritirare la raccomandata</h3>
+              <div class="result-pickup-options">
+                <div><strong><span class="pickup-option-icon" aria-hidden="true">▣</span> Allo sportello</strong><span>Presso l’ufficio indicato sull’avviso</span></div>
+                <div><strong><span class="pickup-option-icon" aria-hidden="true">♧</span> Con delega</strong><span>Compila la sezione dedicata sull’avviso. Il delegato deve presentare i documenti richiesti.</span></div>
+                <div><strong><span class="pickup-option-icon" aria-hidden="true">▱</span> Online</strong><span>Solo se l’avviso indica che è disponibile il servizio di Ritiro Digitale.</span></div>
+              </div>
             </div>
           </section>
 
           <section class="result-visual-panel result-visual-after">
-            <h3>Dopo il ritiro</h3>
-            <p class="result-visual-next-intro">${escapeHTML(afterPickup)}</p>
+            <span class="result-section-icon result-section-icon-success" aria-hidden="true">✓</span>
+            <div class="result-section-content">
+              <h3>Dopo il ritiro</h3>
+              <p class="result-visual-next-intro">${escapeHTML(afterPickup)}</p>
+            </div>
           </section>
 
-          <p class="result-visual-disclaimer">Le informazioni basate sul prefisso sono indicative: il codice non identifica con certezza mittente o contenuto.</p>
-          <button type="button" class="result-main-reset" data-new-search>Verifica un altro codice</button>
+          <p class="result-visual-disclaimer"><span class="result-disclaimer-icon" aria-hidden="true">⬡</span><em>Le informazioni basate sul prefisso sono indicative e non sostituiscono la comunicazione ufficiale.</em></p>
+          <button type="button" class="result-main-reset" data-new-search>↻ Verifica un altro codice</button>
         </article>
       `,
       'success'
