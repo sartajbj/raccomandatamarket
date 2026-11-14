@@ -2914,3 +2914,21 @@ p {
     opacity: .16;
   }
 }
+
+
+/* FINAL MOBILE MICRO-POLISH — barcode clarity, spacing and tap comfort */
+.decoder-input-row::before {
+  content: "";
+  width: 27px;
+  height: 23px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 26'%3E%3Cg fill='none' stroke='%23123d68' stroke-linecap='square'%3E%3Cpath stroke-width='3' d='M3 3v20M7 3v20M12 3v20M16 3v20M21 3v20M25 3v20M29 3v20'/%3E%3Cpath stroke-width='1.5' d='M1 1v24M31 1v24'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.hero-description { margin-bottom: 22px; }
+@media (max-width: 720px) {
+  .hero-description { margin-bottom: 15px; }
+  .decoder-input { min-height: 60px; }
+  .identify-button { min-height: 60px; }
+}
